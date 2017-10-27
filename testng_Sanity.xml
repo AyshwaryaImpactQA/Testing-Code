@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- <suite> is kind of root tag in testng.xml file. All test are defined 
+	in suite using <test> tag -->
+<suite name="NC Smoke Suite" parallel="false">
+
+	<test name="NC Smoke Suite" preserve-order="true">
+		<classes>
+			<!--It is the base class of suite. Do not Comment or remove it. -->
+			<class name="com.scripts.regTestCases.HomePage" />
+<!-- 						<class name="com.scripts.regTestCases.CandidateSignUp" />  -->
+
+<!-- 	<class name="com.scripts.regTestCases.Login" /> -->
+
+<!-- QA server ManageUser new user error message -->
+<!-- 	<class name="com.scripts.regTestCases.ManageUsersDA" /> -->
+
+	<class name="com.scripts.regTestCases.TMDistJobOrder" />
+<!-- 	<class name="com.scripts.regTestCases.DADistJobOrder" /> -->
+
+<!-- 	<class name="com.scripts.regTestCases.JobPreferences" /> -->
+<!-- 	<class name="com.scripts.regTestCases.CandidateDashboard" /> -->
+<!-- 	<class name="com.scripts.regTestCases.CandidatePortfolio" /> -->
+<!-- 	<class name="com.scripts.regTestCases.JobApplication" /> -->
+
+<!-- 	<class name="com.scripts.regTestCases.TMImportCandidates" /> -->
+
+<!-- 	<class name="com.scripts.regTestCases.TMImportUsers" /> -->
+<!-- 	<class name="com.scripts.regTestCases.TMImportJobs" /> -->
+
+<!-- 	<class name="com.scripts.regTestCases.DACandidateGrid" /> -->
+
+<!-- 	<class name="com.scripts.regTestCases.DAManageDistrictAccountInformation" /> -->
+<!-- 	<class name="com.scripts.regTestCases.TMManageDistrictAccountInformation" /> -->
+
+
+
+		</classes>
+	</test>
+</suite>
+
