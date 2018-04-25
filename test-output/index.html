@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-NC_Smoke_Suite">
+              <span class="suite-name border-failed">NC Smoke Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-NC_Smoke_Suite">
+                    <span>D:\NC smokeWS\nc-sanity-automation\testng_Sanity.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-NC_Smoke_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-NC_Smoke_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-NC_Smoke_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-NC_Smoke_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-NC_Smoke_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-NC_Smoke_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 2 failed,  7 skipped,  6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-NC_Smoke_Suite" class="hide-methods failed suite-NC_Smoke_Suite"> (hide)</a> <!-- hide-methods failed suite-NC_Smoke_Suite -->
+                      <a href="#" panel-name="suite-NC_Smoke_Suite" class="show-methods failed suite-NC_Smoke_Suite"> (show)</a> <!-- show-methods failed suite-NC_Smoke_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-NC_Smoke_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NC_Smoke_Suite" title="com.scripts.regTestCases.JobApplication" hash-for-method="applyForJobOpps">applyForJobOpps</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NC_Smoke_Suite" title="com.scripts.regTestCases.DADistJobOrder" hash-for-method="downloadEXCEL">downloadEXCEL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-NC_Smoke_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-NC_Smoke_Suite" class="hide-methods skipped suite-NC_Smoke_Suite"> (hide)</a> <!-- hide-methods skipped suite-NC_Smoke_Suite -->
+                      <a href="#" panel-name="suite-NC_Smoke_Suite" class="show-methods skipped suite-NC_Smoke_Suite"> (show)</a> <!-- show-methods skipped suite-NC_Smoke_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-NC_Smoke_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NC_Smoke_Suite" title="com.scripts.regTestCases.DACandidateGrid" hash-for-method="candidateProfileThroughCG">candidateProfileThroughCG</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NC_Smoke_Suite" title="com.scripts.regTestCases.TMImportCandidates" hash-for-method="importCandidates">importCandidates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NC_Smoke_Suite" title="com.scripts.regTestCases.TMImportJobs" hash-for-method="importJobs">importJobs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NC_Smoke_Suite" title="com.scripts.regTestCases.TMImportUsers" hash-for-method="importUsers">importUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NC_Smoke_Suite" title="com.scripts.regTestCases.DAManageDistrictAccountInformation" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NC_Smoke_Suite" title="com.scripts.regTestCases.TMManageDistrictAccountInformation" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NC_Smoke_Suite" title="com.scripts.regTestCases.CandidateDashboard" hash-for-method="verifyPersonalPlanningRedirections">verifyPersonalPlanningRedirections</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-NC_Smoke_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-NC_Smoke_Suite" class="hide-methods passed suite-NC_Smoke_Suite"> (hide)</a> <!-- hide-methods passed suite-NC_Smoke_Suite -->
+                      <a href="#" panel-name="suite-NC_Smoke_Suite" class="show-methods passed suite-NC_Smoke_Suite"> (show)</a> <!-- show-methods passed suite-NC_Smoke_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-NC_Smoke_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NC_Smoke_Suite" title="com.scripts.regTestCases.TMDistJobOrder" hash-for-method="createJobWithPostingEndDate">createJobWithPostingEndDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NC_Smoke_Suite" title="com.scripts.regTestCases.HomePage" hash-for-method="homeBase">homeBase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NC_Smoke_Suite" title="com.scripts.regTestCases.Login" hash-for-method="loginWithoutMandatoryFields">loginWithoutMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NC_Smoke_Suite" title="com.scripts.regTestCases.CandidatePortfolio" hash-for-method="personalInfo">personalInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NC_Smoke_Suite" title="com.scripts.regTestCases.JobPreferences" hash-for-method="setJobPreferences">setJobPreferences</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NC_Smoke_Suite" title="com.scripts.regTestCases.ManageUsersDA" hash-for-method="verifyMandatoryFields">verifyMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-NC_Smoke_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-NC_Smoke_Suite" class="panel NC_Smoke_Suite">
+          <div class="suite-NC_Smoke_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.scripts.regTestCases.DADistJobOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloadEXCEL">
+                  </a> <!-- downloadEXCEL -->
+                  <span class="method-name">downloadEXCEL</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.scripts.lib.commonFunction.CommonUtills$1@b1712f3 (tried for 30 second(s) with 2000 milliseconds interval)
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;QA-MAMTA&apos;, ip: &apos;192.168.15.15&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.scripts.lib.commonFunction.CommonUtills.waitForPageToLoadWithCond(CommonUtills.java:77)
+	at com.scripts.businessLogic.DistrictJobOrderBL.navigateToAddDistrictJobOrder(DistrictJobOrderBL.java:76)
+	at com.scripts.businessLogic.DistrictJobOrderBL.createJobWithEndDate(DistrictJobOrderBL.java:500)
+	at com.scripts.regTestCases.DADistJobOrder.downloadEXCEL(DADistJobOrder.java:71)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NC_Smoke_Suite-class-failed -->
+          <div class="suite-NC_Smoke_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.scripts.regTestCases.JobApplication</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="applyForJobOpps">
+                  </a> <!-- applyForJobOpps -->
+                  <span class="method-name">applyForJobOpps</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.scripts.lib.commonFunction.CommonUtills$1@5669c5fb (tried for 30 second(s) with 2000 milliseconds interval)
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;QA-MAMTA&apos;, ip: &apos;192.168.15.15&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.scripts.lib.commonFunction.CommonUtills.waitForPageToLoadWithCond(CommonUtills.java:77)
+	at com.scripts.businessLogic.ApplyForJobsBL.applyJobByTitle(ApplyForJobsBL.java:85)
+	at com.scripts.regTestCases.JobApplication.applyForJobOpps(JobApplication.java:40)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NC_Smoke_Suite-class-failed -->
+          <div class="suite-NC_Smoke_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.scripts.regTestCases.TMManageDistrictAccountInformation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">org.testng.SkipException: 
+	at com.scripts.lib.commonFunction.CommonUtills.click(CommonUtills.java:482)
+	at com.scripts.businessLogic.LoginBL.login(LoginBL.java:22)
+	at com.scripts.regTestCases.TMManageDistrictAccountInformation.login(TMManageDistrictAccountInformation.java:39)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NC_Smoke_Suite-class-skipped -->
+          <div class="suite-NC_Smoke_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.scripts.regTestCases.DACandidateGrid</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="candidateProfileThroughCG">
+                  </a> <!-- candidateProfileThroughCG -->
+                  <span class="method-name">candidateProfileThroughCG</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NC_Smoke_Suite-class-skipped -->
+          <div class="suite-NC_Smoke_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.scripts.regTestCases.CandidateDashboard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPersonalPlanningRedirections">
+                  </a> <!-- verifyPersonalPlanningRedirections -->
+                  <span class="method-name">verifyPersonalPlanningRedirections</span>
+                  <div class="stack-trace">org.testng.SkipException: 
+	at com.scripts.lib.commonFunction.CommonUtills.click(CommonUtills.java:482)
+	at com.scripts.businessLogic.CandidateDashboardBL.verifyApplyNowIconRedirection(CandidateDashboardBL.java:132)
+	at com.scripts.businessLogic.CandidateDashboardBL.verifyJobsOfInterestSection(CandidateDashboardBL.java:122)
+	at com.scripts.regTestCases.CandidateDashboard.verifyPersonalPlanningRedirections(CandidateDashboard.java:37)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NC_Smoke_Suite-class-skipped -->
+          <div class="suite-NC_Smoke_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.scripts.regTestCases.TMImportCandidates</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="importCandidates">
+                  </a> <!-- importCandidates -->
+                  <span class="method-name">importCandidates</span>
+                  <div class="stack-trace">org.testng.SkipException: 
+	at com.scripts.lib.commonFunction.CommonUtills.click(CommonUtills.java:482)
+	at com.scripts.businessLogic.ImportCandidatesBL.importCandidates(ImportCandidatesBL.java:62)
+	at com.scripts.regTestCases.TMImportCandidates.importCandidates(TMImportCandidates.java:74)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NC_Smoke_Suite-class-skipped -->
+          <div class="suite-NC_Smoke_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.scripts.regTestCases.TMImportJobs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="importJobs">
+                  </a> <!-- importJobs -->
+                  <span class="method-name">importJobs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NC_Smoke_Suite-class-skipped -->
+          <div class="suite-NC_Smoke_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.scripts.regTestCases.DAManageDistrictAccountInformation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">org.testng.SkipException: 
+	at com.scripts.lib.commonFunction.CommonUtills.click(CommonUtills.java:482)
+	at com.scripts.businessLogic.LoginBL.login(LoginBL.java:22)
+	at com.scripts.regTestCases.DAManageDistrictAccountInformation.login(DAManageDistrictAccountInformation.java:38)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NC_Smoke_Suite-class-skipped -->
+          <div class="suite-NC_Smoke_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.scripts.regTestCases.TMImportUsers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="importUsers">
+                  </a> <!-- importUsers -->
+                  <span class="method-name">importUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NC_Smoke_Suite-class-skipped -->
+          <div class="suite-NC_Smoke_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.regTestCases.CandidatePortfolio</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="personalInfo">
+                  </a> <!-- personalInfo -->
+                  <span class="method-name">personalInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NC_Smoke_Suite-class-passed -->
+          <div class="suite-NC_Smoke_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.regTestCases.TMDistJobOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createJobWithPostingEndDate">
+                  </a> <!-- createJobWithPostingEndDate -->
+                  <span class="method-name">createJobWithPostingEndDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NC_Smoke_Suite-class-passed -->
+          <div class="suite-NC_Smoke_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.regTestCases.ManageUsersDA</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMandatoryFields">
+                  </a> <!-- verifyMandatoryFields -->
+                  <span class="method-name">verifyMandatoryFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NC_Smoke_Suite-class-passed -->
+          <div class="suite-NC_Smoke_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.regTestCases.HomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeBase">
+                  </a> <!-- homeBase -->
+                  <span class="method-name">homeBase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NC_Smoke_Suite-class-passed -->
+          <div class="suite-NC_Smoke_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.regTestCases.JobPreferences</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setJobPreferences">
+                  </a> <!-- setJobPreferences -->
+                  <span class="method-name">setJobPreferences</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NC_Smoke_Suite-class-passed -->
+          <div class="suite-NC_Smoke_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.scripts.regTestCases.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithoutMandatoryFields">
+                  </a> <!-- loginWithoutMandatoryFields -->
+                  <span class="method-name">loginWithoutMandatoryFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NC_Smoke_Suite-class-passed -->
+        </div> <!-- panel NC_Smoke_Suite -->
+        <div panel-name="test-xml-NC_Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\NC smokeWS\nc-sanity-automation\testng_Sanity.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;NC Smoke Suite&quot;&gt;
+  &lt;test name=&quot;NC Smoke Suite&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.scripts.regTestCases.HomePage&quot;/&gt;
+      &lt;class name=&quot;com.scripts.regTestCases.Login&quot;/&gt;
+      &lt;class name=&quot;com.scripts.regTestCases.ManageUsersDA&quot;/&gt;
+      &lt;class name=&quot;com.scripts.regTestCases.TMDistJobOrder&quot;/&gt;
+      &lt;class name=&quot;com.scripts.regTestCases.DADistJobOrder&quot;/&gt;
+      &lt;class name=&quot;com.scripts.regTestCases.JobPreferences&quot;/&gt;
+      &lt;class name=&quot;com.scripts.regTestCases.CandidateDashboard&quot;/&gt;
+      &lt;class name=&quot;com.scripts.regTestCases.CandidatePortfolio&quot;/&gt;
+      &lt;class name=&quot;com.scripts.regTestCases.JobApplication&quot;/&gt;
+      &lt;class name=&quot;com.scripts.regTestCases.TMImportCandidates&quot;/&gt;
+      &lt;class name=&quot;com.scripts.regTestCases.TMImportUsers&quot;/&gt;
+      &lt;class name=&quot;com.scripts.regTestCases.TMImportJobs&quot;/&gt;
+      &lt;class name=&quot;com.scripts.regTestCases.DACandidateGrid&quot;/&gt;
+      &lt;class name=&quot;com.scripts.regTestCases.DAManageDistrictAccountInformation&quot;/&gt;
+      &lt;class name=&quot;com.scripts.regTestCases.TMManageDistrictAccountInformation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NC Smoke Suite --&gt;
+&lt;/suite&gt; &lt;!-- NC Smoke Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-NC_Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for NC Smoke Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">NC Smoke Suite (15 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-NC_Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for NC Smoke Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-NC_Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for NC Smoke Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_NC_Smoke_Suite');
+function tableData_NC_Smoke_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'personalInfo')
+data.setCell(0, 2, 'com.scripts.regTestCases.CandidatePortfolio')
+data.setCell(0, 3, 602674);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyMandatoryFields')
+data.setCell(1, 2, 'com.scripts.regTestCases.ManageUsersDA')
+data.setCell(1, 3, 337437);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createJobWithPostingEndDate')
+data.setCell(2, 2, 'com.scripts.regTestCases.TMDistJobOrder')
+data.setCell(2, 3, 304395);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginWithoutMandatoryFields')
+data.setCell(3, 2, 'com.scripts.regTestCases.Login')
+data.setCell(3, 3, 150492);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyPersonalPlanningRedirections')
+data.setCell(4, 2, 'com.scripts.regTestCases.CandidateDashboard')
+data.setCell(4, 3, 108338);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'applyForJobOpps')
+data.setCell(5, 2, 'com.scripts.regTestCases.JobApplication')
+data.setCell(5, 3, 98389);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'downloadEXCEL')
+data.setCell(6, 2, 'com.scripts.regTestCases.DADistJobOrder')
+data.setCell(6, 3, 92321);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'setJobPreferences')
+data.setCell(7, 2, 'com.scripts.regTestCases.JobPreferences')
+data.setCell(7, 3, 65075);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'importCandidates')
+data.setCell(8, 2, 'com.scripts.regTestCases.TMImportCandidates')
+data.setCell(8, 3, 63257);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'homeBase')
+data.setCell(9, 2, 'com.scripts.regTestCases.HomePage')
+data.setCell(9, 3, 25599);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'login')
+data.setCell(10, 2, 'com.scripts.regTestCases.DAManageDistrictAccountInformation')
+data.setCell(10, 3, 254);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'login')
+data.setCell(11, 2, 'com.scripts.regTestCases.TMManageDistrictAccountInformation')
+data.setCell(11, 3, 203);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'importUsers')
+data.setCell(12, 2, 'com.scripts.regTestCases.TMImportUsers')
+data.setCell(12, 3, 15);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'importJobs')
+data.setCell(13, 2, 'com.scripts.regTestCases.TMImportJobs')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'candidateProfileThroughCG')
+data.setCell(14, 2, 'com.scripts.regTestCases.DACandidateGrid')
+data.setCell(14, 3, 0);
+window.suiteTableData['NC_Smoke_Suite']= { tableData: data, tableDiv: 'times-div-NC_Smoke_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 minutes</span>
+              <div id="times-div-NC_Smoke_Suite">
+              </div> <!-- times-div-NC_Smoke_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-NC_Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for NC Smoke Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-NC_Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-NC_Smoke_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.HomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">homeBase</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBeforeClass</span>
+                <span class="method-start">25599 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginWithoutMandatoryFields</span>
+                <span class="method-start">25662 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">176163 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.ManageUsersDA</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBeforeClass</span>
+                <span class="method-start">204385 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyMandatoryFields</span>
+                <span class="method-start">237729 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">575166 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.TMDistJobOrder</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBeforeClass</span>
+                <span class="method-start">602209 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createJobWithPostingEndDate</span>
+                <span class="method-start">628395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">932790 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.DADistJobOrder</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBeforeClass</span>
+                <span class="method-start">960264 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">downloadEXCEL</span>
+                <span class="method-start">990005 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">1082331 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.JobPreferences</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBeforeClass</span>
+                <span class="method-start">1108989 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">setJobPreferences</span>
+                <span class="method-start">1145558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">1210633 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.CandidateDashboard</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBeforeClass</span>
+                <span class="method-start">1250338 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyPersonalPlanningRedirections</span>
+                <span class="method-start">1285780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">1394120 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.CandidatePortfolio</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBeforeClass</span>
+                <span class="method-start">1411498 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">personalInfo</span>
+                <span class="method-start">1442865 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">2045539 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.JobApplication</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBeforeClass</span>
+                <span class="method-start">2073496 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">applyForJobOpps</span>
+                <span class="method-start">2104746 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">2203135 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.TMImportCandidates</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configClass</span>
+                <span class="method-start">2231153 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">importCandidates</span>
+                <span class="method-start">2259611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">2322868 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.TMImportUsers</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configClass</span>
+                <span class="method-start">2343259 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">importUsers</span>
+                <span class="method-start">2343463 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.TMImportJobs</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configClass</span>
+                <span class="method-start">2343478 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">importJobs</span>
+                <span class="method-start">2343666 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.DACandidateGrid</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBeforeClass</span>
+                <span class="method-start">2343666 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">candidateProfileThroughCG</span>
+                <span class="method-start">2343858 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.DAManageDistrictAccountInformation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBeforeClass</span>
+                <span class="method-start">2343859 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">2343859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">2344113 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.TMManageDistrictAccountInformation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">configBeforeClass</span>
+                <span class="method-start">2364505 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">2364508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">logout</span>
+                <span class="method-start">2364711 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripts.regTestCases.HomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">2385125 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

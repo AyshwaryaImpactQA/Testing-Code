@@ -34,9 +34,9 @@ public class TMImportJobs extends Driver {
 		copyData = new CopySheet();
 		path = System.getProperty("user.dir") + "\\src\\test\\resources\\";
 		importJobsBL = new ImportJobsBL();
-		excelData.setExcelData("TM ImportJobs", 1, 0, "AutoImportJobId"
+		excelData.setExcelData("TMJobImport", 1, 0, "AutoImportJobId"
 				+ random.nextInt(99999));
-		excelData.setExcelData("TM ImportJobs", 1, 2, "AutoImportJobTitle"
+		excelData.setExcelData("TMJobImport", 1, 2, "AutoImportJobTitle"
 				+ random.nextInt(99999));
 		username = excelData.getExcelData("Login", 1, 1);
 		password = excelData.getExcelData("Login", 1, 2);
@@ -47,9 +47,9 @@ public class TMImportJobs extends Driver {
 
 	@Test
 	public void importJobs() throws Exception {
-		jobId = excelData.getExcelData("TM ImportJobs", 1, 0);
-		jobType = excelData.getExcelData("TM ImportJobs", 1, 1);
-		jobTitle = excelData.getExcelData("TM ImportJobs", 1, 2);
+		jobId = excelData.getExcelData("TMJobImport", 1, 0);
+		jobType = excelData.getExcelData("TMJobImport", 1, 1);
+		jobTitle = excelData.getExcelData("TMJobImport", 1, 2);
 		DateFormat df = new SimpleDateFormat("MM/dd/yyyy");
 		Date dateobj = new Date();
 		jobstartdate = df.format(dateobj);
@@ -58,13 +58,13 @@ public class TMImportJobs extends Driver {
 		c.setTime(sdf.parse(jobstartdate));
 		c.add(Calendar.DATE, 7); // number of days to add
 		jobenddate = sdf.format(c.getTime());
-		excelData.setExcelData("TM ImportJobs", 1, 3, jobstartdate);
-		excelData.setExcelData("TM ImportJobs", 1, 4, jobenddate);
+		excelData.setExcelData("TMJobImport", 1, 3, jobstartdate);
+		excelData.setExcelData("TMJobImport", 1, 4, jobenddate);
 		copyData.copySheet(path + "TPLTestDataSheet.xls", path
-				+ "Import\\ImportJobs.xls", "TM ImportJobs");
+				+ "Import\\ImportJobs.xls", "TMJobImport");
 		file = path + "Import\\ImportJobs.xls";
 
-		districtName = excelData.getExcelData("TM ImportJobs", 1, 6);
+		districtName = excelData.getExcelData("TMJobImport", 1, 6);
 		importJobsBL.importJobs(file, districtName, jobTitle);
 	}
 

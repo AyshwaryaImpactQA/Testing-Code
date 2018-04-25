@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NC Smoke Suite]">
+  <test name="NC Smoke Suite(failed)">
+    <classes>
+      <class name="com.scripts.regTestCases.DACandidateGrid">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="candidateProfileThroughCG"/>
+        </methods>
+      </class> <!-- com.scripts.regTestCases.DACandidateGrid -->
+      <class name="com.scripts.regTestCases.DADistJobOrder">
+        <methods>
+          <include name="downloadEXCEL"/>
+          <include name="logout"/>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- com.scripts.regTestCases.DADistJobOrder -->
+      <class name="com.scripts.regTestCases.JobApplication">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="logout"/>
+          <include name="applyForJobOpps"/>
+        </methods>
+      </class> <!-- com.scripts.regTestCases.JobApplication -->
+      <class name="com.scripts.regTestCases.TMImportCandidates">
+        <methods>
+          <include name="configClass"/>
+          <include name="logout"/>
+          <include name="importCandidates"/>
+        </methods>
+      </class> <!-- com.scripts.regTestCases.TMImportCandidates -->
+      <class name="com.scripts.regTestCases.JobPreferences">
+        <methods>
+          <include name="logout"/>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- com.scripts.regTestCases.JobPreferences -->
+      <class name="com.scripts.regTestCases.TMImportUsers">
+        <methods>
+          <include name="importUsers"/>
+          <include name="configClass"/>
+        </methods>
+      </class> <!-- com.scripts.regTestCases.TMImportUsers -->
+      <class name="com.scripts.regTestCases.Login">
+        <methods>
+          <include name="logout"/>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- com.scripts.regTestCases.Login -->
+      <class name="com.scripts.regTestCases.TMManageDistrictAccountInformation">
+        <methods>
+          <include name="login"/>
+          <include name="configBeforeClass"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.scripts.regTestCases.TMManageDistrictAccountInformation -->
+      <class name="com.scripts.regTestCases.CandidatePortfolio">
+        <methods>
+          <include name="logout"/>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- com.scripts.regTestCases.CandidatePortfolio -->
+      <class name="com.scripts.regTestCases.TMDistJobOrder">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.scripts.regTestCases.TMDistJobOrder -->
+      <class name="com.scripts.regTestCases.ManageUsersDA">
+        <methods>
+          <include name="logout"/>
+          <include name="configBeforeClass"/>
+        </methods>
+      </class> <!-- com.scripts.regTestCases.ManageUsersDA -->
+      <class name="com.scripts.regTestCases.HomePage">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.scripts.regTestCases.HomePage -->
+      <class name="com.scripts.regTestCases.CandidateDashboard">
+        <methods>
+          <include name="verifyPersonalPlanningRedirections"/>
+          <include name="configBeforeClass"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.scripts.regTestCases.CandidateDashboard -->
+      <class name="com.scripts.regTestCases.DAManageDistrictAccountInformation">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.scripts.regTestCases.DAManageDistrictAccountInformation -->
+      <class name="com.scripts.regTestCases.TMImportJobs">
+        <methods>
+          <include name="importJobs"/>
+          <include name="configClass"/>
+        </methods>
+      </class> <!-- com.scripts.regTestCases.TMImportJobs -->
+    </classes>
+  </test> <!-- NC Smoke Suite(failed) -->
+</suite> <!-- Failed suite [NC Smoke Suite] -->

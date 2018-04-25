@@ -1,30 +1,7 @@
-18:30:11,122  INFO NC:99 - Chrome Browser launched successfully.
-18:30:22,794 DEBUG NC:222 - https://nccloud.teachermatch.org/ has been entered into browser
-18:30:23,271 DEBUG NC:121 - 
+16:31:08,913  INFO NC:99 - Chrome Browser launched successfully.
+16:31:21,515 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+16:31:21,832 DEBUG NC:121 - 
 ************************************************************
 
-18:30:23,298 DEBUG NC:123 - Login with TM: Login with TM
-18:30:23,717 DEBUG NC:860 - test_nccloud_tm1@yopmail.com is entered in UserName TxtBx
-18:30:23,977 DEBUG NC:860 - password123# is entered in Password TxtBx
-18:30:29,589 DEBUG NC:469 - Login Button has been clicked
-18:30:40,228 DEBUG NC:131 - Login with TM: User logged In successfully
-18:30:40,525 DEBUG NC:121 - 
-************************************************************
-
-18:30:40,556 DEBUG NC:123 - District Job Order: Create District Job Order with End Date
-18:30:40,849 DEBUG NC:469 - Job Order Menu has been clicked
-18:30:46,681 DEBUG NC:469 - District Job Order has been clicked
-18:31:05,429 DEBUG NC:469 - Add Job Order Link has been clicked
-18:31:05,517 DEBUG NC:679 - District TxtBox is displayed
-18:31:22,036 DEBUG NC:860 - IMPACT QA is entered in District Name
-18:31:27,111 DEBUG NC:860 - AutoGenTitle822 is entered in Job Title
-18:31:27,256 DEBUG NC:469 - Posting Start Date has been clicked
-18:31:37,432 DEBUG NC:469 - Today's Date has been clicked
-18:31:37,685 DEBUG NC:1204 - Job Type has selected Full Time from dropdown
-18:31:38,032 DEBUG NC:860 - AutoRefNo68927 is entered in Ref No TxtBox
-18:31:38,242 DEBUG NC:1204 - Job Category has selected Bus Driver from dropdown
-18:31:48,345 ERROR NC:693 - EPI Ok Button is not displayed
-18:31:58,535 DEBUG NC:469 - Posting End date has been clicked
-18:32:08,736 DEBUG NC:469 - Next Year Button has been clicked
-18:32:18,919 DEBUG NC:469 - Next Year Date has been clicked
-18:33:48,876 DEBUG NC:1204 - Job Type has selected Full Time from dropdown
+16:31:21,853 DEBUG NC:123 - Verifying Login: Verifying Login without entering Mandatory Fields
+16:31:47,126 DEBUG NC:469 - Login Button has been clicked
