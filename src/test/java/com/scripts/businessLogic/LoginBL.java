@@ -16,8 +16,15 @@ public class LoginBL extends Driver {
 
 	public void login(String username, String password, String userType)
 			throws Exception {
-		commonLib.logOnInfo("Login with " + userType, "Login with " + userType);
+		
 		//commonLib.waitForPageToLoad();
+		try {
+			openURL();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			System.out.println(e);
+		}
+		commonLib.logOnInfo("Login with " + userType, "Login with " + userType);
 		if (commonLib.isDisplayed(loginPage.getDrpdownUserName())) {
 			commonLib.click(loginPage.getDrpdownUserName(),
 					"User Name Dropdown");

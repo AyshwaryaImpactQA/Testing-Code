@@ -113,6 +113,7 @@ public class AccountVerificationBL extends Driver {
 		}
 		if (userName.contains("yopmail")) {
 			driver.get("http://www.yopmail.com/en/");
+			
 			commonLib.waitForPageToLoad();
 			commonLib.typeText(mngUserPage.getLoginYopmail(), userName,
 					"Enter Mail ID in Yopmail");

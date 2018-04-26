@@ -51,7 +51,7 @@ public class CandidateSignUp extends Driver {
 
 	@Test(priority = 2)
 	public void candidateAccVerification() throws Exception {*/
-		userName = excelData.getExcelData("AddUser", 4, 3);
+		//userName = excelData.getExcelData("AddUser", 4, 3);
 		accountVerificationLib.accountVerificationCandidate(userName);
 /*	}
 

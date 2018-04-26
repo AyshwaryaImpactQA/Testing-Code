@@ -49,6 +49,7 @@ public class ManageUsersBL extends Driver {
 				commonLib.waitForPageToLoad();
 				commonLib.typeText(manageUsers.getTxtBoxDistrict(), district,
 						"District TxtBox");
+				
 //				commonLib.typeKeys(manageUsers.getTxtBoxDistrict(), Keys.TAB);
 //				commonLib.typeKeys(manageUsers.getTxtBoxDistrict(), Keys.TAB);
 //				commonLib.typeKeys(manageUsers.getTxtBoxDistrict(), Keys.TAB);

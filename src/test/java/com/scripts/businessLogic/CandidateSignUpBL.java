@@ -17,6 +17,12 @@ public class CandidateSignUpBL extends Driver {
 	public void candidateSignUp(String firstName, String lastName,
 			String userName, String password) throws InterruptedException,
 			Exception {
+		try {
+			openURL();
+		}
+		catch(Exception e){
+			System.out.println(e);
+		}
 		commonLib.waitForPageToLoad();
 		commonLib.waitForElement(loginPage.getBtnSignUp(), "SignUP Btn");
 		commonLib.logOnInfo("Candidate Sign Up", "Verifying the login page");
@@ -39,11 +45,10 @@ public class CandidateSignUpBL extends Driver {
 		commonLib.click(loginPage.getBtnSignUp(), "SignUp Btn");
 		if (commonLib.isDisplayed(mngUserPage.getErrAlreadyExist(),
 			"Already Exist User Error")) {
-			String updatedUserName = "AutoGenUser"
-					+ randomGenerator.nextInt(999999);
+			String updatedUserName = "AutoGenUser"+ randomGenerator.nextInt(999999);
 			commonLib.typeText(loginPage.getTxtBoxUsername(), updatedUserName,
 					"Email Text Box");
-			excelData.setExcelData("AddUser", 2, 3, updatedUserName);
+			excelData.setExcelData("AddUser", 4, 3, updatedUserName);
 			commonLib.click(loginPage.getBtnSignUp(), "SignUp button");
 		}
 		commonLib.waitForPageToLoad();

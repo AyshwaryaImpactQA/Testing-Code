@@ -215,9 +215,9 @@ public class Driver {
 		excelData.setExcelData("Login", 1, 4, splitCredentials(tmAdmin)[1]);
 		 excelData.setExcelData("Login", 3, 2, splitCredentials(daAdmin)[1]);
 		// excelData.setExcelData("Login", 4, 2, splitCredentials(saAdmin)[1]);
-		 excelData.setExcelData("AddUser", 4, 1, candidateFname);
+		/* excelData.setExcelData("AddUser", 4, 1, candidateFname);
 		 excelData.setExcelData("AddUser", 4, 2, candidateLname);
-		 excelData.setExcelData("AddUser", 4, 3, candidateEmail);
+		 excelData.setExcelData("AddUser", 4, 3, candidateEmail);*/
 		driver.get(url);
 		APP_LOGS.debug(url + " has been entered into browser");
 		System.out.println(url + " has been entered into browser");
