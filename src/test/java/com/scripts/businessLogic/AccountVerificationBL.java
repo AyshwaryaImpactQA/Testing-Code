@@ -117,6 +117,7 @@ public class AccountVerificationBL extends Driver {
 			commonLib.waitForPageToLoad();
 			commonLib.typeText(mngUserPage.getLoginYopmail(), userName,
 					"Enter Mail ID in Yopmail");
+			commonLib.screenshot("Mail Validation", "Mail Validation");
 			commonLib.click(mngUserPage.getBtnChkInboxYopmail(),
 					"Check Inbox Btn");
 			commonLib.waitForPageToLoad();
@@ -131,6 +132,7 @@ public class AccountVerificationBL extends Driver {
 					verificationLink = commonLib.getText(
 							mngUserPage.getLinkVerification(),
 							"Verification Link");
+					commonLib.screenshot("Mail Validation", "Received mail");
 					driver.switchTo().defaultContent();
 					driver.get(verificationLink);
 					commonLib.waitForPageToLoad();

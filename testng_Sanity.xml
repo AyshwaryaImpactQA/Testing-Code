@@ -9,16 +9,15 @@
 		<classes>
 			<!--It is the base class of suite. Do not Comment or remove it. -->
 	<class name="com.scripts.regTestCases.HomePage" />
-	<class name="com.scripts.regTestCases.CandidateSignUp" />
+<!-- 	<class name="com.scripts.regTestCases.CandidateSignUp" /> -->
 
 <!-- 	<class name="com.scripts.regTestCases.Login" /> -->
+<!-- 	<class name="com.scripts.regTestCases.ManageUsersDA" /> -->
+<!-- 	<class name="com.scripts.regTestCases.TMDistJobOrder" /> -->
 
-	<class name="com.scripts.regTestCases.ManageUsersDA" />
+<!-- 	<class name="com.scripts.regTestCases.DADistJobOrder" /> -->
 
-	<class name="com.scripts.regTestCases.TMDistJobOrder" />
-	<class name="com.scripts.regTestCases.DADistJobOrder" />
-
-	<class name="com.scripts.regTestCases.JobPreferences" />
+<!-- 	<class name="com.scripts.regTestCases.JobPreferences" /> -->
 	<class name="com.scripts.regTestCases.CandidateDashboard" />
 	<class name="com.scripts.regTestCases.CandidatePortfolio" />
 	<class name="com.scripts.regTestCases.JobApplication" />
@@ -28,7 +27,7 @@
 <!-- 	<class name="com.scripts.regTestCases.TMImportUsers" /> -->
 <!-- 	<class name="com.scripts.regTestCases.TMImportJobs" /> -->
 
-<!-- 	<class name="com.scripts.regTestCases.DACandidateGrid" /> -->
+	<class name="com.scripts.regTestCases.DACandidateGrid" />
 
 <!-- 	<class name="com.scripts.regTestCases.DAManageDistrictAccountInformation" /> -->
 <!-- 	<class name="com.scripts.regTestCases.TMManageDistrictAccountInformation" /> -->

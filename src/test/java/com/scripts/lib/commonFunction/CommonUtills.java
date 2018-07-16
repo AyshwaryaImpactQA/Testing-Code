@@ -63,6 +63,20 @@ driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		Thread.sleep(10000);
 		
 	}
+	public void waitForPageToLoad(int time) throws InterruptedException {
+
+		driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+		Thread.sleep(time*1000);
+
+	}
+	
+	public void screenshot(String stepName, String details) {
+		reports.log(LogStatus.INFO, stepName, details);
+		reports.attachScreenshot(screenLib.CaptureScreenshot(stepName, driver));
+		APP_LOGS.debug(stepName + ": " + details);
+		System.out.println(stepName + ": " + details);
+	}
+	
 	public void waitForPageToLoadWithCond(final WebElement locator) throws InterruptedException {
 		
 /*	WebDriverWait wait=new WebDriverWait(driver, 15);

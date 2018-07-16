@@ -77,7 +77,7 @@ public class CandidateDashboardBL extends Driver {
 		commonLib.click(candidateDashboardPage.getIconPowerProfile(),
 				"Power Profile Icon");
 		commonLib.waitForPageToLoad();
-		Thread.sleep(3000);
+		Thread.sleep(10000);
 		switchToChildWindow(parentWindow);
 		if (driver.getTitle().equals("Power Profile Index")) {
 			commonLib.logOnSuccess("Power Profile Redirection",

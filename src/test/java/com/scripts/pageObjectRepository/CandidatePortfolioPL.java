@@ -302,7 +302,7 @@ public class CandidatePortfolioPL {
 	@FindBy(id = "fieldName")
 	private WebElement txtBoxOtherField;
 	
-	@FindBy(id = "divResultdivTxtFieldOfStudyData0")
+	@FindBy(id = "divResultdivTxtFieldofStudyData0")
 	private WebElement firstOptionFieldOfStudy;
 
 	@FindBy(id = "certificationTypeDiv")

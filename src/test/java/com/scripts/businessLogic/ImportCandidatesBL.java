@@ -21,7 +21,8 @@ public class ImportCandidatesBL extends Driver {
 
 	public void navigateToImportCandidatePage() throws Exception {
 		commonLib.click(importCandidatesPage.getMenuImport(), "Import Menu");
-		commonLib.waitForPageToLoad();
+		//commonLib.waitForPageToLoad();
+		commonLib.screenshot("Import tag", "Import candidate");
 		commonLib.click(importCandidatesPage.getSubMenuCandidates(), "Candidates Sub Menu");
 		commonLib.waitForPageToLoad();
 	}
@@ -31,7 +32,6 @@ public class ImportCandidatesBL extends Driver {
 		commonLib.logOnInfo("Import Candidates", "Importing Candidate for job");
 		navigateToImportCandidatePage();
 		commonLib.typeText(importCandidatesPage.getTxtdistrictName(), district, "District TxtBox");
-		
 		//commonLib.click(importCandidatesPage.getTxtdistrictName(), "Click on District edit field");
 		
 		commonLib.typeText(importCandidatesPage.getFileUpload(), file, "File Upload");
@@ -79,12 +79,15 @@ public class ImportCandidatesBL extends Driver {
 			}
 		}
 		commonLib.waitForPageToLoad();
+		Thread.sleep(3000);
 		commonLib.click(manageJOPage.getExpandCandidatesGrid(), "Expand Candidates Grid");
 		commonLib.waitForPageToLoad();
 		System.out.println(manageJOPage.getCandidatesEmails().size());
 		for (int i = 0; i < manageJOPage.getCandidatesEmails().size(); i++) {
 			if (manageJOPage.getCandidatesEmails().get(i).getText().contains(email)) {
 				commonLib.logOnSuccess("Search Import Candidate", "Candidate found successfully");
+				driver.close();
+				driver.switchTo().window(handle1);
 				return;
 			}
 		}

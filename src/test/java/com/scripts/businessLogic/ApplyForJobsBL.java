@@ -101,11 +101,24 @@ public class ApplyForJobsBL extends Driver {
 		commonLib.waitForPageToLoadWithCond(applyForJobsPage.getRadioButtonNoCoverLetter());
 		commonLib.click(applyForJobsPage.getRadioButtonNoCoverLetter(),
 				"No Cover Letter Radio Btn");
+		Thread.sleep(3000);
 		commonLib.waitForPageToLoadWithCond(applyForJobsPage.getBtnSaveCoverLetter());
+		Thread.sleep(3000);
 		commonLib.click(applyForJobsPage.getBtnSaveCoverLetter(),
 				"Save Cover Letter Btn");
-		commonLib.waitForPageToLoadWithCond(applyForJobsPage.getBtnSaveDSPQ());
-		
+	//	commonLib.waitForPageToLoadWithCond(applyForJobsPage.getBtnSaveDSPQ());
+		commonLib.waitForPageToLoad();
+		Thread.sleep(2000);
+		if(commonLib.isDisplayed(applyForJobsPage.getButtonContinueMandatory(),"Mandatory Decleration")) {
+			if(commonLib.isDisplayed(applyForJobsPage.getBtnradio1(),"True Radio Button")) {
+				commonLib.click(applyForJobsPage.getBtnradio1(),"Radio Button");
+			} 
+			if(commonLib.isDisplayed(applyForJobsPage.getBtnradio2(),"Radio Button")) {
+				commonLib.click(applyForJobsPage.getBtnradio2(),"Radio Button");
+			}
+			commonLib.click(applyForJobsPage.getButtonContinueMandatory(),"Continue Button");
+		}
+		commonLib.waitForPageToLoad();
 		if (commonLib.isDisplayed(applyForJobsPage.getBtnSaveDSPQ(),
 				"Save DSPQ Btn")) {
 			commonLib.logOnSuccess("Filling Cover Letter",

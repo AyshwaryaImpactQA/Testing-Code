@@ -83,6 +83,7 @@ public class CandidatePortfolioBL extends Driver {
 					"Degree TxtBox");
 			commonLib.typeText(portfolioPage.getBoxSchool(), school,
 					"School TxtBox");
+			Thread.sleep(2000);
 			commonLib.click(portfolioPage.getLinkFieldNotListed(),
 					"Field Not Listed Link");
 			commonLib.selectDrpDownValue(

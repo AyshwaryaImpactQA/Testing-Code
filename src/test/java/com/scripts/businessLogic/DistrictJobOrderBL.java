@@ -73,7 +73,7 @@ public class DistrictJobOrderBL extends Driver {
 	public void navigateToAddDistrictJobOrder() throws Exception {
 		navigateToDistrictJobOrder();
 		
-		commonLib.waitForPageToLoadWithCond(sJobOrder.getBtnAddNewJob());
+	//	commonLib.waitForPageToLoadWithCond(sJobOrder.getBtnAddNewJob());
 		
 		commonLib.click(sJobOrder.getBtnAddNewJob(), "Add Job Order Link");
 	}
@@ -81,7 +81,7 @@ public class DistrictJobOrderBL extends Driver {
 	public void enterCommonDetails(String districtName, String schoolName,
 			String zone, String jobTitle, String jobType, String jobCategory,
 			String jobApprovalProcess, String refNo) throws Exception {
-		commonLib.waitForPageToLoadWithCond(sJobOrder.getTxtBoxDistrict());
+		//commonLib.waitForPageToLoadWithCond(sJobOrder.getTxtBoxDistrict());
 		
 		if (commonLib.isDisplayed(sJobOrder.getTxtBoxDistrict(),"District TxtBox")) {
 			commonLib.typeText(sJobOrder.getTxtBoxDistrict(), districtName,
@@ -89,13 +89,12 @@ public class DistrictJobOrderBL extends Driver {
 			commonLib.typeKeys(sJobOrder.getTxtBoxDistrict(), Keys.DOWN);
 			commonLib.typeKeys(sJobOrder.getTxtBoxDistrict(), Keys.UP);
 		}
-		commonLib.waitForPageToLoadWithCond(sJobOrder.getTxtBoxJobTitle());
-		commonLib
-				.typeText(sJobOrder.getTxtBoxJobTitle(), jobTitle, "Job Title");
+		//commonLib.waitForPageToLoadWithCond(sJobOrder.getTxtBoxJobTitle());
+		commonLib.typeText(sJobOrder.getTxtBoxJobTitle(), jobTitle, "Job Title");
 		System.out.println("Entered job title is: " +jobTitle);
 		commonLib.click(sJobOrder.getTxtBoxPostingStartDate(),
 				"Posting Start Date");
-		commonLib.waitForPageToLoad();
+		commonLib.waitForPageToLoad(2);
 		commonLib.click(sJobOrder.getCurrentDatePicker(), "Today's Date");
 		// commonLib.selectDrpDownValue(sJobOrder.getDrpDownZone(), zone,
 		// "Zone Dropdown");
@@ -128,16 +127,16 @@ public class DistrictJobOrderBL extends Driver {
 				jobCategory, jobApprovalProcess, reNo);
 		commonLib.waitForPageToLoad();
 		commonLib.click(sJobOrder.getTxtBoxPostingEndDate(), "Posting End date");
-		commonLib.waitForPageToLoad();
+		commonLib.waitForPageToLoad(2);
 		commonLib.click(sJobOrder.getPostEndDateBtnNextYr(), "Next Year Button");
-		commonLib.waitForPageToLoad();
+		commonLib.waitForPageToLoad(2);
 		commonLib.click(sJobOrder.getPostEndDateBtnNextDt(), "Next Year Date");
-		commonLib.waitForPageToLoad();
+		commonLib.waitForPageToLoad(2);
 		commonLib.selectDrpDownValue(sJobOrder.getDrpdownJobType(), jobType,
 				"Job Type");
 		commonLib.selectDrpDownValue(sJobOrder.getDrpDownJobCategory(),
 				jobCategory, "Job Category");
-		commonLib.waitForPageToLoad();
+		commonLib.waitForPageToLoad(3);
 		commonLib.typeText(sJobOrder.getJobDescription(), jobDecription,
 				"Job Description");
 		if (!commonLib.isSelected(sJobOrder.getChkBoxMultipleHireSingleReqNo(),
@@ -149,7 +148,7 @@ public class DistrictJobOrderBL extends Driver {
 				"Only District Admin Radio Btn")) {
 			commonLib.click(sJobOrder.getRadioBtnOnlyDistrictAdmins(),
 					"Only District Admin Radio Btn");
-			commonLib.waitForPageToLoad();
+			commonLib.waitForPageToLoad(3);
 			commonLib.click(sJobOrder.getBtnOkChangeMessageModal(),
 					"Change Message Modal Ok btn");
 			commonLib.typeText(sJobOrder.getTxtBoxNoOfHiresDistrict(),
@@ -477,7 +476,7 @@ public class DistrictJobOrderBL extends Driver {
 			commonLib.click(sJobOrder.getBtnSearchJobOrder(),
 					"Search Job order");
 			commonLib.waitForPageToLoad();
-			Thread.sleep(5000);
+			Thread.sleep(10000);
 			if (commonLib.getText(sJobOrder.getTitleFirstRow(), "Title Label")
 					.equals(jobTitle)) {
 				commonLib.logOnSuccess("District Job Order",

@@ -39,8 +39,10 @@ public class TMImportJobs extends Driver {
 		excelData.setExcelData("TMJobImport", 1, 2, "AutoImportJobTitle"
 				+ random.nextInt(99999));
 		username = excelData.getExcelData("Login", 1, 1);
-		password = excelData.getExcelData("Login", 1, 2);
-		userType = excelData.getExcelData("Login", 1, 3);
+	/*	password = excelData.getExcelData("Login", 1, 2);
+		userType = excelData.getExcelData("Login", 1, 3); */
+		password = excelData.getExcelData("Login", 1, 4);
+		userType = excelData.getExcelData("Login", 1, 5);
 		reports.startTest("Import Jobs with TM Admin");
 		loginLib.login(username, password, userType);
 	}

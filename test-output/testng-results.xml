@@ -1,34 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="2" total="9" passed="5">
+<testng-results skipped="2" failed="4" total="15" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="NC Smoke Suite" duration-ms="1822206" started-at="2018-04-26T11:50:54Z" finished-at="2018-04-26T12:21:16Z">
+  <suite name="NC Smoke Suite" duration-ms="3259321" started-at="2018-07-06T11:56:28Z" finished-at="2018-07-06T12:50:47Z">
     <groups>
     </groups>
-    <test name="NC Smoke Suite" duration-ms="1822206" started-at="2018-04-26T11:50:54Z" finished-at="2018-04-26T12:21:16Z">
+    <test name="NC Smoke Suite" duration-ms="3259321" started-at="2018-07-06T11:56:28Z" finished-at="2018-07-06T12:50:47Z">
+      <class name="com.scripts.regTestCases.TMImportJobs">
+        <test-method status="PASS" signature="configClass()[pri:0, instance:com.scripts.regTestCases.TMImportJobs@604ed9f0]" name="configClass" is-config="true" duration-ms="29199" started-at="2018-07-06T18:05:16Z" finished-at="2018-07-06T18:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configClass -->
+        <test-method status="FAIL" signature="importJobs()[pri:0, instance:com.scripts.regTestCases.TMImportJobs@604ed9f0]" name="importJobs" duration-ms="18" started-at="2018-07-06T18:05:45Z" finished-at="2018-07-06T18:05:45Z">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\kapil.gupta\git\ig-nc-smoke-automation\src\test\resources\TPLTestDataSheet.xls (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\kapil.gupta\git\ig-nc-smoke-automation\src\test\resources\TPLTestDataSheet.xls (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at utils.load.dataSource.CopySheet.copySheet(CopySheet.java:18)
+	at com.scripts.regTestCases.TMImportJobs.importJobs(TMImportJobs.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importJobs -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.TMImportJobs@604ed9f0]" name="logout" is-config="true" duration-ms="25356" started-at="2018-07-06T18:05:45Z" finished-at="2018-07-06T18:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.scripts.regTestCases.TMImportJobs -->
       <class name="com.scripts.regTestCases.JobApplication">
-        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.JobApplication@66a3ffec]" name="configBeforeClass" is-config="true" duration-ms="44783" started-at="2018-04-26T17:48:14Z" finished-at="2018-04-26T17:48:59Z">
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.JobApplication@5e3a8624]" name="configBeforeClass" is-config="true" duration-ms="33067" started-at="2018-07-06T17:57:06Z" finished-at="2018-07-06T17:57:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeClass -->
-        <test-method status="FAIL" signature="applyForJobOpps()[pri:0, instance:com.scripts.regTestCases.JobApplication@66a3ffec]" name="applyForJobOpps" duration-ms="110931" started-at="2018-04-26T17:48:59Z" finished-at="2018-04-26T17:50:50Z">
+        <test-method status="FAIL" signature="applyForJobOpps()[pri:0, instance:com.scripts.regTestCases.JobApplication@5e3a8624]" name="applyForJobOpps" duration-ms="131397" started-at="2018-07-06T17:57:39Z" finished-at="2018-07-06T17:59:51Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for com.scripts.lib.commonFunction.CommonUtills$1@130dca52 (tried for 30 second(s) with 2000 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for com.scripts.lib.commonFunction.CommonUtills$1@eda25e5 (tried for 30 second(s) with 2000 milliseconds interval)
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'IQA-KAPIL', ip: '192.168.15.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'IQA-KAPIL', ip: '192.168.15.154', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: unknown]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.scripts.lib.commonFunction.CommonUtills$1@130dca52 (tried for 30 second(s) with 2000 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.scripts.lib.commonFunction.CommonUtills$1@eda25e5 (tried for 30 second(s) with 2000 milliseconds interval)
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'IQA-KAPIL', ip: '192.168.15.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'IQA-KAPIL', ip: '192.168.15.154', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at com.scripts.lib.commonFunction.CommonUtills.waitForPageToLoadWithCond(CommonUtills.java:77)
-	at com.scripts.businessLogic.ApplyForJobsBL.applyJobByTitle(ApplyForJobsBL.java:85)
-	at com.scripts.regTestCases.JobApplication.applyForJobOpps(JobApplication.java:40)
+	at com.scripts.lib.commonFunction.CommonUtills.waitForPageToLoadWithCond(CommonUtills.java:91)
+	at com.scripts.businessLogic.ApplyForJobsBL.fillDSPQ(ApplyForJobsBL.java:123)
+	at com.scripts.regTestCases.JobApplication.applyForJobOpps(JobApplication.java:45)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -59,24 +111,56 @@ Driver info: driver.version: unknown
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applyForJobOpps -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.JobApplication@66a3ffec]" name="logout" is-config="true" duration-ms="26977" started-at="2018-04-26T17:50:50Z" finished-at="2018-04-26T17:51:16Z">
+        <test-method status="SKIP" signature="logout()[pri:0, instance:com.scripts.regTestCases.JobApplication@5e3a8624]" name="logout" is-config="true" duration-ms="0" started-at="2018-07-06T17:59:51Z" finished-at="2018-07-06T17:59:51Z">
+          <exception class="org.testng.SkipException">
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: 
+	at com.scripts.lib.commonFunction.CommonUtills.click(CommonUtills.java:496)
+	at com.scripts.businessLogic.LoginBL.logout(LoginBL.java:251)
+	at com.scripts.regTestCases.JobApplication.logout(JobApplication.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- com.scripts.regTestCases.JobApplication -->
-      <class name="com.scripts.regTestCases.CandidateDashboard">
-        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.CandidateDashboard@47c62251]" name="configBeforeClass" is-config="true" duration-ms="36045" started-at="2018-04-26T17:43:35Z" finished-at="2018-04-26T17:44:11Z">
+      <class name="com.scripts.regTestCases.DACandidateGrid">
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.DACandidateGrid@6a4f787b]" name="configBeforeClass" is-config="true" duration-ms="29873" started-at="2018-07-06T18:06:10Z" finished-at="2018-07-06T18:06:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeClass -->
-        <test-method status="SKIP" signature="verifyPersonalPlanningRedirections()[pri:0, instance:com.scripts.regTestCases.CandidateDashboard@47c62251]" name="verifyPersonalPlanningRedirections" duration-ms="102169" started-at="2018-04-26T17:44:11Z" finished-at="2018-04-26T17:45:53Z">
+        <test-method status="SKIP" signature="candidateProfileThroughCG()[pri:0, instance:com.scripts.regTestCases.DACandidateGrid@6a4f787b]" name="candidateProfileThroughCG" duration-ms="5812" started-at="2018-07-06T18:06:40Z" finished-at="2018-07-06T18:06:46Z">
           <exception class="org.testng.SkipException">
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: 
-	at com.scripts.lib.commonFunction.CommonUtills.click(CommonUtills.java:482)
-	at com.scripts.businessLogic.CandidateDashboardBL.verifyApplyNowIconRedirection(CandidateDashboardBL.java:132)
-	at com.scripts.businessLogic.CandidateDashboardBL.verifyJobsOfInterestSection(CandidateDashboardBL.java:122)
-	at com.scripts.regTestCases.CandidateDashboard.verifyPersonalPlanningRedirections(CandidateDashboard.java:37)
+	at com.scripts.lib.commonFunction.CommonUtills.click(CommonUtills.java:496)
+	at com.scripts.businessLogic.CandidateGridBL.candidateProfileThroughCG(CandidateGridBL.java:117)
+	at com.scripts.regTestCases.DACandidateGrid.candidateProfileThroughCG(DACandidateGrid.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -106,65 +190,124 @@ Driver info: driver.version: unknown
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- candidateProfileThroughCG -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.DACandidateGrid@6a4f787b]" name="logout" is-config="true" duration-ms="27334" started-at="2018-07-06T18:06:46Z" finished-at="2018-07-06T18:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.scripts.regTestCases.DACandidateGrid -->
+      <class name="com.scripts.regTestCases.CandidateDashboard">
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.CandidateDashboard@3bfdc050]" name="configBeforeClass" is-config="true" duration-ms="32694" started-at="2018-07-06T17:46:43Z" finished-at="2018-07-06T17:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method status="FAIL" signature="verifyPersonalPlanningRedirections()[pri:0, instance:com.scripts.regTestCases.CandidateDashboard@3bfdc050]" name="verifyPersonalPlanningRedirections" duration-ms="369541" started-at="2018-07-06T17:47:16Z" finished-at="2018-07-06T17:53:26Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.scripts.businessLogic.CandidateDashboardBL.verifyCoverLetterRedirection(CandidateDashboardBL.java:329)
+	at com.scripts.businessLogic.CandidateDashboardBL.verifyJobApplicationSection(CandidateDashboardBL.java:283)
+	at com.scripts.regTestCases.CandidateDashboard.verifyPersonalPlanningRedirections(CandidateDashboard.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- verifyPersonalPlanningRedirections -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.CandidateDashboard@47c62251]" name="logout" is-config="true" duration-ms="17869" started-at="2018-04-26T17:45:53Z" finished-at="2018-04-26T17:46:11Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.CandidateDashboard@3bfdc050]" name="logout" is-config="true" duration-ms="26079" started-at="2018-07-06T17:53:26Z" finished-at="2018-07-06T17:53:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- com.scripts.regTestCases.CandidateDashboard -->
       <class name="com.scripts.regTestCases.ManageUsersDA">
-        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.ManageUsersDA@ae45eb6]" name="configBeforeClass" is-config="true" duration-ms="36334" started-at="2018-04-26T17:24:49Z" finished-at="2018-04-26T17:25:25Z">
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.ManageUsersDA@66a3ffec]" name="configBeforeClass" is-config="true" duration-ms="29788" started-at="2018-07-06T17:29:21Z" finished-at="2018-07-06T17:29:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeClass -->
-        <test-method status="PASS" signature="verifyMandatoryFields()[pri:0, instance:com.scripts.regTestCases.ManageUsersDA@ae45eb6]" name="verifyMandatoryFields" duration-ms="359187" started-at="2018-04-26T17:25:25Z" finished-at="2018-04-26T17:31:24Z">
+        <test-method status="PASS" signature="verifyMandatoryFields()[pri:0, instance:com.scripts.regTestCases.ManageUsersDA@66a3ffec]" name="verifyMandatoryFields" duration-ms="326366" started-at="2018-07-06T17:29:51Z" finished-at="2018-07-06T17:35:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMandatoryFields -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.ManageUsersDA@ae45eb6]" name="logout" is-config="true" duration-ms="26383" started-at="2018-04-26T17:31:24Z" finished-at="2018-04-26T17:31:50Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.ManageUsersDA@66a3ffec]" name="logout" is-config="true" duration-ms="25685" started-at="2018-07-06T17:35:17Z" finished-at="2018-07-06T17:35:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- com.scripts.regTestCases.ManageUsersDA -->
-      <class name="com.scripts.regTestCases.CandidateSignUp">
-        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.CandidateSignUp@68c4039c]" name="configBeforeClass" is-config="true" duration-ms="149" started-at="2018-04-26T17:21:20Z" finished-at="2018-04-26T17:21:21Z">
+      <class name="com.scripts.regTestCases.Login">
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.Login@3e6fa38a]" name="configBeforeClass" is-config="true" duration-ms="106" started-at="2018-07-06T17:26:43Z" finished-at="2018-07-06T17:26:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeClass -->
-        <test-method status="PASS" signature="candidateSignUp()[pri:0, instance:com.scripts.regTestCases.CandidateSignUp@68c4039c]" name="candidateSignUp" duration-ms="179047" started-at="2018-04-26T17:21:21Z" finished-at="2018-04-26T17:24:20Z">
+        <test-method status="PASS" signature="loginWithoutMandatoryFields()[pri:0, instance:com.scripts.regTestCases.Login@3e6fa38a]" name="loginWithoutMandatoryFields" duration-ms="134627" started-at="2018-07-06T17:26:43Z" finished-at="2018-07-06T17:28:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- candidateSignUp -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.CandidateSignUp@68c4039c]" name="logout" is-config="true" duration-ms="28942" started-at="2018-04-26T17:24:20Z" finished-at="2018-04-26T17:24:49Z">
+        </test-method> <!-- loginWithoutMandatoryFields -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.Login@3e6fa38a]" name="logout" is-config="true" duration-ms="23435" started-at="2018-07-06T17:28:58Z" finished-at="2018-07-06T17:29:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-      </class> <!-- com.scripts.regTestCases.CandidateSignUp -->
+      </class> <!-- com.scripts.regTestCases.Login -->
       <class name="com.scripts.regTestCases.DADistJobOrder">
-        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.DADistJobOrder@27efef64]" name="configBeforeClass" is-config="true" duration-ms="33316" started-at="2018-04-26T17:38:20Z" finished-at="2018-04-26T17:38:54Z">
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.DADistJobOrder@1e88b3c]" name="configBeforeClass" is-config="true" duration-ms="31767" started-at="2018-07-06T17:40:21Z" finished-at="2018-07-06T17:40:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeClass -->
-        <test-method status="FAIL" signature="downloadEXCEL()[pri:0, instance:com.scripts.regTestCases.DADistJobOrder@27efef64]" name="downloadEXCEL" duration-ms="94461" started-at="2018-04-26T17:38:54Z" finished-at="2018-04-26T17:40:28Z">
+        <test-method status="PASS" signature="downloadEXCEL()[pri:0, instance:com.scripts.regTestCases.DADistJobOrder@1e88b3c]" name="downloadEXCEL" duration-ms="231600" started-at="2018-07-06T17:40:53Z" finished-at="2018-07-06T17:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadEXCEL -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.DADistJobOrder@1e88b3c]" name="logout" is-config="true" duration-ms="26300" started-at="2018-07-06T17:44:45Z" finished-at="2018-07-06T17:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.scripts.regTestCases.DADistJobOrder -->
+      <class name="com.scripts.regTestCases.TMImportUsers">
+        <test-method status="PASS" signature="configClass()[pri:0, instance:com.scripts.regTestCases.TMImportUsers@91161c7]" name="configClass" is-config="true" duration-ms="28433" started-at="2018-07-06T18:03:17Z" finished-at="2018-07-06T18:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configClass -->
+        <test-method status="FAIL" signature="importUsers()[pri:0, instance:com.scripts.regTestCases.TMImportUsers@91161c7]" name="importUsers" duration-ms="64174" started-at="2018-07-06T18:03:45Z" finished-at="2018-07-06T18:04:49Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for com.scripts.lib.commonFunction.CommonUtills$1@1afdd473 (tried for 30 second(s) with 2000 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for com.scripts.lib.commonFunction.CommonUtills$1@1d730606 (tried for 30 second(s) with 2000 milliseconds interval)
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'IQA-KAPIL', ip: '192.168.15.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'IQA-KAPIL', ip: '192.168.15.154', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: unknown]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.scripts.lib.commonFunction.CommonUtills$1@1afdd473 (tried for 30 second(s) with 2000 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.scripts.lib.commonFunction.CommonUtills$1@1d730606 (tried for 30 second(s) with 2000 milliseconds interval)
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'IQA-KAPIL', ip: '192.168.15.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0'
+System info: host: 'IQA-KAPIL', ip: '192.168.15.154', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0'
 Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at com.scripts.lib.commonFunction.CommonUtills.waitForPageToLoadWithCond(CommonUtills.java:77)
-	at com.scripts.businessLogic.DistrictJobOrderBL.enterCommonDetails(DistrictJobOrderBL.java:84)
-	at com.scripts.businessLogic.DistrictJobOrderBL.enterDetailsForWithPostinEndDate(DistrictJobOrderBL.java:127)
-	at com.scripts.businessLogic.DistrictJobOrderBL.createJobWithEndDate(DistrictJobOrderBL.java:501)
-	at com.scripts.regTestCases.DADistJobOrder.downloadEXCEL(DADistJobOrder.java:71)
+	at com.scripts.lib.commonFunction.CommonUtills.waitForPageToLoadWithCond(CommonUtills.java:91)
+	at com.scripts.businessLogic.ImportUserBL.importUsers(ImportUserBL.java:53)
+	at com.scripts.regTestCases.TMImportUsers.importUsers(TMImportUsers.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -194,38 +337,66 @@ Driver info: driver.version: unknown
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- downloadEXCEL -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.DADistJobOrder@27efef64]" name="logout" is-config="true" duration-ms="27257" started-at="2018-04-26T17:40:28Z" finished-at="2018-04-26T17:40:55Z">
+        </test-method> <!-- importUsers -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.TMImportUsers@91161c7]" name="logout" is-config="true" duration-ms="26614" started-at="2018-07-06T18:04:49Z" finished-at="2018-07-06T18:05:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-      </class> <!-- com.scripts.regTestCases.DADistJobOrder -->
-      <class name="com.scripts.regTestCases.TMDistJobOrder">
-        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.TMDistJobOrder@59f99ea]" name="configBeforeClass" is-config="true" duration-ms="36236" started-at="2018-04-26T17:31:50Z" finished-at="2018-04-26T17:32:27Z">
+      </class> <!-- com.scripts.regTestCases.TMImportUsers -->
+      <class name="com.scripts.regTestCases.DAManageDistrictAccountInformation">
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.DAManageDistrictAccountInformation@685cb137]" name="configBeforeClass" is-config="true" duration-ms="32" started-at="2018-07-06T18:07:13Z" finished-at="2018-07-06T18:07:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeClass -->
-        <test-method status="PASS" signature="createJobWithPostingEndDate()[pri:0, instance:com.scripts.regTestCases.TMDistJobOrder@59f99ea]" name="createJobWithPostingEndDate" duration-ms="315981" started-at="2018-04-26T17:32:27Z" finished-at="2018-04-26T17:37:43Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.scripts.regTestCases.DAManageDistrictAccountInformation@685cb137]" name="login" duration-ms="261793" started-at="2018-07-06T18:07:13Z" finished-at="2018-07-06T18:11:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.DAManageDistrictAccountInformation@685cb137]" name="logout" is-config="true" duration-ms="26522" started-at="2018-07-06T18:11:35Z" finished-at="2018-07-06T18:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.scripts.regTestCases.DAManageDistrictAccountInformation -->
+      <class name="com.scripts.regTestCases.TMDistJobOrder">
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.TMDistJobOrder@77caeb3e]" name="configBeforeClass" is-config="true" duration-ms="29684" started-at="2018-07-06T17:35:43Z" finished-at="2018-07-06T17:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method status="PASS" signature="createJobWithPostingEndDate()[pri:0, instance:com.scripts.regTestCases.TMDistJobOrder@77caeb3e]" name="createJobWithPostingEndDate" duration-ms="222806" started-at="2018-07-06T17:36:13Z" finished-at="2018-07-06T17:39:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createJobWithPostingEndDate -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.TMDistJobOrder@59f99ea]" name="logout" is-config="true" duration-ms="37723" started-at="2018-04-26T17:37:43Z" finished-at="2018-04-26T17:38:20Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.TMDistJobOrder@77caeb3e]" name="logout" is-config="true" duration-ms="25737" started-at="2018-07-06T17:39:56Z" finished-at="2018-07-06T17:40:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- com.scripts.regTestCases.TMDistJobOrder -->
-      <class name="com.scripts.regTestCases.CandidatePortfolio">
-        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.CandidatePortfolio@3e6fa38a]" name="configBeforeClass" is-config="true" duration-ms="42341" started-at="2018-04-26T17:46:11Z" finished-at="2018-04-26T17:46:53Z">
+      <class name="com.scripts.regTestCases.TMManageDistrictAccountInformation">
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.TMManageDistrictAccountInformation@6a41eaa2]" name="configBeforeClass" is-config="true" duration-ms="5" started-at="2018-07-06T18:12:02Z" finished-at="2018-07-06T18:12:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeClass -->
-        <test-method status="SKIP" signature="personalInfo()[pri:0, instance:com.scripts.regTestCases.CandidatePortfolio@3e6fa38a]" name="personalInfo" duration-ms="15416" started-at="2018-04-26T17:46:53Z" finished-at="2018-04-26T17:47:09Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.scripts.regTestCases.TMManageDistrictAccountInformation@6a41eaa2]" name="login" duration-ms="498518" started-at="2018-07-06T18:12:02Z" finished-at="2018-07-06T18:20:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.TMManageDistrictAccountInformation@6a41eaa2]" name="logout" is-config="true" duration-ms="27103" started-at="2018-07-06T18:20:20Z" finished-at="2018-07-06T18:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.scripts.regTestCases.TMManageDistrictAccountInformation -->
+      <class name="com.scripts.regTestCases.CandidatePortfolio">
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.CandidatePortfolio@1bce4f0a]" name="configBeforeClass" is-config="true" duration-ms="31988" started-at="2018-07-06T17:53:52Z" finished-at="2018-07-06T17:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method status="SKIP" signature="personalInfo()[pri:0, instance:com.scripts.regTestCases.CandidatePortfolio@1bce4f0a]" name="personalInfo" duration-ms="136449" started-at="2018-07-06T17:54:24Z" finished-at="2018-07-06T17:56:40Z">
           <exception class="org.testng.SkipException">
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: 
-	at com.scripts.lib.commonFunction.CommonUtills.click(CommonUtills.java:482)
-	at com.scripts.businessLogic.CandidatePortfolioBL.personalInfo(CandidatePortfolioBL.java:22)
-	at com.scripts.regTestCases.CandidatePortfolio.personalInfo(CandidatePortfolio.java:53)
+	at com.scripts.lib.commonFunction.CommonUtills.click(CommonUtills.java:496)
+	at com.scripts.businessLogic.CandidatePortfolioBL.addAcademicsDetails(CandidatePortfolioBL.java:96)
+	at com.scripts.regTestCases.CandidatePortfolio.personalInfo(CandidatePortfolio.java:61)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -256,75 +427,45 @@ Driver info: driver.version: unknown
           <reporter-output>
           </reporter-output>
         </test-method> <!-- personalInfo -->
-        <test-method status="FAIL" signature="logout()[pri:0, instance:com.scripts.regTestCases.CandidatePortfolio@3e6fa38a]" name="logout" is-config="true" duration-ms="0" started-at="2018-04-26T17:47:09Z" finished-at="2018-04-26T17:47:09Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for com.scripts.lib.commonFunction.CommonUtills$1@146587a2 (tried for 30 second(s) with 2000 milliseconds interval)
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'IQA-KAPIL', ip: '192.168.15.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.scripts.lib.commonFunction.CommonUtills$1@146587a2 (tried for 30 second(s) with 2000 milliseconds interval)
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'IQA-KAPIL', ip: '192.168.15.142', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at com.scripts.lib.commonFunction.CommonUtills.waitForPageToLoadWithCond(CommonUtills.java:77)
-	at com.scripts.businessLogic.LoginBL.logout(LoginBL.java:249)
-	at com.scripts.regTestCases.CandidatePortfolio.logout(CandidatePortfolio.java:196)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.CandidatePortfolio@1bce4f0a]" name="logout" is-config="true" duration-ms="26048" started-at="2018-07-06T17:56:40Z" finished-at="2018-07-06T17:57:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- com.scripts.regTestCases.CandidatePortfolio -->
+      <class name="com.scripts.regTestCases.TMImportCandidates">
+        <test-method status="PASS" signature="configClass()[pri:0, instance:com.scripts.regTestCases.TMImportCandidates@5c3bd550]" name="configClass" is-config="true" duration-ms="36552" started-at="2018-07-06T18:00:11Z" finished-at="2018-07-06T18:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configClass -->
+        <test-method status="PASS" signature="importCandidates()[pri:0, instance:com.scripts.regTestCases.TMImportCandidates@5c3bd550]" name="importCandidates" duration-ms="123380" started-at="2018-07-06T18:00:47Z" finished-at="2018-07-06T18:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importCandidates -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.TMImportCandidates@5c3bd550]" name="logout" is-config="true" duration-ms="25872" started-at="2018-07-06T18:02:51Z" finished-at="2018-07-06T18:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.scripts.regTestCases.TMImportCandidates -->
       <class name="com.scripts.regTestCases.JobPreferences">
-        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.JobPreferences@6f7fd0e6]" name="configBeforeClass" is-config="true" duration-ms="91670" started-at="2018-04-26T17:40:55Z" finished-at="2018-04-26T17:42:27Z">
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.scripts.regTestCases.JobPreferences@42d80b78]" name="configBeforeClass" is-config="true" duration-ms="34711" started-at="2018-07-06T17:45:11Z" finished-at="2018-07-06T17:45:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeClass -->
-        <test-method status="PASS" signature="setJobPreferences()[pri:0, instance:com.scripts.regTestCases.JobPreferences@6f7fd0e6]" name="setJobPreferences" duration-ms="36554" started-at="2018-04-26T17:42:27Z" finished-at="2018-04-26T17:43:04Z">
+        <test-method status="PASS" signature="setJobPreferences()[pri:0, instance:com.scripts.regTestCases.JobPreferences@42d80b78]" name="setJobPreferences" duration-ms="31611" started-at="2018-07-06T17:45:46Z" finished-at="2018-07-06T17:46:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setJobPreferences -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.JobPreferences@6f7fd0e6]" name="logout" is-config="true" duration-ms="31220" started-at="2018-04-26T17:43:04Z" finished-at="2018-04-26T17:43:35Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.scripts.regTestCases.JobPreferences@42d80b78]" name="logout" is-config="true" duration-ms="26052" started-at="2018-07-06T17:46:17Z" finished-at="2018-07-06T17:46:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- com.scripts.regTestCases.JobPreferences -->
       <class name="com.scripts.regTestCases.HomePage">
-        <test-method status="PASS" signature="homeBase()[pri:0, instance:com.scripts.regTestCases.HomePage@3532ec19]" name="homeBase" duration-ms="26094" started-at="2018-04-26T17:20:54Z" finished-at="2018-04-26T17:21:20Z">
+        <test-method status="PASS" signature="homeBase()[pri:0, instance:com.scripts.regTestCases.HomePage@47c62251]" name="homeBase" duration-ms="14923" started-at="2018-07-06T17:26:28Z" finished-at="2018-07-06T17:26:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeBase -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.scripts.regTestCases.HomePage@3532ec19]" name="closeBrowser" is-config="true" duration-ms="668" started-at="2018-04-26T17:51:17Z" finished-at="2018-04-26T17:51:17Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.scripts.regTestCases.HomePage@47c62251]" name="closeBrowser" is-config="true" duration-ms="619" started-at="2018-07-06T18:20:47Z" finished-at="2018-07-06T18:20:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

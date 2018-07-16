@@ -51,6 +51,7 @@ public class ImportUserBL extends Driver {
 			return;
 		}
 		commonLib.waitForPageToLoadWithCond(importuserPage.getConfirmJobMessage());
+		Thread.sleep(3000);
 		if (commonLib.isDisplayed(importuserPage.getConfirmJobMessage())) {
 			commonLib.logOnSuccess("Import Users", "User imported successfully");
 			commonLib.click(importuserPage.getBtnClose(), "Close Btn");

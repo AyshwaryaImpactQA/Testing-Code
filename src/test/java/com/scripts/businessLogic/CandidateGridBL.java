@@ -114,9 +114,10 @@ public class CandidateGridBL extends Driver {
 		//commonLib.waitForPageToLoad();
 		commonLib.typeText(manageJOPage.getTxtBoxJobID(), jobID,
 				"Job Order Id TxtBox");
+		commonLib.waitForPageToLoad();
 		commonLib.click(manageJOPage.getBtnSearchJobs(), "Search buton");
 		commonLib.waitForPageToLoad();
-		commonLib.waitForPageToLoad();
+		
 		commonLib.waitForPageToLoad();
 		for (int i = 0; i < manageJOPage.getLinkJobTitle().size(); i++) {
 			if (manageJOPage.getLinkJobTitle().get(i).getText()

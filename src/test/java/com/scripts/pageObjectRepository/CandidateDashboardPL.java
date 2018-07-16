@@ -15,13 +15,13 @@ public class CandidateDashboardPL {
 	@FindBy(id = "menuid1")
 	private WebElement menuDashboard;
 
-	@FindBy(id = "iconpophover1")
+	@FindBy(id = "menuid4")
 	private WebElement iconJobPreferences;
 
-	@FindBy(id = "iconpophoverscore")
+	@FindBy(id = "menuid5")
 	private WebElement iconPowerProfile;
 
-	@FindBy(xpath = "//a[@href='portfolio.do']/img")
+	@FindBy(xpath = "//a[@href='portfolio.do']")
 	private WebElement iconPortfolio;
 
 	@FindBy(xpath = "//tr[td[text()='Portfolio Report']]//a")

@@ -50,7 +50,7 @@ public class ManageJobOrderPL {
 	@FindAll(@FindBy(xpath = "//table[@id='tblGrid']//td[15]/a"))
 	private List<WebElement> linkCGIconTM;
 
-	@FindAll(@FindBy(xpath = "//*[@id='tblGrid']/tbody/tr/td[10]"))
+	@FindAll(@FindBy(xpath = "//*[@id='tblGrid']/tbody/tr/td[10]/a/span"))
 	private List<WebElement> linkCGIconDA;
 	
 	public WebElement getFirstlinkCGIconDA() {
@@ -70,7 +70,7 @@ public class ManageJobOrderPL {
 	@FindAll(@FindBy(xpath = "//*[@id='tblGrid']/tbody/tr[1]/td[1]"))
 	private List<WebElement> linkJobId;
 	
-	@FindBy(xpath = "//*[@id='incompasc']/span")
+	@FindBy(xpath="//span[@id='incompasc']/span[@class='ascorder']")
 	private WebElement expandCandidatesGrid;
 
 	@FindAll(@FindBy(xpath = "//span[@id='divInCompCGGrid']//tbody//a[3]"))

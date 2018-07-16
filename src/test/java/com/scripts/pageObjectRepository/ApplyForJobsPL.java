@@ -55,7 +55,7 @@ public class ApplyForJobsPL {
 		}
 	}
 
-	@FindBy(xpath = "//button[@onclick='checkCL_dynamicPortfolio();']")
+	@FindBy(xpath = "//button[@onclick='checkCL_dynamicPortfolio();']/strong")
 	private WebElement btnSaveCoverLetter;
 
 	@FindAll(@FindBy(xpath = "//table[@id='tblGridJoF']//td[1]/a"))
@@ -81,6 +81,37 @@ public class ApplyForJobsPL {
 	/**
 	 * @return the columnJobTitle
 	 */
+	@FindBy(xpath="(//button[@class='btn btn-primary'])[8]")
+	private WebElement btnContinueMandatory;
+	
+	public WebElement getButtonContinueMandatory() {
+		if(commonLib.isDisplayed(btnContinueMandatory)) {
+			return btnContinueMandatory;
+		} else {
+			return null;
+		}
+	}
+	@FindBy(xpath="//input[@id='Q5073validQuestion']/..//input[@name='Q1opt']")
+	private WebElement btnradio1;
+	
+	public WebElement getBtnradio1() {
+		if(commonLib.isDisplayed(btnradio1)) {
+			return btnradio1;
+		} else {
+			return null;
+		}
+	}
+	@FindBy(xpath="//input[@id='Q5075validQuestion']/..//input[@name='Q2opt']")
+	private WebElement btnradio2;
+	
+	public WebElement getBtnradio2() {
+		if(commonLib.isDisplayed(btnradio2)) {
+			return btnradio2;
+		} else {
+			return null;
+		}
+	}
+	
 	public List<WebElement> getColumnJobTitle() {
 		if (commonLib.isDisplayed(columnJobTitle)) {
 			return columnJobTitle;

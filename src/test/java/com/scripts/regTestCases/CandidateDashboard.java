@@ -33,7 +33,7 @@ public class CandidateDashboard extends Driver {
 	@Test
 	public void verifyPersonalPlanningRedirections() throws Exception {
 		candidateDashboardLib.verifyPersonalPlanningSection();
-		candidateDashboardLib.verifyCommunicationSection();
+		//candidateDashboardLib.verifyCommunicationSection();
 		candidateDashboardLib.verifyJobsOfInterestSection();
 		candidateDashboardLib.verifyJobApplicationSection();
 	}
