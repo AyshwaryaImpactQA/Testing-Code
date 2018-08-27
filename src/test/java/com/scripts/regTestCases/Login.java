@@ -28,7 +28,7 @@ public class Login extends Driver {
 	//@Test(priority = 1)
 	@Test
 	public void loginWithoutMandatoryFields() throws Exception {
-		loginLib.loginWithoutMandatoryFields();
+		/*loginLib.loginWithoutMandatoryFields();
 		username = excelData.getExcelData("Login", 1, 2);
 		password = excelData.getExcelData("Login", 1, 4);
 		userType = excelData.getExcelData("Login", 1, 5);
@@ -37,7 +37,8 @@ public class Login extends Driver {
 		username = excelData.getExcelData("Login", 1, 1);
 		password = excelData.getExcelData("Login", 1, 3);
 		userType = excelData.getExcelData("Login", 1, 5);
-		loginLib.loginWithInvalidPassword(username, password, userType);
+		loginLib.loginWithInvalidPassword(username, password, userType);*/
+		
 		username = excelData.getExcelData("Login", 1, 1);
 		password = excelData.getExcelData("Login", 1, 4);
 		userType = excelData.getExcelData("Login", 1, 5);

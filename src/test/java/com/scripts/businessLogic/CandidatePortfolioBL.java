@@ -2,6 +2,7 @@ package com.scripts.businessLogic;
 
 import java.util.List;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
@@ -93,9 +94,10 @@ public class CandidatePortfolioBL extends Driver {
 					leftYear, "Left Year Drpdown");
 			commonLib.typeText(portfolioPage.getTxtBoxOtherField(),
 					"Accounting", "Other Field TxtBox");
-			Thread.sleep(2000);
-			commonLib.click(portfolioPage.getFirstOptionFieldOfStudy(),
-					"First Option Field of Study");
+			Thread.sleep(4000);
+			commonLib.typeKeys(portfolioPage.getFirstOptionFieldOfStudy(), Keys.ENTER);
+//		//	commonLib.click(portfolioPage.getFirstOptionFieldOfStudy(),
+//					"First Option Field of Study");
 			if (commonLib.isDisplayed(portfolioPage.getBoxCumulativeGPA())) {
 				commonLib.typeText(portfolioPage.getBoxCumulativeGPA(),
 						cumulativeGPA, "Cumulative GPA TxtBox");

@@ -1,812 +1,896 @@
-17:26:31,053  INFO NC:99 - Chrome Browser launched successfully.
-17:26:43,372 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-17:26:43,633 DEBUG NC:135 - 
-************************************************************
-
-17:26:43,646 DEBUG NC:137 - Verifying Login: Verifying Login without entering Mandatory Fields
-17:27:08,919 DEBUG NC:483 - Login Button has been clicked
-17:27:18,984 DEBUG NC:693 - Error Message is displayed
-17:27:19,341 DEBUG NC:145 - Verifying Login: User is not able to Login without mandatory fields
-17:27:19,359 DEBUG NC:135 - 
-************************************************************
-
-17:27:19,361 DEBUG NC:137 - Verifying Login with Invalid Email: Login with Invalid Email
-17:27:44,778 DEBUG NC:874 - uyeiuyi is entered in UserName TxtBx
-17:27:44,898 DEBUG NC:874 - password123# is entered in Password TxtBx
-17:27:50,163 DEBUG NC:483 - Login Button has been clicked
-17:27:50,597 DEBUG NC:145 - Verifying Login with Invalid Email: User is not able to Login with Invalid Email
-17:27:50,614 DEBUG NC:135 - 
-************************************************************
-
-17:27:50,617 DEBUG NC:137 - Verifying Login with Invalid Password: Login with Invalid Password
-17:28:15,870 DEBUG NC:874 - 6719_praachi.abrol@mailinator.com is entered in UserName TxtBx
-17:28:15,988 DEBUG NC:874 - oueiuw is entered in Password TxtBx
-17:28:20,949 DEBUG NC:483 - Login Button has been clicked
-17:28:21,364 DEBUG NC:145 - Verifying Login with Invalid Password: User is not able to Login with Invalid Password
-17:28:23,707 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-17:28:23,708 DEBUG NC:135 - 
-************************************************************
-
-17:28:23,710 DEBUG NC:137 - Login with TM: Login with TM
-17:28:38,942 DEBUG NC:874 - 6719_praachi.abrol@mailinator.com is entered in UserName TxtBx
-17:28:39,062 DEBUG NC:874 - password123# is entered in Password TxtBx
-17:28:47,844 DEBUG NC:483 - Login Button has been clicked
-17:28:58,260 DEBUG NC:145 - Login with TM: User logged In successfully
-17:28:58,261 DEBUG NC:135 - 
-************************************************************
-
-17:28:58,263 DEBUG NC:137 - Logout: Logging out
-17:29:18,491 DEBUG NC:483 - User Name Dropdown has been clicked
-17:29:20,204 DEBUG NC:483 - Sign Out Option has been clicked
-17:29:20,280 DEBUG NC:113 - Sign Out Link is visible
-17:29:21,264 DEBUG NC:483 - Sign Out Link has been clicked
-17:29:21,336 DEBUG NC:113 - User Name Text box is visible
-17:29:21,695 DEBUG NC:145 - Logout: User Logged out successfully
-17:29:23,925 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-17:29:23,925 DEBUG NC:135 - 
-************************************************************
-
-17:29:23,928 DEBUG NC:137 - Login with DA: Login with DA
-17:29:34,161 DEBUG NC:874 - 6842_robert.thomson@mailinator.com is entered in UserName TxtBx
-17:29:34,275 DEBUG NC:874 - password123# is entered in Password TxtBx
-17:29:41,066 DEBUG NC:483 - Login Button has been clicked
-17:29:51,484 DEBUG NC:145 - Login with DA: User logged In successfully
-17:29:51,576 DEBUG NC:483 - Users Menu has been clicked
-17:29:57,911 DEBUG NC:483 - Administrator Analyst Menu has been clicked
-17:30:07,914 DEBUG NC:135 - 
-************************************************************
-
-17:30:07,917 DEBUG NC:137 - Admin_Analyst creation: Verifying Mandatory Fields
-17:30:15,106 DEBUG NC:483 - Add User Btn has been clicked
-17:30:25,263 DEBUG NC:483 - Save button has been clicked
-17:30:35,649 DEBUG NC:145 - Admin_Analyst creation: Mandatory fields verified successfully while adding User
-17:30:35,681 DEBUG NC:135 - 
-************************************************************
-
-17:30:35,684 DEBUG NC:137 - Admin_Analyst creation: Creating Admin_Analyst
-17:30:35,807 DEBUG NC:1218 - Entity Type has selected District from dropdown
-17:30:35,836 ERROR NC:707 - District TxtBox is not displayed
-17:30:37,984 DEBUG NC:874 - fname_aut2892 is entered in First Name TxtBx
-17:30:38,111 DEBUG NC:874 - lname_aut2892 is entered in Last Name TxtBx
-17:30:38,273 DEBUG NC:874 - fname_aut2892@yopmail.com is entered in User Name TxtBx
-17:30:38,403 DEBUG NC:1218 - User Role has selected District Admin from dropdown
-17:30:45,877 DEBUG NC:483 - Save button has been clicked
-17:30:56,282 DEBUG NC:145 - Admin_Analyst creation: User created successfully
-17:30:56,356 DEBUG NC:483 - Close Success Msg Btn has been clicked
-17:31:06,362 DEBUG NC:135 - 
-************************************************************
-
-17:31:06,365 DEBUG NC:137 - Admin_Analyst account verification: Setting password and account verification
-17:31:22,474 DEBUG NC:874 - fname_aut2892@yopmail.com is entered in Enter Mail ID in Yopmail
-17:31:35,687 DEBUG NC:483 - Check Inbox Btn has been clicked
-17:31:45,790 DEBUG NC:483 - Refresh Btn has been clicked
-17:31:45,983 DEBUG NC:483 - Add User Mail has been clicked
-17:31:46,090 DEBUG NC:638 - https://qanc.teachermatch.org:443/resetpassword.do?idp=/AaGZO9ausSqhUO3i6kuLztIQwL3OEPnACvjlU4HZrk= is fetched from Verification Link
-17:32:09,654 DEBUG NC:693 - Password TxtBox is displayed
-17:32:09,747 DEBUG NC:874 - password123# is entered in Password TxtBox
-17:32:09,859 DEBUG NC:874 - password123# is entered in Re-enter Password TxtBox
-17:32:14,073 DEBUG NC:483 - Btn Login has been clicked
-17:32:16,969 DEBUG NC:483 - Btn Ok Reset Pwd has been clicked
-17:32:27,033 DEBUG NC:693 - Users Menu is displayed
-17:32:27,417 DEBUG NC:145 - Admin_Analyst account verification: Password set and user logged in successfully after account verification
-17:32:27,417 DEBUG NC:135 - 
-************************************************************
-
-17:32:27,419 DEBUG NC:137 - Logout: Logging out
-17:32:47,656 DEBUG NC:483 - User Name Dropdown has been clicked
-17:32:51,352 DEBUG NC:483 - Sign Out Option has been clicked
-17:32:51,447 DEBUG NC:113 - Sign Out Link is visible
-17:32:52,629 DEBUG NC:483 - Sign Out Link has been clicked
-17:32:52,705 DEBUG NC:113 - User Name Text box is visible
-17:32:53,060 DEBUG NC:145 - Logout: User Logged out successfully
-17:32:55,350 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-17:32:55,350 DEBUG NC:135 - 
-************************************************************
-
-17:32:55,353 DEBUG NC:137 - Login with DA: Login with DA
-17:33:05,614 DEBUG NC:874 - 6842_robert.thomson@mailinator.com is entered in UserName TxtBx
-17:33:05,727 DEBUG NC:874 - password123# is entered in Password TxtBx
-17:33:11,360 DEBUG NC:483 - Login Button has been clicked
-17:33:21,787 DEBUG NC:145 - Login with DA: User logged In successfully
-17:33:21,874 DEBUG NC:483 - Users Menu has been clicked
-17:33:23,453 DEBUG NC:483 - Administrator Analyst Menu has been clicked
-17:33:33,455 DEBUG NC:135 - 
-************************************************************
-
-17:33:33,458 DEBUG NC:137 - Edit User:  Editing User Profile
-17:33:33,712 DEBUG NC:874 - fname_aut2892@yopmail.com is entered in Email TxtBox
-17:33:43,820 DEBUG NC:483 - Search Btn has been clicked
-17:34:03,939 DEBUG NC:483 - Edit User Btn has been clicked
-17:34:07,820 DEBUG NC:483 - Ok Btn has been clicked
-17:34:20,984 DEBUG NC:874 - new name1 is entered in Last Name TxtBox
-17:34:26,379 DEBUG NC:483 - Save User Btn has been clicked
-17:34:36,484 DEBUG NC:483 - Close Btn has been clicked
-17:34:46,664 DEBUG NC:874 - fname_aut2892@yopmail.com is entered in Email TxtBox
-17:34:46,750 DEBUG NC:483 - Search Btn has been clicked
-17:34:57,178 DEBUG NC:145 - Edit User: User edited successfully
-17:34:57,180 DEBUG NC:135 - 
-************************************************************
-
-17:34:57,182 DEBUG NC:137 - Admin_Analyst Activation_Deactivation:  Activating_Deactivating User
-17:34:57,289 DEBUG NC:874 - fname_aut2892@yopmail.com is entered in Email TxtBox
-17:34:57,347 DEBUG NC:483 - Search Btn has been clicked
-17:35:07,425 DEBUG NC:512 - [[ChromeDriver: chrome on XP (2484125d764e8e8dbb2072eb42316e3f)] -> xpath: //tr[1]//a[contains(@title, 'User/Location')]] is available and has value for title is Active User/Location. Click here to deactivate
-17:35:07,509 DEBUG NC:483 - Deactivate Btn has been clicked
-17:35:17,850 DEBUG NC:145 - Admin_Analyst Activation_Deactivation: District admin/analyst user profile is deactivated
-17:35:17,850 DEBUG NC:135 - 
-************************************************************
-
-17:35:17,853 DEBUG NC:137 - Logout: Logging out
-17:35:38,086 DEBUG NC:483 - User Name Dropdown has been clicked
-17:35:41,932 DEBUG NC:483 - Sign Out Option has been clicked
-17:35:42,009 DEBUG NC:113 - Sign Out Link is visible
-17:35:43,089 DEBUG NC:483 - Sign Out Link has been clicked
-17:35:43,164 DEBUG NC:113 - User Name Text box is visible
-17:35:43,535 DEBUG NC:145 - Logout: User Logged out successfully
-17:35:45,529 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-17:35:45,529 DEBUG NC:135 - 
-************************************************************
-
-17:35:45,534 DEBUG NC:137 - Login with TM: Login with TM
-17:35:55,782 DEBUG NC:874 - 6719_praachi.abrol@mailinator.com is entered in UserName TxtBx
-17:35:55,898 DEBUG NC:874 - password123# is entered in Password TxtBx
-17:36:02,793 DEBUG NC:483 - Login Button has been clicked
-17:36:13,219 DEBUG NC:145 - Login with TM: User logged In successfully
-17:36:13,280 DEBUG NC:135 - 
-************************************************************
-
-17:36:13,283 DEBUG NC:137 - District Job Order: Create District Job Order with End Date
-17:36:13,408 DEBUG NC:483 - Job Order Menu has been clicked
-17:36:17,983 DEBUG NC:483 - District Job Order has been clicked
-17:36:36,163 DEBUG NC:483 - Add Job Order Link has been clicked
-17:36:36,214 DEBUG NC:693 - District TxtBox is displayed
-17:36:48,702 DEBUG NC:874 - IMPACT QA is entered in District Name
-17:36:52,497 DEBUG NC:874 - AutoGenTitle42352 is entered in Job Title
-17:36:52,614 DEBUG NC:483 - Posting Start Date has been clicked
-17:36:54,730 DEBUG NC:483 - Today's Date has been clicked
-17:36:54,824 DEBUG NC:1218 - Job Type has selected Full Time from dropdown
-17:36:55,080 DEBUG NC:874 - AutoRefNo39278 is entered in Ref No TxtBox
-17:36:55,206 DEBUG NC:1218 - Job Category has selected Bus Driver from dropdown
-17:37:05,259 ERROR NC:707 - EPI Ok Button is not displayed
-17:37:15,376 DEBUG NC:483 - Posting End date has been clicked
-17:37:17,491 DEBUG NC:483 - Next Year Button has been clicked
-17:37:19,599 DEBUG NC:483 - Next Year Date has been clicked
-17:37:21,702 DEBUG NC:1218 - Job Type has selected Full Time from dropdown
-17:37:21,783 DEBUG NC:1218 - Job Category has selected Bus Driver from dropdown
-17:37:25,288 DEBUG NC:874 - AutoGenDescritpion95234 is entered in Job Description
-17:37:25,397 DEBUG NC:483 - Multiple Hires Chk Box has been clicked
-17:37:25,444 DEBUG NC:693 - Only District Admin Radio Btn is displayed
-17:37:25,542 DEBUG NC:483 - Only District Admin Radio Btn has been clicked
-17:37:28,654 DEBUG NC:483 - Change Message Modal Ok btn has been clicked
-17:37:28,773 DEBUG NC:874 - 1 is entered in Expected Hires TxtBox
-17:37:30,896 DEBUG NC:483 - Enter Requisition Number Radio btn has been clicked
-17:37:31,063 DEBUG NC:874 - 575815 is entered in Enter Requisition Number TxtBox
-17:37:32,095 ERROR NC:707 - District Admin Chk Box is not displayed
-17:37:33,140 ERROR NC:707 - All Admin of Attach School Chk Box is not displayed
-17:37:33,248 DEBUG NC:483 - Job Specific Inventory Radio Btn has been clicked
-17:37:43,461 DEBUG NC:483 - Associated Schools ChkBox has been clicked
-17:37:43,934 DEBUG NC:874 - https://qanc.teachermatch.org is entered in Redirect URL TxtBox
-17:37:44,028 DEBUG NC:483 - Save Job Order has been clicked
-17:37:59,117 DEBUG NC:693 - Job order Url is displayed
-17:37:59,478 DEBUG NC:145 - District Job Order: District Job Order Created Succesfully
-17:37:59,600 DEBUG NC:483 - Job order Url has been clicked
-17:39:01,072 DEBUG NC:145 - District Job Order: District Job Order Created Succesfully
-17:39:05,150 DEBUG NC:483 - Confirm Job order has been clicked
-17:39:25,160 DEBUG NC:135 - 
-************************************************************
-
-17:39:25,164 DEBUG NC:137 - District Job Order: Searching for newly created job
-17:39:25,303 DEBUG NC:874 - 283456 is entered in Job Order Id TxtBox
-17:39:25,506 DEBUG NC:483 - Search Job order has been clicked
-17:39:55,655 DEBUG NC:638 - AutoGenTitle42352 is fetched from Title Label
-17:39:56,025 DEBUG NC:145 - District Job Order: Newly created job found successfully
-17:39:56,025 DEBUG NC:135 - 
-************************************************************
-
-17:39:56,027 DEBUG NC:137 - Logout: Logging out
-17:40:16,284 DEBUG NC:483 - User Name Dropdown has been clicked
-17:40:20,118 DEBUG NC:483 - Sign Out Option has been clicked
-17:40:20,212 DEBUG NC:113 - Sign Out Link is visible
-17:40:21,294 DEBUG NC:483 - Sign Out Link has been clicked
-17:40:21,384 DEBUG NC:113 - User Name Text box is visible
-17:40:21,762 DEBUG NC:145 - Logout: User Logged out successfully
-17:40:24,414 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-17:40:24,414 DEBUG NC:135 - 
-************************************************************
-
-17:40:24,418 DEBUG NC:137 - Login with DA: Login with DA
-17:40:34,643 DEBUG NC:874 - 6842_robert.thomson@mailinator.com is entered in UserName TxtBx
-17:40:34,755 DEBUG NC:874 - password123# is entered in Password TxtBx
-17:40:43,125 DEBUG NC:483 - Login Button has been clicked
-17:40:53,529 DEBUG NC:145 - Login with DA: User logged In successfully
-17:40:53,632 DEBUG NC:483 - Job Order Menu has been clicked
-17:40:58,643 DEBUG NC:483 - District Job Order has been clicked
-17:41:08,692 ERROR NC:707 - District TxtBox is not displayed
-17:41:08,793 DEBUG NC:483 - Download Excel has been clicked
-17:41:24,125 DEBUG NC:145 - Download Excel: Excel has been downloaded successfully
-17:41:24,181 DEBUG NC:135 - 
-************************************************************
-
-17:41:24,183 DEBUG NC:137 - District Job Order: Create District Job Order with End Date
-17:41:24,288 DEBUG NC:483 - Job Order Menu has been clicked
-17:41:29,377 DEBUG NC:483 - District Job Order has been clicked
-17:41:41,613 DEBUG NC:483 - Add Job Order Link has been clicked
-17:41:41,641 ERROR NC:707 - District TxtBox is not displayed
-17:41:41,904 DEBUG NC:874 - AutoGenTitle84077 is entered in Job Title
-17:41:42,005 DEBUG NC:483 - Posting Start Date has been clicked
-17:41:44,119 DEBUG NC:483 - Today's Date has been clicked
-17:41:44,209 DEBUG NC:1218 - Job Type has selected Full Time from dropdown
-17:41:44,460 DEBUG NC:874 - AutoRefNo71253 is entered in Ref No TxtBox
-17:41:44,579 DEBUG NC:1218 - Job Category has selected Bus Driver from dropdown
-17:41:54,629 ERROR NC:707 - EPI Ok Button is not displayed
-17:42:04,739 DEBUG NC:483 - Posting End date has been clicked
-17:42:06,856 DEBUG NC:483 - Next Year Button has been clicked
-17:42:08,973 DEBUG NC:483 - Next Year Date has been clicked
-17:42:11,096 DEBUG NC:1218 - Job Type has selected Full Time from dropdown
-17:42:11,182 DEBUG NC:1218 - Job Category has selected Bus Driver from dropdown
-17:42:14,698 DEBUG NC:874 - AutoGenDescritpion51573 is entered in Job Description
-17:42:14,813 DEBUG NC:483 - Multiple Hires Chk Box has been clicked
-17:42:14,862 DEBUG NC:693 - Only District Admin Radio Btn is displayed
-17:42:14,952 DEBUG NC:483 - Only District Admin Radio Btn has been clicked
-17:42:18,066 DEBUG NC:483 - Change Message Modal Ok btn has been clicked
-17:42:18,184 DEBUG NC:874 - 1 is entered in Expected Hires TxtBox
-17:42:20,285 DEBUG NC:483 - Enter Requisition Number Radio btn has been clicked
-17:42:20,470 DEBUG NC:874 - 104740 is entered in Enter Requisition Number TxtBox
-17:42:21,498 ERROR NC:707 - District Admin Chk Box is not displayed
-17:42:22,538 ERROR NC:707 - All Admin of Attach School Chk Box is not displayed
-17:42:22,636 DEBUG NC:483 - Job Specific Inventory Radio Btn has been clicked
-17:42:32,846 DEBUG NC:483 - Associated Schools ChkBox has been clicked
-17:42:33,298 DEBUG NC:874 - https://qanc.teachermatch.org is entered in Redirect URL TxtBox
-17:42:33,392 DEBUG NC:483 - Save Job Order has been clicked
-17:42:48,484 DEBUG NC:693 - Job order Url is displayed
-17:42:48,814 DEBUG NC:145 - District Job Order: District Job Order Created Succesfully
-17:42:48,886 DEBUG NC:483 - Job order Url has been clicked
-17:43:49,277 DEBUG NC:145 - District Job Order: District Job Order Created Succesfully
-17:43:54,232 DEBUG NC:483 - Confirm Job order has been clicked
-17:44:14,238 DEBUG NC:135 - 
-************************************************************
-
-17:44:14,242 DEBUG NC:137 - District Job Order: Searching for newly created job
-17:44:14,371 DEBUG NC:874 - 283457 is entered in Job Order Id TxtBox
-17:44:14,588 DEBUG NC:483 - Search Job order has been clicked
-17:44:44,764 DEBUG NC:638 - AutoGenTitle84077 is fetched from Title Label
-17:44:45,129 DEBUG NC:145 - District Job Order: Newly created job found successfully
-17:44:45,129 DEBUG NC:135 - 
-************************************************************
-
-17:44:45,132 DEBUG NC:137 - Logout: Logging out
-17:45:05,343 DEBUG NC:483 - User Name Dropdown has been clicked
-17:45:09,696 DEBUG NC:483 - Sign Out Option has been clicked
-17:45:09,772 DEBUG NC:113 - Sign Out Link is visible
-17:45:10,966 DEBUG NC:483 - Sign Out Link has been clicked
-17:45:11,051 DEBUG NC:113 - User Name Text box is visible
-17:45:11,429 DEBUG NC:145 - Logout: User Logged out successfully
-17:45:13,641 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-17:45:13,641 DEBUG NC:135 - 
-************************************************************
-
-17:45:13,646 DEBUG NC:137 - Login with TM: Login with TM
-17:45:23,877 DEBUG NC:874 - test4127@yopmail.com is entered in UserName TxtBx
-17:45:23,989 DEBUG NC:874 - password123# is entered in Password TxtBx
-17:45:35,718 DEBUG NC:483 - Login Button has been clicked
-17:45:46,140 DEBUG NC:145 - Login with TM: User logged In successfully
-17:45:46,141 DEBUG NC:135 - 
-************************************************************
-
-17:45:46,143 DEBUG NC:137 - Setting Job Preferences for Candidate: Setting Job Preferences for Candidate
-17:45:52,622 DEBUG NC:483 - Job Preference Menu has been clicked
-17:46:02,681 DEBUG NC:1288 - Preference chkBox is already selected
-17:46:02,691 DEBUG NC:1288 - Preference chkBox is already selected
-17:46:02,702 DEBUG NC:1288 - Preference chkBox is already selected
-17:46:02,713 DEBUG NC:1288 - Preference chkBox is already selected
-17:46:02,724 DEBUG NC:1288 - Preference chkBox is already selected
-17:46:02,735 DEBUG NC:1288 - Preference chkBox is already selected
-17:46:02,746 DEBUG NC:1288 - Preference chkBox is already selected
-17:46:02,758 DEBUG NC:1288 - Preference chkBox is already selected
-17:46:02,793 DEBUG NC:1288 - Regions chkBox is already selected
-17:46:02,804 DEBUG NC:1288 - Regions chkBox is already selected
-17:46:02,815 DEBUG NC:1288 - Regions chkBox is already selected
-17:46:02,827 DEBUG NC:1288 - Regions chkBox is already selected
-17:46:02,837 DEBUG NC:1288 - Regions chkBox is already selected
-17:46:02,847 DEBUG NC:1288 - Regions chkBox is already selected
-17:46:02,934 DEBUG NC:483 - Profile sharing has been clicked
-17:46:03,008 DEBUG NC:113 - Save Preferences is visible
-17:46:12,285 DEBUG NC:483 - Save Preferences has been clicked
-17:46:12,323 ERROR NC:707 - Set Preference PopUp is not displayed
-17:46:17,413 DEBUG NC:638 - Completed is fetched from Status job preference
-17:46:17,751 DEBUG NC:145 - Setting Job Preferences for Candidate: Job Preferences successfully set for the Candidate
-17:46:17,751 DEBUG NC:135 - 
-************************************************************
-
-17:46:17,754 DEBUG NC:137 - Logout: Logging out
-17:46:37,974 DEBUG NC:483 - User Name Dropdown has been clicked
-17:46:42,140 DEBUG NC:483 - Sign Out Option has been clicked
-17:46:42,203 DEBUG NC:113 - Sign Out Link is visible
-17:46:43,354 DEBUG NC:483 - Sign Out Link has been clicked
-17:46:43,440 DEBUG NC:113 - User Name Text box is visible
-17:46:43,803 DEBUG NC:145 - Logout: User Logged out successfully
-17:46:46,785 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-17:46:46,785 DEBUG NC:135 - 
-************************************************************
-
-17:46:46,790 DEBUG NC:137 - Login with TM: Login with TM
-17:46:57,001 DEBUG NC:874 - test4127@yopmail.com is entered in UserName TxtBx
-17:46:57,111 DEBUG NC:874 - password123# is entered in Password TxtBx
-17:47:06,100 DEBUG NC:483 - Login Button has been clicked
-17:47:16,497 DEBUG NC:145 - Login with TM: User logged In successfully
-17:47:16,498 DEBUG NC:135 - 
-************************************************************
-
-17:47:16,500 DEBUG NC:137 - Job Preferences Redirection: Verifying Job Preferences Redirection
-17:47:20,560 DEBUG NC:483 - Job Preferences Icon has been clicked
-17:47:30,958 DEBUG NC:145 - Job Preferences Redirection: Job Preferences Redirection passed
-17:47:35,821 DEBUG NC:483 - Dashboard Menu has been clicked
-17:47:50,823 DEBUG NC:135 - 
-************************************************************
-
-17:47:50,827 DEBUG NC:137 - Power Profile Redirection: Verifying Power Profile Redirection
-17:47:56,861 DEBUG NC:483 - Power Profile Icon has been clicked
-17:48:17,252 ERROR NC:158 - Power Profile Redirection: Power Profile Redirection failed
-17:48:17,322 DEBUG NC:135 - 
-************************************************************
-
-17:48:17,325 DEBUG NC:137 - Portfolio Redirection: Verifying Portfolio Redirection
-17:48:24,416 DEBUG NC:483 - Portfolio Icon has been clicked
-17:48:34,806 DEBUG NC:145 - Portfolio Redirection: Portfolio Redirection passed
-17:48:42,464 DEBUG NC:483 - Dashboard Menu has been clicked
-17:48:57,467 DEBUG NC:135 - 
-************************************************************
-
-17:48:57,471 DEBUG NC:137 - Verify Apply Now Redirection: Verifying Apply Now Redirection
-17:49:05,812 DEBUG NC:483 - Apply Now Icon has been clicked
-17:49:19,232 DEBUG NC:145 - Verify Apply Now Redirection: Apply Now Redirection passed
-17:49:26,280 DEBUG NC:483 - Dashboard Menu has been clicked
-17:49:41,282 DEBUG NC:135 - 
-************************************************************
-
-17:49:41,286 DEBUG NC:137 - Hide Job: Hiding job
-17:49:41,498 DEBUG NC:483 - Hide Icon has been clicked
-17:49:44,133 DEBUG NC:483 - Ok Btn has been clicked
-17:49:56,585 DEBUG NC:145 - Hide Job: Job is hidden
-17:49:56,585 DEBUG NC:135 - 
-************************************************************
-
-17:49:56,587 DEBUG NC:137 - Unhide Job: Unhiding the hidden job
-17:50:03,750 DEBUG NC:483 - See All Link has been clicked
-17:50:23,916 DEBUG NC:1218 - Status Drpdown has selected Hidden from dropdown
-17:50:24,002 DEBUG NC:483 - Search Btn has been clicked
-17:50:46,955 DEBUG NC:483 - Unhide Icon has been clicked
-17:50:57,114 DEBUG NC:483 - Ok Btn has been clicked
-17:51:14,312 DEBUG NC:483 - Dashboard Menu has been clicked
-17:51:29,699 DEBUG NC:145 - Unhide Job: Job is available
-17:51:29,699 DEBUG NC:135 - 
-************************************************************
-
-17:51:29,703 DEBUG NC:137 - Share Job: Sharing the job with friend
-17:51:33,864 DEBUG NC:483 - Share Icon has been clicked
-17:51:43,993 DEBUG NC:874 - Name3530 is entered in First Friend's Name TxtBox
-17:51:44,131 DEBUG NC:874 - Name3530@mailinator.com is entered in First Friend's Email TxtBox
-17:51:51,882 DEBUG NC:483 - Submit Btn has been clicked
-17:52:02,287 DEBUG NC:145 - Share Job: Job is shared with friend
-17:52:09,943 DEBUG NC:483 - Ok Btn has been clicked
-17:52:19,946 DEBUG NC:135 - 
-************************************************************
-
-17:52:19,952 DEBUG NC:137 - Verify Not Applied Link Redirection: Verifying Not Applied Link Redirection
-17:52:27,847 DEBUG NC:483 - Not Applied Jobs Link has been clicked
-17:52:48,364 DEBUG NC:145 - Verify Not Applied Link Redirection: Not Applied Link redirection passed
-17:52:55,959 DEBUG NC:483 - Dashboard Menu has been clicked
-17:53:10,962 DEBUG NC:135 - 
-************************************************************
-
-17:53:10,967 DEBUG NC:137 - Verify Cover Letter Redirection: Verifying cover letter icon redirection
-17:53:26,041 DEBUG NC:135 - 
-************************************************************
-
-17:53:26,051 DEBUG NC:137 - Logout: Logging out
-17:53:46,272 DEBUG NC:483 - User Name Dropdown has been clicked
-17:53:50,215 DEBUG NC:483 - Sign Out Option has been clicked
-17:53:50,307 DEBUG NC:113 - Sign Out Link is visible
-17:53:51,680 DEBUG NC:483 - Sign Out Link has been clicked
-17:53:51,752 DEBUG NC:113 - User Name Text box is visible
-17:53:52,119 DEBUG NC:145 - Logout: User Logged out successfully
-17:53:54,343 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-17:53:54,343 DEBUG NC:135 - 
-************************************************************
-
-17:53:54,349 DEBUG NC:137 - Login with TM: Login with TM
-17:54:04,529 DEBUG NC:874 - test4127@yopmail.com is entered in UserName TxtBx
-17:54:04,643 DEBUG NC:874 - password123# is entered in Password TxtBx
-17:54:13,676 DEBUG NC:483 - Login Button has been clicked
-17:54:24,106 DEBUG NC:145 - Login with TM: User logged In successfully
-17:54:24,160 DEBUG NC:135 - 
-************************************************************
-
-17:54:24,163 DEBUG NC:137 - Candidate Portfolio: Filling Personal Details
-17:54:31,355 DEBUG NC:483 - Portfolio Menu has been clicked
-17:54:46,442 DEBUG NC:483 - Personal Info Btn has been clicked
-17:54:56,588 DEBUG NC:483 - Male Radio Button has been clicked
-17:54:56,703 DEBUG NC:1218 - Salutation Drpdown has selected Mr. from dropdown
-17:54:56,791 DEBUG NC:483 - Race ChkBox has been clicked
-17:54:56,857 DEBUG NC:483 - Race ChkBox has been clicked
-17:54:56,912 DEBUG NC:483 - Race ChkBox has been clicked
-17:54:56,964 DEBUG NC:483 - Race ChkBox has been clicked
-17:54:57,016 DEBUG NC:483 - Race ChkBox has been clicked
-17:54:57,067 DEBUG NC:483 - Race ChkBox has been clicked
-17:54:57,127 DEBUG NC:483 - Race ChkBox has been clicked
-17:54:57,238 DEBUG NC:874 - 90210 is entered in Zip TxtBox
-17:55:11,345 DEBUG NC:874 - 3rd street is entered in Address TxtBox
-17:55:11,461 DEBUG NC:874 - 33555 is entered in Phone1 TxtBox
-17:55:11,572 DEBUG NC:874 - 33555 is entered in Phone2 TxtBox
-17:55:11,687 DEBUG NC:874 - 33555 is entered in Phone3 TxtBox
-17:55:15,482 DEBUG NC:483 - Save and Continue Btn has been clicked
-17:55:25,878 DEBUG NC:145 - Candidate Portfolio: Personal Info filled successfully
-17:55:25,891 DEBUG NC:135 - 
-************************************************************
-
-17:55:25,894 DEBUG NC:137 - Candidate Portfolio: Filling Academic Details
-17:55:29,696 DEBUG NC:483 - Academic Link has been clicked
-17:55:39,832 DEBUG NC:483 - Add a School link has been clicked
-17:56:06,453 DEBUG NC:874 - Bachelor of Applied Science (BASc) is entered in Degree TxtBox
-17:56:18,350 DEBUG NC:874 - A & W Healthcare Educators is entered in School TxtBox
-17:56:18,804 DEBUG NC:483 - Field Not Listed Link has been clicked
-17:56:18,937 DEBUG NC:1218 - Attend Year Drpdown has selected 2008 from dropdown
-17:56:19,057 DEBUG NC:1218 - Left Year Drpdown has selected 2012 from dropdown
-17:56:23,187 DEBUG NC:874 - Accounting is entered in Other Field TxtBox
-17:56:40,553 ERROR NC:489 - First Option Field of Study can not be clicked
-17:56:40,556 DEBUG NC:135 - 
-************************************************************
-
-17:56:40,559 DEBUG NC:137 - Logout: Logging out
-17:57:00,762 DEBUG NC:483 - User Name Dropdown has been clicked
-17:57:04,763 DEBUG NC:483 - Sign Out Option has been clicked
-17:57:04,835 DEBUG NC:113 - Sign Out Link is visible
-17:57:06,149 DEBUG NC:483 - Sign Out Link has been clicked
-17:57:06,241 DEBUG NC:113 - User Name Text box is visible
-17:57:06,603 DEBUG NC:145 - Logout: User Logged out successfully
-17:57:09,044 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-17:57:09,044 DEBUG NC:135 - 
-************************************************************
-
-17:57:09,049 DEBUG NC:137 - Login with TM: Login with TM
-17:57:19,250 DEBUG NC:874 - test4127@yopmail.com is entered in UserName TxtBx
-17:57:19,364 DEBUG NC:874 - password123# is entered in Password TxtBx
-17:57:29,257 DEBUG NC:483 - Login Button has been clicked
-17:57:39,671 DEBUG NC:145 - Login with TM: User logged In successfully
-17:57:39,677 DEBUG NC:135 - 
-************************************************************
-
-17:57:39,680 DEBUG NC:137 - Apply for Job: Applying job through Job Opps
-17:57:57,447 DEBUG NC:483 - Menu Job Opps has been clicked
-17:58:10,525 DEBUG NC:874 - IMPACT QA is entered in District TxtBox
-17:58:13,405 DEBUG NC:483 - Search Btn has been clicked
-17:58:37,595 DEBUG NC:483 - Apply Icon has been clicked
-17:58:51,502 DEBUG NC:483 - Apply Btn has been clicked
-17:59:01,565 DEBUG NC:693 - Cover Letter TxtBox is displayed
-17:59:01,908 DEBUG NC:145 - Apply for Job: Job application flow started
-17:59:01,911 DEBUG NC:135 - 
-************************************************************
-
-17:59:01,915 DEBUG NC:137 - Filling Cover Letter: Filling Cover Letter for job application
-17:59:02,002 DEBUG NC:483 - No Cover Letter Radio Btn has been clicked
-17:59:08,645 DEBUG NC:483 - Save Cover Letter Btn has been clicked
-17:59:20,715 ERROR NC:707 - Save DSPQ Btn is not displayed
-17:59:21,039 ERROR NC:158 - Filling Cover Letter: Cover letter not completed
-17:59:21,039 DEBUG NC:135 - 
-************************************************************
-
-17:59:21,043 DEBUG NC:137 - Filling DSPQ: Filling DSPQ for job application
-17:59:51,072 DEBUG NC:135 - 
-************************************************************
-
-17:59:51,077 DEBUG NC:137 - Logout: Logging out
-18:00:16,077 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-18:00:16,077 DEBUG NC:135 - 
-************************************************************
-
-18:00:16,157 DEBUG NC:137 - Login with TM: Login with TM
-18:00:31,401 DEBUG NC:874 - 6719_praachi.abrol@mailinator.com is entered in UserName TxtBx
-18:00:31,515 DEBUG NC:874 - password123# is entered in Password TxtBx
-18:00:37,441 DEBUG NC:483 - Login Button has been clicked
-18:00:47,865 DEBUG NC:145 - Login with TM: User logged In successfully
-18:00:47,955 DEBUG NC:135 - 
-************************************************************
-
-18:00:47,977 DEBUG NC:137 - Import Candidates: Importing Candidate for job
-18:00:48,059 DEBUG NC:483 - Import Menu has been clicked
-18:00:48,402 DEBUG NC:76 - Import tag: Import candidate
-18:00:52,348 DEBUG NC:483 - Candidates Sub Menu has been clicked
-18:01:11,879 DEBUG NC:874 - IMPACT QA is entered in District TxtBox
-18:01:11,984 DEBUG NC:874 - C:\Users\kapil.gupta\git\ig-nc-smoke-automation\src\test\resources\Import\ImportCandidates.xls is entered in File Upload
-18:01:12,086 DEBUG NC:483 - Import Btn has been clicked
-18:01:17,836 DEBUG NC:113 - Accept Btn is visible
-18:01:27,977 DEBUG NC:483 - Accept Btn has been clicked
-18:01:33,407 DEBUG NC:145 - Import Candidates: Candidate imported successfully for job
-18:01:34,902 DEBUG NC:483 - Close Btn has been clicked
-18:01:49,903 DEBUG NC:135 - 
-************************************************************
-
-18:01:49,908 DEBUG NC:137 - Search Import Candidate: Searching newly imported Candidate
-18:01:49,999 DEBUG NC:483 - Job Order Menu tab has been clicked
-18:01:56,025 DEBUG NC:483 - District Job Order sub menu option has been clicked
-18:02:06,166 DEBUG NC:874 - 283457 is entered in Job Order Title TxtBox
-18:02:06,374 DEBUG NC:483 - Search buton has been clicked
-18:02:16,549 DEBUG NC:483 - CG icon has been clicked
-18:02:40,734 DEBUG NC:483 - Expand Candidates Grid has been clicked
-18:02:51,189 DEBUG NC:145 - Search Import Candidate: Candidate found successfully
-18:02:51,245 DEBUG NC:135 - 
-************************************************************
-
-18:02:51,252 DEBUG NC:137 - Logout: Logging out
-18:03:11,494 DEBUG NC:483 - User Name Dropdown has been clicked
-18:03:15,305 DEBUG NC:483 - Sign Out Option has been clicked
-18:03:15,384 DEBUG NC:113 - Sign Out Link is visible
-18:03:16,674 DEBUG NC:483 - Sign Out Link has been clicked
-18:03:16,744 DEBUG NC:113 - User Name Text box is visible
-18:03:17,116 DEBUG NC:145 - Logout: User Logged out successfully
-18:03:19,269 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-18:03:19,269 DEBUG NC:135 - 
-************************************************************
-
-18:03:19,276 DEBUG NC:137 - Login with TM: Login with TM
-18:03:29,518 DEBUG NC:874 - 6719_praachi.abrol@mailinator.com is entered in UserName TxtBx
-18:03:29,628 DEBUG NC:874 - password123# is entered in Password TxtBx
-18:03:35,146 DEBUG NC:483 - Login Button has been clicked
-18:03:45,531 DEBUG NC:145 - Login with TM: User logged In successfully
-18:03:45,571 DEBUG NC:135 - 
-************************************************************
-
-18:03:45,574 DEBUG NC:137 - Import Users: Importing User
-18:03:45,655 DEBUG NC:483 - Import Menu has been clicked
-18:03:58,625 DEBUG NC:483 - User Sub Menu has been clicked
-18:04:15,649 DEBUG NC:874 - IMPACT QA is entered in District TxtBox
-18:04:15,747 DEBUG NC:113 - File Upload is visible
-18:04:15,827 DEBUG NC:874 - C:\Users\kapil.gupta\git\ig-nc-smoke-automation\src\test\resources\Import\ImportUsers.xls is entered in File Upload
-18:04:15,891 DEBUG NC:113 - Import Btn is visible
-18:04:15,973 DEBUG NC:483 - Import Btn has been clicked
-18:04:19,693 DEBUG NC:483 - Accept Btn has been clicked
-18:04:49,725 DEBUG NC:135 - 
-************************************************************
-
-18:04:49,731 DEBUG NC:137 - Logout: Logging out
-18:05:09,941 DEBUG NC:483 - User Name Dropdown has been clicked
-18:05:14,097 DEBUG NC:483 - Sign Out Option has been clicked
-18:05:14,174 DEBUG NC:113 - Sign Out Link is visible
-18:05:15,917 DEBUG NC:483 - Sign Out Link has been clicked
-18:05:15,986 DEBUG NC:113 - User Name Text box is visible
-18:05:16,339 DEBUG NC:145 - Logout: User Logged out successfully
-18:05:18,984 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-18:05:18,984 DEBUG NC:135 - 
-************************************************************
-
-18:05:18,989 DEBUG NC:137 - Login with TM: Login with TM
-18:05:29,191 DEBUG NC:874 - 6719_praachi.abrol@mailinator.com is entered in UserName TxtBx
-18:05:29,302 DEBUG NC:874 - password123# is entered in Password TxtBx
-18:05:35,142 DEBUG NC:483 - Login Button has been clicked
-18:05:45,538 DEBUG NC:145 - Login with TM: User logged In successfully
-18:05:45,558 DEBUG NC:135 - 
-************************************************************
-
-18:05:45,561 DEBUG NC:137 - Logout: Logging out
-18:06:05,786 DEBUG NC:483 - User Name Dropdown has been clicked
-18:06:07,546 DEBUG NC:483 - Sign Out Option has been clicked
-18:06:07,639 DEBUG NC:113 - Sign Out Link is visible
-18:06:10,483 DEBUG NC:483 - Sign Out Link has been clicked
-18:06:10,554 DEBUG NC:113 - User Name Text box is visible
-18:06:10,913 DEBUG NC:145 - Logout: User Logged out successfully
-18:06:13,262 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-18:06:13,262 DEBUG NC:135 - 
-************************************************************
-
-18:06:13,269 DEBUG NC:137 - Login with DA: Login with DA
-18:06:23,495 DEBUG NC:874 - 6842_robert.thomson@mailinator.com is entered in UserName TxtBx
-18:06:23,610 DEBUG NC:874 - password123# is entered in Password TxtBx
-18:06:30,368 DEBUG NC:483 - Login Button has been clicked
-18:06:40,787 DEBUG NC:145 - Login with DA: User logged In successfully
-18:06:40,804 DEBUG NC:135 - 
-************************************************************
-
-18:06:40,807 DEBUG NC:137 - Candidate Grid: Viewing Candidate Grid
-18:06:40,906 DEBUG NC:483 - Job Order Menu tab has been clicked
-18:06:46,209 DEBUG NC:483 - District Job Order sub menu option has been clicked
-18:06:46,399 DEBUG NC:874 - AutoGenTitle84077 is entered in Keyword TxtBox
-18:06:46,518 DEBUG NC:874 - 283457 is entered in Job Order Id TxtBox
-18:06:46,601 DEBUG NC:135 - 
-************************************************************
-
-18:06:46,613 DEBUG NC:137 - Logout: Logging out
-18:07:06,827 DEBUG NC:483 - User Name Dropdown has been clicked
-18:07:11,763 DEBUG NC:483 - Sign Out Option has been clicked
-18:07:11,837 DEBUG NC:113 - Sign Out Link is visible
-18:07:13,511 DEBUG NC:483 - Sign Out Link has been clicked
-18:07:13,579 DEBUG NC:113 - User Name Text box is visible
-18:07:13,935 DEBUG NC:145 - Logout: User Logged out successfully
-18:07:17,295 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-18:07:17,295 DEBUG NC:135 - 
-************************************************************
-
-18:07:17,301 DEBUG NC:137 - Login with DA: Login with DA
-18:07:27,513 DEBUG NC:874 - iqa.beaufort.da@yopmail.com is entered in UserName TxtBx
-18:07:27,625 DEBUG NC:874 - password123# is entered in Password TxtBx
-18:07:33,665 DEBUG NC:483 - Login Button has been clicked
-18:07:44,051 DEBUG NC:145 - Login with DA: User logged In successfully
-18:07:44,140 DEBUG NC:483 - Manage Menu has been clicked
-18:08:01,355 DEBUG NC:483 - District Sub Menu has been clicked
-18:08:11,357 DEBUG NC:135 - 
-************************************************************
-
-18:08:11,362 DEBUG NC:137 - Edit District: Editing distict with name 'Beaufort County Schools'
-18:08:22,475 DEBUG NC:483 - Edit Icon has been clicked
-18:08:32,869 DEBUG NC:145 - Edit District: Edit district page is loaded successfully
-18:08:32,978 DEBUG NC:483 - Accordion Account Information has been clicked
-18:08:43,054 DEBUG NC:1288 - CheckBox NC Integrated is already selected
-18:08:53,186 DEBUG NC:483 - Radio Btn HRIntegrated has been clicked
-18:09:01,126 DEBUG NC:483 - Btn Save District has been clicked
-18:09:11,226 DEBUG NC:483 - Btn Close has been clicked
-18:09:21,345 DEBUG NC:483 - Job Order Menu has been clicked
-18:09:26,704 DEBUG NC:483 - District Job Order has been clicked
-18:09:36,704 DEBUG NC:135 - 
-************************************************************
-
-18:09:36,711 DEBUG NC:137 - NC HR Integarted: Verifying that when 'HR Integrated' is checked, user is not allowed to create District Job Orders
-18:09:52,119 DEBUG NC:145 - NC HR Integarted: Job Order Link is not visible, user is not allowed to create District Job Orders
-18:09:52,205 DEBUG NC:483 - Manage Menu has been clicked
-18:10:07,092 DEBUG NC:483 - District Sub Menu has been clicked
-18:10:17,094 DEBUG NC:135 - 
-************************************************************
-
-18:10:17,100 DEBUG NC:137 - Edit District: Editing distict with name 'Beaufort County Schools'
-18:10:21,468 DEBUG NC:483 - Edit Icon has been clicked
-18:10:31,887 DEBUG NC:145 - Edit District: Edit district page is loaded successfully
-18:10:32,000 DEBUG NC:483 - Accordion Account Information has been clicked
-18:10:42,094 DEBUG NC:1288 - CheckBox NC Integrated is already selected
-18:10:52,225 DEBUG NC:483 - Radio Btn linqIntegrated has been clicked
-18:10:59,762 DEBUG NC:483 - Btn Save District has been clicked
-18:11:09,864 DEBUG NC:483 - Btn Close has been clicked
-18:11:19,981 DEBUG NC:483 - Job Order Menu has been clicked
-18:11:25,361 DEBUG NC:483 - District Job Order has been clicked
-18:11:35,361 DEBUG NC:135 - 
-************************************************************
-
-18:11:35,366 DEBUG NC:137 - NC HR Integarted: Verifying that when 'HR Integrated' is Unchecked, user is allowed to create District Job Orders
-18:11:35,760 DEBUG NC:145 - NC HR Integarted: Job Order Link is visible, user is allowed to create District Job Orders
-18:11:35,761 DEBUG NC:135 - 
-************************************************************
-
-18:11:35,765 DEBUG NC:137 - Logout: Logging out
-18:11:55,973 DEBUG NC:483 - User Name Dropdown has been clicked
-18:11:59,970 DEBUG NC:483 - Sign Out Option has been clicked
-18:12:00,059 DEBUG NC:113 - Sign Out Link is visible
-18:12:01,839 DEBUG NC:483 - Sign Out Link has been clicked
-18:12:01,927 DEBUG NC:113 - User Name Text box is visible
-18:12:02,283 DEBUG NC:145 - Logout: User Logged out successfully
-18:12:04,701 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-18:12:04,702 DEBUG NC:135 - 
-************************************************************
-
-18:12:04,708 DEBUG NC:137 - Login with TM: Login with TM
-18:12:14,934 DEBUG NC:874 - 6719_praachi.abrol@mailinator.com is entered in UserName TxtBx
-18:12:15,043 DEBUG NC:874 - password123# is entered in Password TxtBx
-18:12:21,281 DEBUG NC:483 - Login Button has been clicked
-18:12:31,680 DEBUG NC:145 - Login with TM: User logged In successfully
-18:12:31,767 DEBUG NC:483 - Manage Menu has been clicked
-18:12:44,309 DEBUG NC:483 - District Sub Menu has been clicked
-18:12:54,310 DEBUG NC:135 - 
-************************************************************
-
-18:12:54,316 DEBUG NC:137 - Search District: Searching distict with name 'Beaufort County Schools'
-18:13:05,795 DEBUG NC:874 - Beaufort County Schools is entered in District TxtBox
-18:13:07,007 DEBUG NC:483 - Search Btn has been clicked
-18:13:32,356 DEBUG NC:145 - Search District: District with name 'Beaufort County Schools' found
-18:13:32,357 DEBUG NC:135 - 
-************************************************************
-
-18:13:32,361 DEBUG NC:137 - Edit District: Editing distict with name 'Beaufort County Schools'
-18:13:38,891 DEBUG NC:483 - Edit Icon has been clicked
-18:13:49,304 DEBUG NC:145 - Edit District: Edit district page is loaded successfully
-18:13:49,427 DEBUG NC:483 - Accordion Account Information has been clicked
-18:13:59,518 DEBUG NC:1288 - CheckBox NC Integrated is already selected
-18:14:09,653 DEBUG NC:483 - Radio Btn HRIntegrated has been clicked
-18:14:17,284 DEBUG NC:483 - Btn Save District has been clicked
-18:14:27,389 DEBUG NC:483 - Btn Close has been clicked
-18:14:37,391 DEBUG NC:135 - 
-************************************************************
-
-18:14:37,397 DEBUG NC:137 - Logout: Logging out
-18:14:57,595 DEBUG NC:483 - User Name Dropdown has been clicked
-18:15:01,686 DEBUG NC:483 - Sign Out Option has been clicked
-18:15:01,774 DEBUG NC:113 - Sign Out Link is visible
-18:15:03,584 DEBUG NC:483 - Sign Out Link has been clicked
-18:15:03,665 DEBUG NC:113 - User Name Text box is visible
-18:15:04,032 DEBUG NC:145 - Logout: User Logged out successfully
-18:15:06,333 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-18:15:06,333 DEBUG NC:135 - 
-************************************************************
-
-18:15:06,337 DEBUG NC:137 - Login with DA: Login with DA
-18:15:16,569 DEBUG NC:874 - iqa.beaufort.da@yopmail.com is entered in UserName TxtBx
-18:15:16,679 DEBUG NC:874 - password123# is entered in Password TxtBx
-18:15:22,735 DEBUG NC:483 - Login Button has been clicked
-18:15:33,151 DEBUG NC:145 - Login with DA: User logged In successfully
-18:15:33,248 DEBUG NC:483 - Job Order Menu has been clicked
-18:15:37,416 DEBUG NC:483 - District Job Order has been clicked
-18:15:47,417 DEBUG NC:135 - 
-************************************************************
-
-18:15:47,424 DEBUG NC:137 - NC HR Integarted: Verifying that when 'HR Integrated' is checked, user is not allowed to create District Job Orders
-18:16:02,775 DEBUG NC:145 - NC HR Integarted: Job Order Link is not visible, user is not allowed to create District Job Orders
-18:16:02,775 DEBUG NC:135 - 
-************************************************************
-
-18:16:02,779 DEBUG NC:137 - Logout: Logging out
-18:16:22,973 DEBUG NC:483 - User Name Dropdown has been clicked
-18:16:27,105 DEBUG NC:483 - Sign Out Option has been clicked
-18:16:27,174 DEBUG NC:113 - Sign Out Link is visible
-18:16:29,359 DEBUG NC:483 - Sign Out Link has been clicked
-18:16:29,434 DEBUG NC:113 - User Name Text box is visible
-18:16:29,810 DEBUG NC:145 - Logout: User Logged out successfully
-18:16:32,264 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-18:16:32,265 DEBUG NC:135 - 
-************************************************************
-
-18:16:32,273 DEBUG NC:137 - Login with TM: Login with TM
-18:16:42,499 DEBUG NC:874 - 6719_praachi.abrol@mailinator.com is entered in UserName TxtBx
-18:16:42,607 DEBUG NC:874 - password123# is entered in Password TxtBx
-18:16:48,659 DEBUG NC:483 - Login Button has been clicked
-18:16:59,050 DEBUG NC:145 - Login with TM: User logged In successfully
-18:16:59,135 DEBUG NC:483 - Manage Menu has been clicked
-18:17:12,161 DEBUG NC:483 - District Sub Menu has been clicked
-18:17:22,163 DEBUG NC:135 - 
-************************************************************
-
-18:17:22,169 DEBUG NC:137 - Search District: Searching distict with name 'Beaufort County Schools'
-18:17:33,241 DEBUG NC:874 - Beaufort County Schools is entered in District TxtBox
-18:17:34,458 DEBUG NC:483 - Search Btn has been clicked
-18:17:59,837 DEBUG NC:145 - Search District: District with name 'Beaufort County Schools' found
-18:17:59,837 DEBUG NC:135 - 
-************************************************************
-
-18:17:59,840 DEBUG NC:137 - Edit District: Editing distict with name 'Beaufort County Schools'
-18:18:06,597 DEBUG NC:483 - Edit Icon has been clicked
-18:18:16,990 DEBUG NC:145 - Edit District: Edit district page is loaded successfully
-18:18:17,109 DEBUG NC:483 - Accordion Account Information has been clicked
-18:18:27,198 DEBUG NC:1288 - CheckBox NC Integrated is already selected
-18:18:37,338 DEBUG NC:483 - Radio Btn linqIntegrated has been clicked
-18:18:44,883 DEBUG NC:483 - Btn Save District has been clicked
-18:18:54,993 DEBUG NC:483 - Btn Close has been clicked
-18:19:04,994 DEBUG NC:135 - 
-************************************************************
-
-18:19:05,002 DEBUG NC:137 - Logout: Logging out
-18:19:25,196 DEBUG NC:483 - User Name Dropdown has been clicked
-18:19:29,971 DEBUG NC:483 - Sign Out Option has been clicked
-18:19:30,050 DEBUG NC:113 - Sign Out Link is visible
-18:19:31,757 DEBUG NC:483 - Sign Out Link has been clicked
-18:19:31,842 DEBUG NC:113 - User Name Text box is visible
-18:19:32,195 DEBUG NC:145 - Logout: User Logged out successfully
-18:19:35,215 DEBUG NC:222 - https://qanc.teachermatch.org/ has been entered into browser
-18:19:35,215 DEBUG NC:135 - 
-************************************************************
-
-18:19:35,221 DEBUG NC:137 - Login with DA: Login with DA
-18:19:45,464 DEBUG NC:874 - iqa.beaufort.da@yopmail.com is entered in UserName TxtBx
-18:19:45,574 DEBUG NC:874 - password123# is entered in Password TxtBx
-18:19:54,200 DEBUG NC:483 - Login Button has been clicked
-18:20:04,607 DEBUG NC:145 - Login with DA: User logged In successfully
-18:20:04,706 DEBUG NC:483 - Job Order Menu has been clicked
-18:20:10,402 DEBUG NC:483 - District Job Order has been clicked
-18:20:20,402 DEBUG NC:135 - 
-************************************************************
-
-18:20:20,408 DEBUG NC:137 - NC HR Integarted: Verifying that when 'HR Integrated' is Unchecked, user is allowed to create District Job Orders
-18:20:20,807 DEBUG NC:145 - NC HR Integarted: Job Order Link is visible, user is allowed to create District Job Orders
-18:20:20,808 DEBUG NC:135 - 
-************************************************************
-
-18:20:20,811 DEBUG NC:137 - Logout: Logging out
-18:20:41,013 DEBUG NC:483 - User Name Dropdown has been clicked
-18:20:45,489 DEBUG NC:483 - Sign Out Option has been clicked
-18:20:45,578 DEBUG NC:113 - Sign Out Link is visible
-18:20:47,446 DEBUG NC:483 - Sign Out Link has been clicked
-18:20:47,517 DEBUG NC:113 - User Name Text box is visible
-18:20:47,911 DEBUG NC:145 - Logout: User Logged out successfully
+09:28:23,917  INFO NC:99 - Chrome Browser launched successfully.
+09:28:52,055 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+09:28:57,234 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+09:28:57,235 DEBUG NC:135 - 
+************************************************************
+
+09:28:57,243 DEBUG NC:137 - Login with TM: Login with TM
+09:28:57,492 DEBUG NC:874 - mike.anderson@yopmail.com is entered in UserName TxtBx
+09:28:57,608 DEBUG NC:874 - password123# is entered in Password TxtBx
+09:29:14,004 DEBUG NC:483 - Login Button has been clicked
+09:29:24,436 DEBUG NC:145 - Login with TM: User logged In successfully
+09:29:24,438 DEBUG NC:135 - 
+************************************************************
+
+09:29:24,440 DEBUG NC:137 - Logout: Logging out
+09:29:44,702 DEBUG NC:483 - User Name Dropdown has been clicked
+09:29:49,409 DEBUG NC:483 - Sign Out Option has been clicked
+09:29:49,494 DEBUG NC:113 - Sign Out Link is visible
+09:29:51,943 DEBUG NC:483 - Sign Out Link has been clicked
+09:29:52,020 DEBUG NC:113 - User Name Text box is visible
+09:29:52,369 DEBUG NC:145 - Logout: User Logged out successfully
+09:29:58,148 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+09:29:58,148 DEBUG NC:135 - 
+************************************************************
+
+09:29:58,153 DEBUG NC:137 - Login with DA: Login with DA
+09:30:08,420 DEBUG NC:874 - TMtest1IQA_DA1@mailinator.com is entered in UserName TxtBx
+09:30:08,538 DEBUG NC:874 - password123# is entered in Password TxtBx
+09:30:21,126 DEBUG NC:483 - Login Button has been clicked
+09:30:31,518 DEBUG NC:145 - Login with DA: User logged In successfully
+09:30:31,602 DEBUG NC:483 - Users Menu has been clicked
+09:30:43,164 DEBUG NC:483 - Administrator Analyst Menu has been clicked
+09:30:53,168 DEBUG NC:135 - 
+************************************************************
+
+09:30:53,171 DEBUG NC:137 - Admin_Analyst creation: Verifying Mandatory Fields
+09:31:07,393 DEBUG NC:483 - Add User Btn has been clicked
+09:31:17,553 DEBUG NC:483 - Save button has been clicked
+09:31:27,937 DEBUG NC:145 - Admin_Analyst creation: Mandatory fields verified successfully while adding User
+09:31:27,965 DEBUG NC:135 - 
+************************************************************
+
+09:31:27,968 DEBUG NC:137 - Admin_Analyst creation: Creating Admin_Analyst
+09:31:28,076 DEBUG NC:1218 - Entity Type has selected District from dropdown
+09:31:28,103 ERROR NC:707 - District TxtBox is not displayed
+09:31:30,252 DEBUG NC:874 - fname_aut372 is entered in First Name TxtBx
+09:31:30,376 DEBUG NC:874 - lname_aut372 is entered in Last Name TxtBx
+09:31:30,516 DEBUG NC:874 - fname_aut372@yopmail.com is entered in User Name TxtBx
+09:31:30,648 DEBUG NC:1218 - User Role has selected District Admin from dropdown
+09:31:38,473 DEBUG NC:483 - Save button has been clicked
+09:31:48,870 DEBUG NC:145 - Admin_Analyst creation: User created successfully
+09:31:48,944 DEBUG NC:483 - Close Success Msg Btn has been clicked
+09:31:58,953 DEBUG NC:135 - 
+************************************************************
+
+09:31:58,956 DEBUG NC:137 - Admin_Analyst account verification: Setting password and account verification
+09:32:16,000 DEBUG NC:874 - fname_aut372@yopmail.com is entered in Enter Mail ID in Yopmail
+09:32:32,247 DEBUG NC:483 - Check Inbox Btn has been clicked
+09:32:42,351 DEBUG NC:483 - Refresh Btn has been clicked
+09:32:42,537 DEBUG NC:483 - Add User Mail has been clicked
+09:32:42,642 DEBUG NC:638 - https://nc.teachermatch.org:443/resetpassword.do?idp=w5XHD3EQqdmy5KsbT3f0vcJbq0aV42xOQzp34cTE|ABC012XYZ|Q8= is fetched from Verification Link
+09:33:08,903 DEBUG NC:693 - Password TxtBox is displayed
+09:33:08,995 DEBUG NC:874 - password123# is entered in Password TxtBox
+09:33:09,105 DEBUG NC:874 - password123# is entered in Re-enter Password TxtBox
+09:33:28,787 DEBUG NC:483 - Btn Login has been clicked
+09:33:38,190 DEBUG NC:483 - Btn Ok Reset Pwd has been clicked
+09:33:48,256 DEBUG NC:693 - Users Menu is displayed
+09:33:48,572 DEBUG NC:145 - Admin_Analyst account verification: Password set and user logged in successfully after account verification
+09:33:48,572 DEBUG NC:135 - 
+************************************************************
+
+09:33:48,574 DEBUG NC:137 - Logout: Logging out
+09:34:08,790 DEBUG NC:483 - User Name Dropdown has been clicked
+09:34:13,057 DEBUG NC:483 - Sign Out Option has been clicked
+09:34:13,130 DEBUG NC:113 - Sign Out Link is visible
+09:34:14,901 DEBUG NC:483 - Sign Out Link has been clicked
+09:34:14,988 DEBUG NC:113 - User Name Text box is visible
+09:34:15,338 DEBUG NC:145 - Logout: User Logged out successfully
+09:34:17,584 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+09:34:17,584 DEBUG NC:135 - 
+************************************************************
+
+09:34:17,588 DEBUG NC:137 - Login with DA: Login with DA
+09:34:27,831 DEBUG NC:874 - TMtest1IQA_DA1@mailinator.com is entered in UserName TxtBx
+09:34:27,942 DEBUG NC:874 - password123# is entered in Password TxtBx
+09:34:33,965 DEBUG NC:483 - Login Button has been clicked
+09:34:44,363 DEBUG NC:145 - Login with DA: User logged In successfully
+09:34:44,444 DEBUG NC:483 - Users Menu has been clicked
+09:34:48,338 DEBUG NC:483 - Administrator Analyst Menu has been clicked
+09:34:58,342 DEBUG NC:135 - 
+************************************************************
+
+09:34:58,345 DEBUG NC:137 - Edit User:  Editing User Profile
+09:34:58,627 DEBUG NC:874 - fname_aut372@yopmail.com is entered in Email TxtBox
+09:35:08,730 DEBUG NC:483 - Search Btn has been clicked
+09:35:28,843 DEBUG NC:483 - Edit User Btn has been clicked
+09:35:33,187 DEBUG NC:483 - Ok Btn has been clicked
+09:35:46,325 DEBUG NC:874 - new name1 is entered in Last Name TxtBox
+09:35:52,689 DEBUG NC:483 - Save User Btn has been clicked
+09:36:02,804 DEBUG NC:483 - Close Btn has been clicked
+09:36:12,968 DEBUG NC:874 - fname_aut372@yopmail.com is entered in Email TxtBox
+09:36:13,058 DEBUG NC:483 - Search Btn has been clicked
+09:36:23,444 DEBUG NC:145 - Edit User: User edited successfully
+09:36:23,447 DEBUG NC:135 - 
+************************************************************
+
+09:36:23,449 DEBUG NC:137 - Admin_Analyst Activation_Deactivation:  Activating_Deactivating User
+09:36:23,561 DEBUG NC:874 - fname_aut372@yopmail.com is entered in Email TxtBox
+09:36:23,622 DEBUG NC:483 - Search Btn has been clicked
+09:36:33,690 DEBUG NC:512 - [[ChromeDriver: chrome on XP (97d49af5c6f3336b0f85747e2f754285)] -> xpath: //tr[1]//a[contains(@title, 'User/Location')]] is available and has value for title is Active User/Location. Click here to deactivate
+09:36:33,772 DEBUG NC:483 - Deactivate Btn has been clicked
+09:36:44,096 DEBUG NC:145 - Admin_Analyst Activation_Deactivation: District admin/analyst user profile is deactivated
+09:36:44,097 DEBUG NC:135 - 
+************************************************************
+
+09:36:44,102 DEBUG NC:137 - Logout: Logging out
+09:37:04,315 DEBUG NC:483 - User Name Dropdown has been clicked
+09:37:08,280 DEBUG NC:483 - Sign Out Option has been clicked
+09:37:08,358 DEBUG NC:113 - Sign Out Link is visible
+09:37:09,915 DEBUG NC:483 - Sign Out Link has been clicked
+09:37:09,993 DEBUG NC:113 - User Name Text box is visible
+09:37:10,337 DEBUG NC:145 - Logout: User Logged out successfully
+09:37:12,433 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+09:37:12,434 DEBUG NC:135 - 
+************************************************************
+
+09:37:12,438 DEBUG NC:137 - Login with TM: Login with TM
+09:37:22,628 DEBUG NC:874 - mike.anderson@yopmail.com is entered in UserName TxtBx
+09:37:22,739 DEBUG NC:874 - password123# is entered in Password TxtBx
+09:37:28,260 DEBUG NC:483 - Login Button has been clicked
+09:37:38,649 DEBUG NC:145 - Login with TM: User logged In successfully
+09:37:38,703 DEBUG NC:135 - 
+************************************************************
+
+09:37:38,707 DEBUG NC:137 - District Job Order: Create District Job Order with End Date
+09:37:38,808 DEBUG NC:483 - Job Order Menu has been clicked
+09:37:43,411 DEBUG NC:483 - District Job Order has been clicked
+09:38:01,744 DEBUG NC:483 - Add Job Order Link has been clicked
+09:38:01,799 DEBUG NC:693 - District TxtBox is displayed
+09:38:14,465 DEBUG NC:874 - IMPACT QA is entered in District Name
+09:38:17,995 DEBUG NC:874 - AutoGenTitle60522 is entered in Job Title
+09:38:18,093 DEBUG NC:483 - Posting Start Date has been clicked
+09:38:20,206 DEBUG NC:483 - Today's Date has been clicked
+09:38:20,296 DEBUG NC:1218 - Job Type has selected Full Time from dropdown
+09:38:20,547 DEBUG NC:874 - AutoRefNo14500 is entered in Ref No TxtBox
+09:38:20,688 DEBUG NC:1218 - Job Category has selected Bus Driver from dropdown
+09:38:30,756 DEBUG NC:693 - EPI Ok Button is displayed
+09:38:30,838 DEBUG NC:483 - EPI Ok Button has been clicked
+09:38:40,949 DEBUG NC:483 - Posting End date has been clicked
+09:38:43,074 DEBUG NC:483 - Next Year Button has been clicked
+09:38:45,186 DEBUG NC:483 - Next Year Date has been clicked
+09:38:47,284 DEBUG NC:1218 - Job Type has selected Full Time from dropdown
+09:38:47,339 DEBUG NC:1218 - Job Category has selected Bus Driver from dropdown
+09:38:50,853 DEBUG NC:874 - AutoGenDescritpion54270 is entered in Job Description
+09:38:50,957 DEBUG NC:483 - Multiple Hires Chk Box has been clicked
+09:38:51,001 DEBUG NC:693 - Only District Admin Radio Btn is displayed
+09:38:51,075 DEBUG NC:483 - Only District Admin Radio Btn has been clicked
+09:38:54,173 DEBUG NC:483 - Change Message Modal Ok btn has been clicked
+09:38:54,296 DEBUG NC:874 - 1 is entered in Expected Hires TxtBox
+09:38:56,389 DEBUG NC:483 - Enter Requisition Number Radio btn has been clicked
+09:38:56,545 DEBUG NC:874 - 354042 is entered in Enter Requisition Number TxtBox
+09:38:57,564 ERROR NC:707 - District Admin Chk Box is not displayed
+09:38:58,592 ERROR NC:707 - All Admin of Attach School Chk Box is not displayed
+09:38:58,690 DEBUG NC:483 - Job Specific Inventory Radio Btn has been clicked
+09:39:09,250 DEBUG NC:874 - https://qanc.teachermatch.org is entered in Redirect URL TxtBox
+09:39:09,341 DEBUG NC:483 - Save Job Order has been clicked
+09:39:24,424 DEBUG NC:693 - Job order Url is displayed
+09:39:24,759 DEBUG NC:145 - District Job Order: District Job Order Created Succesfully
+09:39:24,845 DEBUG NC:483 - Job order Url has been clicked
+09:40:25,267 DEBUG NC:145 - District Job Order: District Job Order Created Succesfully
+09:40:29,185 DEBUG NC:483 - Confirm Job order has been clicked
+09:40:49,187 DEBUG NC:135 - 
+************************************************************
+
+09:40:49,191 DEBUG NC:137 - District Job Order: Searching for newly created job
+09:40:49,319 DEBUG NC:874 - 437160 is entered in Job Order Id TxtBox
+09:40:49,515 DEBUG NC:483 - Search Job order has been clicked
+09:41:19,648 DEBUG NC:638 - AutoGenTitle60522 is fetched from Title Label
+09:41:20,008 DEBUG NC:145 - District Job Order: Newly created job found successfully
+09:41:20,010 DEBUG NC:135 - 
+************************************************************
+
+09:41:20,012 DEBUG NC:137 - Logout: Logging out
+09:41:40,215 DEBUG NC:483 - User Name Dropdown has been clicked
+09:41:44,348 DEBUG NC:483 - Sign Out Option has been clicked
+09:41:44,423 DEBUG NC:113 - Sign Out Link is visible
+09:41:45,990 DEBUG NC:483 - Sign Out Link has been clicked
+09:41:46,061 DEBUG NC:113 - User Name Text box is visible
+09:41:46,408 DEBUG NC:145 - Logout: User Logged out successfully
+09:41:48,523 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+09:41:48,524 DEBUG NC:135 - 
+************************************************************
+
+09:41:48,528 DEBUG NC:137 - Login with DA: Login with DA
+09:41:58,751 DEBUG NC:874 - TMtest1IQA_DA1@mailinator.com is entered in UserName TxtBx
+09:41:58,862 DEBUG NC:874 - password123# is entered in Password TxtBx
+09:42:05,428 DEBUG NC:483 - Login Button has been clicked
+09:42:15,822 DEBUG NC:145 - Login with DA: User logged In successfully
+09:42:15,922 DEBUG NC:483 - Job Order Menu has been clicked
+09:42:18,890 DEBUG NC:483 - District Job Order has been clicked
+09:42:28,943 ERROR NC:707 - District TxtBox is not displayed
+09:42:29,036 DEBUG NC:483 - Download Excel has been clicked
+09:42:44,366 DEBUG NC:145 - Download Excel: Excel has been downloaded successfully
+09:42:44,413 DEBUG NC:135 - 
+************************************************************
+
+09:42:44,416 DEBUG NC:137 - District Job Order: Create District Job Order with End Date
+09:42:44,511 DEBUG NC:483 - Job Order Menu has been clicked
+09:42:48,955 DEBUG NC:483 - District Job Order has been clicked
+09:43:01,040 DEBUG NC:483 - Add Job Order Link has been clicked
+09:43:01,074 ERROR NC:707 - District TxtBox is not displayed
+09:43:02,141 DEBUG NC:874 - AutoGenTitle16798 is entered in Job Title
+09:43:02,237 DEBUG NC:483 - Posting Start Date has been clicked
+09:43:04,348 DEBUG NC:483 - Today's Date has been clicked
+09:43:04,433 DEBUG NC:1218 - Job Type has selected Full Time from dropdown
+09:43:04,673 DEBUG NC:874 - AutoRefNo28062 is entered in Ref No TxtBox
+09:43:04,805 DEBUG NC:1218 - Job Category has selected Bus Driver from dropdown
+09:43:14,876 DEBUG NC:693 - EPI Ok Button is displayed
+09:43:14,947 DEBUG NC:483 - EPI Ok Button has been clicked
+09:43:25,061 DEBUG NC:483 - Posting End date has been clicked
+09:43:27,169 DEBUG NC:483 - Next Year Button has been clicked
+09:43:29,276 DEBUG NC:483 - Next Year Date has been clicked
+09:43:31,373 DEBUG NC:1218 - Job Type has selected Full Time from dropdown
+09:43:31,462 DEBUG NC:1218 - Job Category has selected Bus Driver from dropdown
+09:43:34,925 DEBUG NC:874 - AutoGenDescritpion64279 is entered in Job Description
+09:43:35,036 DEBUG NC:483 - Multiple Hires Chk Box has been clicked
+09:43:35,078 DEBUG NC:693 - Only District Admin Radio Btn is displayed
+09:43:35,168 DEBUG NC:483 - Only District Admin Radio Btn has been clicked
+09:43:38,269 DEBUG NC:483 - Change Message Modal Ok btn has been clicked
+09:43:38,375 DEBUG NC:874 - 1 is entered in Expected Hires TxtBox
+09:43:40,464 DEBUG NC:483 - Enter Requisition Number Radio btn has been clicked
+09:43:40,621 DEBUG NC:874 - 227459 is entered in Enter Requisition Number TxtBox
+09:43:41,636 ERROR NC:707 - District Admin Chk Box is not displayed
+09:43:42,664 ERROR NC:707 - All Admin of Attach School Chk Box is not displayed
+09:43:42,755 DEBUG NC:483 - Job Specific Inventory Radio Btn has been clicked
+09:43:53,299 DEBUG NC:874 - https://qanc.teachermatch.org is entered in Redirect URL TxtBox
+09:43:53,391 DEBUG NC:483 - Save Job Order has been clicked
+09:44:08,464 DEBUG NC:693 - Job order Url is displayed
+09:44:08,780 DEBUG NC:145 - District Job Order: District Job Order Created Succesfully
+09:44:08,858 DEBUG NC:483 - Job order Url has been clicked
+09:45:09,219 DEBUG NC:145 - District Job Order: District Job Order Created Succesfully
+09:45:15,907 DEBUG NC:483 - Confirm Job order has been clicked
+09:45:35,909 DEBUG NC:135 - 
+************************************************************
+
+09:45:35,913 DEBUG NC:137 - District Job Order: Searching for newly created job
+09:45:36,029 DEBUG NC:874 - 437161 is entered in Job Order Id TxtBox
+09:45:36,228 DEBUG NC:483 - Search Job order has been clicked
+09:46:06,356 DEBUG NC:638 -  is fetched from Title Label
+09:46:06,670 ERROR NC:158 - District Job Order: Newly created job not found
+09:46:06,672 DEBUG NC:135 - 
+************************************************************
+
+09:46:06,674 DEBUG NC:137 - Logout: Logging out
+09:46:26,885 DEBUG NC:483 - User Name Dropdown has been clicked
+09:46:41,473 DEBUG NC:483 - Sign Out Option has been clicked
+09:46:41,555 DEBUG NC:113 - Sign Out Link is visible
+09:46:48,025 DEBUG NC:483 - Sign Out Link has been clicked
+09:46:48,093 DEBUG NC:113 - User Name Text box is visible
+09:46:48,426 DEBUG NC:145 - Logout: User Logged out successfully
+09:46:52,614 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+09:46:52,614 DEBUG NC:135 - 
+************************************************************
+
+09:46:52,618 DEBUG NC:137 - Login with TM: Login with TM
+09:47:02,790 DEBUG NC:874 - test4127@yopmail.com is entered in UserName TxtBx
+09:47:02,898 DEBUG NC:874 - password123# is entered in Password TxtBx
+09:47:40,126 DEBUG NC:483 - Login Button has been clicked
+09:47:50,504 DEBUG NC:145 - Login with TM: User logged In successfully
+09:47:50,505 DEBUG NC:135 - 
+************************************************************
+
+09:47:50,513 DEBUG NC:137 - Setting Job Preferences for Candidate: Setting Job Preferences for Candidate
+09:48:02,539 DEBUG NC:483 - Job Preference Menu has been clicked
+09:48:12,591 DEBUG NC:1288 - Preference chkBox is already selected
+09:48:12,601 DEBUG NC:1288 - Preference chkBox is already selected
+09:48:12,611 DEBUG NC:1288 - Preference chkBox is already selected
+09:48:12,622 DEBUG NC:1288 - Preference chkBox is already selected
+09:48:12,632 DEBUG NC:1288 - Preference chkBox is already selected
+09:48:12,644 DEBUG NC:1288 - Preference chkBox is already selected
+09:48:12,655 DEBUG NC:1288 - Preference chkBox is already selected
+09:48:12,666 DEBUG NC:1288 - Preference chkBox is already selected
+09:48:12,704 DEBUG NC:1288 - Regions chkBox is already selected
+09:48:12,714 DEBUG NC:1288 - Regions chkBox is already selected
+09:48:12,724 DEBUG NC:1288 - Regions chkBox is already selected
+09:48:12,735 DEBUG NC:1288 - Regions chkBox is already selected
+09:48:12,746 DEBUG NC:1288 - Regions chkBox is already selected
+09:48:12,784 DEBUG NC:1288 - Profile sharing is already selected
+09:48:12,844 DEBUG NC:113 - Save Preferences is visible
+09:48:21,437 DEBUG NC:483 - Save Preferences has been clicked
+09:48:21,476 ERROR NC:707 - Set Preference PopUp is not displayed
+09:48:26,576 DEBUG NC:638 - Completed is fetched from Status job preference
+09:48:26,907 DEBUG NC:145 - Setting Job Preferences for Candidate: Job Preferences successfully set for the Candidate
+09:48:26,908 DEBUG NC:135 - 
+************************************************************
+
+09:48:26,910 DEBUG NC:137 - Logout: Logging out
+09:48:47,121 DEBUG NC:483 - User Name Dropdown has been clicked
+09:48:54,224 DEBUG NC:483 - Sign Out Option has been clicked
+09:48:54,313 DEBUG NC:113 - Sign Out Link is visible
+09:48:56,423 DEBUG NC:483 - Sign Out Link has been clicked
+09:48:56,499 DEBUG NC:113 - User Name Text box is visible
+09:48:56,844 DEBUG NC:145 - Logout: User Logged out successfully
+09:48:59,532 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+09:48:59,532 DEBUG NC:135 - 
+************************************************************
+
+09:48:59,537 DEBUG NC:137 - Login with TM: Login with TM
+09:49:09,755 DEBUG NC:874 - test4127@yopmail.com is entered in UserName TxtBx
+09:49:09,863 DEBUG NC:874 - password123# is entered in Password TxtBx
+09:49:18,448 DEBUG NC:483 - Login Button has been clicked
+09:49:28,857 DEBUG NC:145 - Login with TM: User logged In successfully
+09:49:28,858 DEBUG NC:135 - 
+************************************************************
+
+09:49:28,860 DEBUG NC:137 - Job Preferences Redirection: Verifying Job Preferences Redirection
+09:49:31,166 DEBUG NC:483 - Job Preferences Icon has been clicked
+09:49:41,563 DEBUG NC:145 - Job Preferences Redirection: Job Preferences Redirection passed
+09:49:46,839 DEBUG NC:483 - Dashboard Menu has been clicked
+09:50:01,842 DEBUG NC:135 - 
+************************************************************
+
+09:50:01,846 DEBUG NC:137 - Power Profile Redirection: Verifying Power Profile Redirection
+09:50:09,168 DEBUG NC:483 - Power Profile Icon has been clicked
+09:50:29,552 ERROR NC:158 - Power Profile Redirection: Power Profile Redirection failed
+09:50:29,621 DEBUG NC:135 - 
+************************************************************
+
+09:50:29,623 DEBUG NC:137 - Portfolio Redirection: Verifying Portfolio Redirection
+09:50:38,002 DEBUG NC:483 - Portfolio Icon has been clicked
+09:50:48,375 DEBUG NC:145 - Portfolio Redirection: Portfolio Redirection passed
+09:50:55,228 DEBUG NC:483 - Dashboard Menu has been clicked
+09:51:10,230 DEBUG NC:135 - 
+************************************************************
+
+09:51:10,238 DEBUG NC:137 - Verify Apply Now Redirection: Verifying Apply Now Redirection
+09:51:18,755 DEBUG NC:483 - Apply Now Icon has been clicked
+09:51:32,144 DEBUG NC:145 - Verify Apply Now Redirection: Apply Now Redirection passed
+09:51:39,536 DEBUG NC:483 - Dashboard Menu has been clicked
+09:51:54,539 DEBUG NC:135 - 
+************************************************************
+
+09:51:54,543 DEBUG NC:137 - Hide Job: Hiding job
+09:51:54,751 DEBUG NC:483 - Hide Icon has been clicked
+09:51:57,439 DEBUG NC:483 - Ok Btn has been clicked
+09:52:09,854 DEBUG NC:145 - Hide Job: Job is hidden
+09:52:09,854 DEBUG NC:135 - 
+************************************************************
+
+09:52:09,856 DEBUG NC:137 - Unhide Job: Unhiding the hidden job
+09:52:17,179 DEBUG NC:483 - See All Link has been clicked
+09:52:37,353 DEBUG NC:1218 - Status Drpdown has selected Hidden from dropdown
+09:52:37,452 DEBUG NC:483 - Search Btn has been clicked
+09:53:00,276 DEBUG NC:483 - Unhide Icon has been clicked
+09:53:10,429 DEBUG NC:483 - Ok Btn has been clicked
+09:53:27,314 DEBUG NC:483 - Dashboard Menu has been clicked
+09:53:42,693 DEBUG NC:145 - Unhide Job: Job is available
+09:53:42,693 DEBUG NC:135 - 
+************************************************************
+
+09:53:42,708 DEBUG NC:137 - Share Job: Sharing the job with friend
+09:53:46,683 DEBUG NC:483 - Share Icon has been clicked
+09:53:56,811 DEBUG NC:874 - Name7560 is entered in First Friend's Name TxtBox
+09:53:56,946 DEBUG NC:874 - Name7560@mailinator.com is entered in First Friend's Email TxtBox
+09:54:05,603 DEBUG NC:483 - Submit Btn has been clicked
+09:54:15,989 DEBUG NC:145 - Share Job: Job is shared with friend
+09:54:23,144 DEBUG NC:483 - Ok Btn has been clicked
+09:54:33,145 DEBUG NC:135 - 
+************************************************************
+
+09:54:33,149 DEBUG NC:137 - Verify Not Applied Link Redirection: Verifying Not Applied Link Redirection
+09:54:39,424 DEBUG NC:483 - Not Applied Jobs Link has been clicked
+09:54:59,870 DEBUG NC:145 - Verify Not Applied Link Redirection: Not Applied Link redirection passed
+09:55:06,499 DEBUG NC:483 - Dashboard Menu has been clicked
+09:55:21,502 DEBUG NC:135 - 
+************************************************************
+
+09:55:21,507 DEBUG NC:137 - Verify Cover Letter Redirection: Verifying cover letter icon redirection
+09:55:24,218 DEBUG NC:483 - Cover Letter Icon has been clicked
+09:55:24,613 DEBUG NC:145 - Verify Cover Letter Redirection: Cover letter icon redirection passed
+09:55:24,720 DEBUG NC:483 - Close Btn has been clicked
+09:55:34,724 DEBUG NC:135 - 
+************************************************************
+
+09:55:34,733 DEBUG NC:137 - Share Job: Sharing the job with friend
+09:55:38,553 DEBUG NC:483 - Share Icon has been clicked
+09:55:48,694 DEBUG NC:874 - Name3794 is entered in First Friend's Name TxtBox
+09:55:48,824 DEBUG NC:874 - Name3794@mailinator.com is entered in First Friend's Email TxtBox
+09:55:57,637 DEBUG NC:483 - Submit Btn has been clicked
+09:55:58,599 DEBUG NC:145 - Share Job: Job is shared with friend
+09:56:03,025 DEBUG NC:483 - Ok Btn has been clicked
+09:56:13,028 DEBUG NC:135 - 
+************************************************************
+
+09:56:13,032 DEBUG NC:137 - Withdraw Job: Withdrawing the job
+09:56:13,108 DEBUG NC:135 - 
+************************************************************
+
+09:56:13,113 DEBUG NC:137 - Withdraw Job: Only 1 job is there so not withdrawing
+09:56:13,113 DEBUG NC:135 - 
+************************************************************
+
+09:56:13,115 DEBUG NC:137 - Verify 'See All' Link Redirection: Verifying 'See All' link redirection
+09:56:21,175 DEBUG NC:483 - See All Link has been clicked
+09:56:31,640 DEBUG NC:145 - Verify 'See All' Link Redirection: 'See All' link redirection passed
+09:56:31,727 DEBUG NC:135 - 
+************************************************************
+
+09:56:31,736 DEBUG NC:137 - Logout: Logging out
+09:56:51,963 DEBUG NC:483 - User Name Dropdown has been clicked
+09:56:57,441 DEBUG NC:483 - Sign Out Option has been clicked
+09:56:57,515 DEBUG NC:113 - Sign Out Link is visible
+09:56:59,123 DEBUG NC:483 - Sign Out Link has been clicked
+09:56:59,195 DEBUG NC:113 - User Name Text box is visible
+09:56:59,526 DEBUG NC:145 - Logout: User Logged out successfully
+09:57:01,920 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+09:57:01,920 DEBUG NC:135 - 
+************************************************************
+
+09:57:01,929 DEBUG NC:137 - Login with TM: Login with TM
+09:57:12,130 DEBUG NC:874 - test4127@yopmail.com is entered in UserName TxtBx
+09:57:12,238 DEBUG NC:874 - password123# is entered in Password TxtBx
+09:57:21,519 DEBUG NC:483 - Login Button has been clicked
+09:57:31,901 DEBUG NC:145 - Login with TM: User logged In successfully
+09:57:31,955 DEBUG NC:135 - 
+************************************************************
+
+09:57:31,957 DEBUG NC:137 - Candidate Portfolio: Filling Personal Details
+09:57:40,306 DEBUG NC:483 - Portfolio Menu has been clicked
+09:57:55,987 DEBUG NC:483 - Personal Info Btn has been clicked
+09:58:06,124 DEBUG NC:483 - Male Radio Button has been clicked
+09:58:06,205 DEBUG NC:1218 - Salutation Drpdown has selected Mr. from dropdown
+09:58:06,278 DEBUG NC:483 - Race ChkBox has been clicked
+09:58:06,328 DEBUG NC:483 - Race ChkBox has been clicked
+09:58:06,378 DEBUG NC:483 - Race ChkBox has been clicked
+09:58:06,426 DEBUG NC:483 - Race ChkBox has been clicked
+09:58:06,475 DEBUG NC:483 - Race ChkBox has been clicked
+09:58:06,524 DEBUG NC:483 - Race ChkBox has been clicked
+09:58:06,575 DEBUG NC:483 - Race ChkBox has been clicked
+09:58:06,687 DEBUG NC:874 - 90210 is entered in Zip TxtBox
+09:58:21,196 DEBUG NC:874 - 3rd street is entered in Address TxtBox
+09:58:21,321 DEBUG NC:874 - 33555 is entered in Phone1 TxtBox
+09:58:21,446 DEBUG NC:874 - 33555 is entered in Phone2 TxtBox
+09:58:21,567 DEBUG NC:874 - 33555 is entered in Phone3 TxtBox
+09:58:26,912 DEBUG NC:483 - Save and Continue Btn has been clicked
+09:58:37,288 DEBUG NC:145 - Candidate Portfolio: Personal Info filled successfully
+09:58:37,298 DEBUG NC:135 - 
+************************************************************
+
+09:58:37,300 DEBUG NC:137 - Candidate Portfolio: Filling Academic Details
+09:58:41,444 DEBUG NC:483 - Academic Link has been clicked
+09:58:51,579 DEBUG NC:483 - Add a School link has been clicked
+09:59:18,814 DEBUG NC:874 - Bachelor of Applied Science (BASc) is entered in Degree TxtBox
+09:59:30,908 DEBUG NC:874 - A & W Healthcare Educators is entered in School TxtBox
+09:59:33,345 DEBUG NC:483 - Field Not Listed Link has been clicked
+09:59:33,468 DEBUG NC:1218 - Attend Year Drpdown has selected 2008 from dropdown
+09:59:33,581 DEBUG NC:1218 - Left Year Drpdown has selected 2012 from dropdown
+09:59:37,917 DEBUG NC:874 - Accounting is entered in Other Field TxtBox
+09:59:57,077 DEBUG NC:874 - 4 is entered in Cumulative GPA TxtBox
+09:59:57,163 DEBUG NC:874 - C:\Users\mayank.parashar\git\ig-nc-smoke-automation-updated\src\test\resources\Event_Logo.png is entered in Upload File
+10:00:07,260 DEBUG NC:483 - Save and Continue Btn has been clicked
+10:00:17,652 DEBUG NC:145 - Candidate Portfolio: Academics details saved successfully
+10:00:17,745 DEBUG NC:1218 - TFA has selected Current from dropdown
+10:00:17,825 DEBUG NC:1218 - Corp Year has selected 2012 from dropdown
+10:00:17,897 DEBUG NC:1218 - Region has selected Alabama from dropdown
+10:00:17,897 DEBUG NC:135 - 
+************************************************************
+
+10:00:17,901 DEBUG NC:137 - Candidate Portfolio: Filling Certifications
+10:00:18,005 DEBUG NC:483 - Add Certification Link has been clicked
+10:00:18,147 DEBUG NC:483 - First Certification Name has been clicked
+10:00:18,251 DEBUG NC:483 - Save Certification has been clicked
+10:00:28,417 DEBUG NC:483 - Save Credentials Btn has been clicked
+10:00:38,460 DEBUG NC:135 - 
+************************************************************
+
+10:00:38,466 DEBUG NC:137 - Candidate Portfolio: Adding References
+10:00:44,837 DEBUG NC:483 - Portfolio Menu has been clicked
+10:01:00,025 DEBUG NC:483 - Credentials Link has been clicked
+10:01:10,139 DEBUG NC:483 - References Accordian has been clicked
+10:01:20,246 DEBUG NC:483 - Add Reference Link has been clicked
+10:01:30,377 DEBUG NC:874 - fname2182 is entered in First Name TxtBox
+10:01:30,501 DEBUG NC:874 - lname2182 is entered in Last Name TxtBox
+10:01:30,628 DEBUG NC:874 - 9045432234 is entered in Contact No TxtBox
+10:01:30,809 DEBUG NC:874 - fname2182@yopmail.com is entered in Email TxtBox
+10:01:30,915 DEBUG NC:874 - test is entered in Title TxtBox
+10:01:31,014 DEBUG NC:874 - test is entered in Organisation TxtBox
+10:01:31,094 DEBUG NC:483 - Direct Contact Radio Btn has been clicked
+10:01:31,206 DEBUG NC:1218 - Reference Type Dropdown has selected Professional from dropdown
+10:01:31,303 DEBUG NC:483 - Save Credentials Btn has been clicked
+10:01:31,402 DEBUG NC:874 - C:\Users\mayank.parashar\git\ig-nc-smoke-automation-updated\src\test\resources\Event_Logo.png is entered in Upload File
+10:01:41,779 DEBUG NC:145 - Candidate Portfolio: Reference added successfully
+10:01:41,805 DEBUG NC:135 - 
+************************************************************
+
+10:01:41,808 DEBUG NC:137 - Candidate Portfolio: Adding References
+10:01:48,472 DEBUG NC:483 - Portfolio Menu has been clicked
+10:02:02,619 DEBUG NC:483 - Credentials Link has been clicked
+10:02:12,731 DEBUG NC:483 - References Accordian has been clicked
+10:02:22,851 DEBUG NC:483 - Add Reference Link has been clicked
+10:02:32,996 DEBUG NC:874 - fname2183 is entered in First Name TxtBox
+10:02:33,117 DEBUG NC:874 - lname2183 is entered in Last Name TxtBox
+10:02:33,236 DEBUG NC:874 - 9045432234 is entered in Contact No TxtBox
+10:02:33,393 DEBUG NC:874 - fname2183@yopmail.com is entered in Email TxtBox
+10:02:33,492 DEBUG NC:874 - test is entered in Title TxtBox
+10:02:33,594 DEBUG NC:874 - test is entered in Organisation TxtBox
+10:02:33,678 DEBUG NC:483 - Direct Contact Radio Btn has been clicked
+10:02:33,789 DEBUG NC:1218 - Reference Type Dropdown has selected Professional from dropdown
+10:02:33,886 DEBUG NC:483 - Save Credentials Btn has been clicked
+10:02:33,983 DEBUG NC:874 - C:\Users\mayank.parashar\git\ig-nc-smoke-automation-updated\src\test\resources\Event_Logo.png is entered in Upload File
+10:02:44,337 DEBUG NC:145 - Candidate Portfolio: Reference added successfully
+10:02:44,362 DEBUG NC:135 - 
+************************************************************
+
+10:02:44,365 DEBUG NC:137 - Candidate Portfolio: Adding References
+10:02:53,034 DEBUG NC:483 - Portfolio Menu has been clicked
+10:03:09,643 DEBUG NC:483 - Credentials Link has been clicked
+10:03:19,751 DEBUG NC:483 - References Accordian has been clicked
+10:03:29,853 DEBUG NC:483 - Add Reference Link has been clicked
+10:03:40,000 DEBUG NC:874 - fname2184 is entered in First Name TxtBox
+10:03:40,127 DEBUG NC:874 - lname2184 is entered in Last Name TxtBox
+10:03:40,249 DEBUG NC:874 - 9045432234 is entered in Contact No TxtBox
+10:03:40,402 DEBUG NC:874 - fname2184@yopmail.com is entered in Email TxtBox
+10:03:40,515 DEBUG NC:874 - test is entered in Title TxtBox
+10:03:40,618 DEBUG NC:874 - test is entered in Organisation TxtBox
+10:03:40,711 DEBUG NC:483 - Direct Contact Radio Btn has been clicked
+10:03:40,824 DEBUG NC:1218 - Reference Type Dropdown has selected Professional from dropdown
+10:03:40,918 DEBUG NC:483 - Save Credentials Btn has been clicked
+10:03:41,013 DEBUG NC:874 - C:\Users\mayank.parashar\git\ig-nc-smoke-automation-updated\src\test\resources\Event_Logo.png is entered in Upload File
+10:03:51,387 DEBUG NC:145 - Candidate Portfolio: Reference added successfully
+10:03:51,409 DEBUG NC:135 - 
+************************************************************
+
+10:03:51,414 DEBUG NC:137 - Candidate Portfolio: Filling the experiences details
+10:04:00,248 DEBUG NC:483 - Portfolio Menu has been clicked
+10:04:17,560 DEBUG NC:483 - Experiences Btn has been clicked
+10:04:27,623 DEBUG NC:512 - [[ChromeDriver: chrome on XP (97d49af5c6f3336b0f85747e2f754285)] -> id: resumeDiv] is available and has value for class is accordion-toggle minus
+10:04:27,696 DEBUG NC:874 - C:\Users\mayank.parashar\git\ig-nc-smoke-automation-updated\src\test\resources\Logout.png is entered in Upload File
+10:04:37,802 DEBUG NC:483 - Emp History Tab has been clicked
+10:04:39,913 DEBUG NC:483 - Add Employment Btn has been clicked
+10:04:50,037 DEBUG NC:1218 - Position has selected Student Teaching from dropdown
+10:04:50,180 DEBUG NC:874 - Teacher is entered in Role TxtBox
+10:04:50,290 DEBUG NC:1218 - Field has selected Agriculture, Food & Natural Resources from dropdown
+10:04:50,602 DEBUG NC:874 - Miami-Dade County Public Schools is entered in Org TxtBox
+10:04:50,758 DEBUG NC:874 - California is entered in City TxtBox
+10:04:50,868 DEBUG NC:874 - LA is entered in State TxtBox
+10:04:50,985 DEBUG NC:1218 - Start Month has selected January from dropdown
+10:04:51,120 DEBUG NC:1218 - Start Year has selected 2000 from dropdown
+10:04:51,235 DEBUG NC:1218 - End Month has selected January from dropdown
+10:04:51,353 DEBUG NC:1218 - End Year has selected 2005 from dropdown
+10:04:51,444 DEBUG NC:483 - Gen Member Radio Btn has been clicked
+10:04:51,761 DEBUG NC:874 - Not satisfied is entered in Reason TxtBox
+10:05:04,373 DEBUG NC:483 - Save School Btn has been clicked
+10:05:14,969 DEBUG NC:145 - Candidate Portfolio: Employment history added successfully
+10:05:15,045 DEBUG NC:483 - Save Experience Btn has been clicked
+10:05:25,092 DEBUG NC:135 - 
+************************************************************
+
+10:05:25,095 DEBUG NC:137 - Candidate Portfolio: Filling the experiences details
+10:05:25,192 DEBUG NC:135 - 
+************************************************************
+
+10:05:25,197 DEBUG NC:137 - Logout: Logging out
+10:05:45,389 DEBUG NC:483 - User Name Dropdown has been clicked
+10:05:58,001 DEBUG NC:483 - Sign Out Option has been clicked
+10:05:58,072 DEBUG NC:113 - Sign Out Link is visible
+10:06:01,726 DEBUG NC:483 - Sign Out Link has been clicked
+10:06:01,822 DEBUG NC:113 - User Name Text box is visible
+10:06:02,172 DEBUG NC:145 - Logout: User Logged out successfully
+10:06:04,841 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+10:06:04,841 DEBUG NC:135 - 
+************************************************************
+
+10:06:04,847 DEBUG NC:137 - Login with TM: Login with TM
+10:06:15,030 DEBUG NC:874 - test4127@yopmail.com is entered in UserName TxtBx
+10:06:15,139 DEBUG NC:874 - password123# is entered in Password TxtBx
+10:06:40,353 DEBUG NC:483 - Login Button has been clicked
+10:06:50,736 DEBUG NC:145 - Login with TM: User logged In successfully
+10:06:50,741 DEBUG NC:135 - 
+************************************************************
+
+10:06:50,743 DEBUG NC:137 - Apply for Job: Applying job through Job Opps
+10:07:28,706 DEBUG NC:483 - Menu Job Opps has been clicked
+10:07:44,941 DEBUG NC:874 - IMPACT QA is entered in District TxtBox
+10:07:47,802 DEBUG NC:483 - Search Btn has been clicked
+10:08:47,995 DEBUG NC:135 - 
+************************************************************
+
+10:08:48,002 DEBUG NC:137 - Logout: Logging out
+10:09:08,236 DEBUG NC:483 - User Name Dropdown has been clicked
+10:09:16,362 DEBUG NC:483 - Sign Out Option has been clicked
+10:09:16,440 DEBUG NC:113 - Sign Out Link is visible
+10:09:20,816 DEBUG NC:483 - Sign Out Link has been clicked
+10:09:20,906 DEBUG NC:113 - User Name Text box is visible
+10:09:21,256 DEBUG NC:145 - Logout: User Logged out successfully
+10:09:38,365 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+10:09:38,365 DEBUG NC:135 - 
+************************************************************
+
+10:09:38,374 DEBUG NC:137 - Login with TM: Login with TM
+10:09:48,593 DEBUG NC:874 - mike.anderson@yopmail.com is entered in UserName TxtBx
+10:09:48,704 DEBUG NC:874 - password123# is entered in Password TxtBx
+10:09:55,525 DEBUG NC:483 - Login Button has been clicked
+10:10:05,922 DEBUG NC:145 - Login with TM: User logged In successfully
+10:10:06,026 DEBUG NC:135 - 
+************************************************************
+
+10:10:06,032 DEBUG NC:137 - Import Candidates: Importing Candidate for job
+10:10:06,113 DEBUG NC:483 - Import Menu has been clicked
+10:10:06,469 DEBUG NC:76 - Import tag: Import candidate
+10:10:11,127 DEBUG NC:483 - Candidates Sub Menu has been clicked
+10:10:32,930 DEBUG NC:874 - IMPACT QA is entered in District TxtBox
+10:10:33,027 DEBUG NC:874 - C:\Users\mayank.parashar\git\ig-nc-smoke-automation-updated\src\test\resources\Import\ImportCandidates.xls is entered in File Upload
+10:10:33,109 DEBUG NC:483 - Import Btn has been clicked
+10:10:47,599 DEBUG NC:113 - Accept Btn is visible
+10:10:57,738 DEBUG NC:483 - Accept Btn has been clicked
+10:11:02,790 DEBUG NC:135 - 
+************************************************************
+
+10:11:02,795 DEBUG NC:137 - Search Import Candidate: Searching newly imported Candidate
+10:11:02,866 DEBUG NC:135 - 
+************************************************************
+
+10:11:02,869 DEBUG NC:137 - Logout: Logging out
+10:11:29,340 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+10:11:29,341 DEBUG NC:135 - 
+************************************************************
+
+10:11:29,346 DEBUG NC:137 - Login with TM: Login with TM
+10:11:44,559 DEBUG NC:874 - mike.anderson@yopmail.com is entered in UserName TxtBx
+10:11:44,674 DEBUG NC:874 - password123# is entered in Password TxtBx
+10:11:50,982 DEBUG NC:483 - Login Button has been clicked
+10:12:01,362 DEBUG NC:145 - Login with TM: User logged In successfully
+10:12:01,552 DEBUG NC:135 - 
+************************************************************
+
+10:12:01,557 DEBUG NC:137 - Import Users: Importing User
+10:12:01,663 DEBUG NC:483 - Import Menu has been clicked
+10:12:44,921 DEBUG NC:483 - User Sub Menu has been clicked
+10:13:06,807 DEBUG NC:874 - IMPACT QA is entered in District TxtBox
+10:13:06,879 DEBUG NC:113 - File Upload is visible
+10:13:06,940 DEBUG NC:874 - C:\Users\mayank.parashar\git\ig-nc-smoke-automation-updated\src\test\resources\Import\ImportUsers.xls is entered in File Upload
+10:13:07,003 DEBUG NC:113 - Import Btn is visible
+10:13:07,076 DEBUG NC:483 - Import Btn has been clicked
+10:13:47,124 DEBUG NC:135 - 
+************************************************************
+
+10:13:47,131 DEBUG NC:137 - Logout: Logging out
+10:14:07,324 DEBUG NC:483 - User Name Dropdown has been clicked
+10:14:13,170 DEBUG NC:483 - Sign Out Option has been clicked
+10:14:13,239 DEBUG NC:113 - Sign Out Link is visible
+10:14:20,603 DEBUG NC:483 - Sign Out Link has been clicked
+10:14:20,678 DEBUG NC:113 - User Name Text box is visible
+10:14:21,009 DEBUG NC:145 - Logout: User Logged out successfully
+10:14:25,874 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+10:14:25,874 DEBUG NC:135 - 
+************************************************************
+
+10:14:25,880 DEBUG NC:137 - Login with TM: Login with TM
+10:14:36,092 DEBUG NC:874 - mike.anderson@yopmail.com is entered in UserName TxtBx
+10:14:36,198 DEBUG NC:874 - password123# is entered in Password TxtBx
+10:14:42,717 DEBUG NC:483 - Login Button has been clicked
+10:14:53,097 DEBUG NC:145 - Login with TM: User logged In successfully
+10:14:53,115 DEBUG NC:135 - 
+************************************************************
+
+10:14:53,124 DEBUG NC:137 - Logout: Logging out
+10:15:13,306 DEBUG NC:483 - User Name Dropdown has been clicked
+10:15:21,252 DEBUG NC:483 - Sign Out Option has been clicked
+10:15:21,329 DEBUG NC:113 - Sign Out Link is visible
+10:15:24,151 DEBUG NC:483 - Sign Out Link has been clicked
+10:15:24,217 DEBUG NC:113 - User Name Text box is visible
+10:15:24,549 DEBUG NC:145 - Logout: User Logged out successfully
+10:15:34,109 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+10:15:34,110 DEBUG NC:135 - 
+************************************************************
+
+10:15:34,115 DEBUG NC:137 - Login with DA: Login with DA
+10:15:44,337 DEBUG NC:874 - TMtest1IQA_DA1@mailinator.com is entered in UserName TxtBx
+10:15:44,444 DEBUG NC:874 - password123# is entered in Password TxtBx
+10:16:20,245 DEBUG NC:483 - Login Button has been clicked
+10:16:30,630 DEBUG NC:145 - Login with DA: User logged In successfully
+10:16:30,643 DEBUG NC:135 - 
+************************************************************
+
+10:16:30,646 DEBUG NC:137 - Candidate Grid: Viewing Candidate Grid
+10:16:30,733 DEBUG NC:483 - Job Order Menu tab has been clicked
+10:16:36,528 DEBUG NC:483 - District Job Order sub menu option has been clicked
+10:16:36,680 DEBUG NC:874 - AutoGenTitle16798 is entered in Keyword TxtBox
+10:16:36,827 DEBUG NC:874 - 437161 is entered in Job Order Id TxtBox
+10:16:47,035 DEBUG NC:483 - Search buton has been clicked
+10:17:12,262 DEBUG NC:483 - grid icon buton has been clicked
+10:17:32,480 DEBUG NC:483 - Search icon has been clicked
+10:17:32,629 DEBUG NC:874 - test4127 is entered in First Name field
+10:17:32,771 DEBUG NC:874 - candidate4127 is entered in Last Name field
+10:17:32,951 DEBUG NC:874 - test4127@yopmail.com is entered in Email Address field
+10:17:33,034 DEBUG NC:483 - Search button has been clicked
+10:18:18,050 DEBUG NC:135 - 
+************************************************************
+
+10:18:18,066 DEBUG NC:137 - Logout: Logging out
+10:18:38,264 DEBUG NC:483 - User Name Dropdown has been clicked
+10:18:46,078 DEBUG NC:483 - Sign Out Option has been clicked
+10:18:46,148 DEBUG NC:113 - Sign Out Link is visible
+10:18:50,813 DEBUG NC:483 - Sign Out Link has been clicked
+10:18:50,889 DEBUG NC:113 - User Name Text box is visible
+10:18:51,227 DEBUG NC:145 - Logout: User Logged out successfully
+10:18:55,140 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+10:18:55,141 DEBUG NC:135 - 
+************************************************************
+
+10:18:55,145 DEBUG NC:137 - Login with DA: Login with DA
+10:19:05,345 DEBUG NC:874 - iqa.beaufort.da@yopmail.com is entered in UserName TxtBx
+10:19:05,452 DEBUG NC:874 - password123# is entered in Password TxtBx
+10:19:13,207 DEBUG NC:483 - Login Button has been clicked
+10:19:23,596 DEBUG NC:145 - Login with DA: User logged In successfully
+10:19:23,678 DEBUG NC:483 - Manage Menu has been clicked
+10:19:51,270 DEBUG NC:483 - District Sub Menu has been clicked
+10:20:01,273 DEBUG NC:135 - 
+************************************************************
+
+10:20:01,279 DEBUG NC:137 - Edit District: Editing distict with name 'Beaufort County Schools'
+10:20:34,622 DEBUG NC:483 - Edit Icon has been clicked
+10:20:45,015 DEBUG NC:145 - Edit District: Edit district page is loaded successfully
+10:20:45,128 DEBUG NC:483 - Accordion Account Information has been clicked
+10:20:55,206 DEBUG NC:1288 - CheckBox NC Integrated is already selected
+10:21:05,336 DEBUG NC:483 - Radio Btn HRIntegrated has been clicked
+10:21:20,157 DEBUG NC:483 - Btn Save District has been clicked
+10:21:30,249 DEBUG NC:483 - Btn Close has been clicked
+10:21:40,376 DEBUG NC:483 - Job Order Menu has been clicked
+10:21:46,702 DEBUG NC:483 - District Job Order has been clicked
+10:21:56,702 DEBUG NC:135 - 
+************************************************************
+
+10:21:56,708 DEBUG NC:137 - NC HR Integarted: Verifying that when 'HR Integrated' is checked, user is not allowed to create District Job Orders
+10:22:12,090 DEBUG NC:145 - NC HR Integarted: Job Order Link is not visible, user is not allowed to create District Job Orders
+10:22:12,173 DEBUG NC:483 - Manage Menu has been clicked
+10:23:05,788 DEBUG NC:483 - District Sub Menu has been clicked
+10:23:15,791 DEBUG NC:135 - 
+************************************************************
+
+10:23:15,797 DEBUG NC:137 - Edit District: Editing distict with name 'Beaufort County Schools'
+10:23:24,868 DEBUG NC:483 - Edit Icon has been clicked
+10:23:35,245 DEBUG NC:145 - Edit District: Edit district page is loaded successfully
+10:23:35,359 DEBUG NC:483 - Accordion Account Information has been clicked
+10:23:45,432 DEBUG NC:1288 - CheckBox NC Integrated is already selected
+10:23:55,566 DEBUG NC:483 - Radio Btn linqIntegrated has been clicked
+10:24:05,084 DEBUG NC:483 - Btn Save District has been clicked
+10:24:15,182 DEBUG NC:483 - Btn Close has been clicked
+10:24:25,295 DEBUG NC:483 - Job Order Menu has been clicked
+10:24:30,129 DEBUG NC:483 - District Job Order has been clicked
+10:24:40,129 DEBUG NC:135 - 
+************************************************************
+
+10:24:40,135 DEBUG NC:137 - NC HR Integarted: Verifying that when 'HR Integrated' is Unchecked, user is allowed to create District Job Orders
+10:24:40,511 DEBUG NC:145 - NC HR Integarted: Job Order Link is visible, user is allowed to create District Job Orders
+10:24:40,512 DEBUG NC:135 - 
+************************************************************
+
+10:24:40,516 DEBUG NC:137 - Logout: Logging out
+10:25:00,716 DEBUG NC:483 - User Name Dropdown has been clicked
+10:25:06,013 DEBUG NC:483 - Sign Out Option has been clicked
+10:25:06,118 DEBUG NC:113 - Sign Out Link is visible
+10:25:09,259 DEBUG NC:483 - Sign Out Link has been clicked
+10:25:09,333 DEBUG NC:113 - User Name Text box is visible
+10:25:09,674 DEBUG NC:145 - Logout: User Logged out successfully
+10:25:15,167 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+10:25:15,167 DEBUG NC:135 - 
+************************************************************
+
+10:25:15,173 DEBUG NC:137 - Login with TM: Login with TM
+10:25:25,386 DEBUG NC:874 - mike.anderson@yopmail.com is entered in UserName TxtBx
+10:25:25,491 DEBUG NC:874 - password123# is entered in Password TxtBx
+10:25:31,033 DEBUG NC:483 - Login Button has been clicked
+10:25:41,409 DEBUG NC:145 - Login with TM: User logged In successfully
+10:25:41,494 DEBUG NC:483 - Manage Menu has been clicked
+10:25:59,034 DEBUG NC:483 - District Sub Menu has been clicked
+10:26:09,038 DEBUG NC:135 - 
+************************************************************
+
+10:26:09,044 DEBUG NC:137 - Search District: Searching distict with name 'Beaufort County Schools'
+10:26:20,553 DEBUG NC:874 - Beaufort County Schools is entered in District TxtBox
+10:26:21,761 DEBUG NC:483 - Search Btn has been clicked
+10:26:47,114 DEBUG NC:145 - Search District: District with name 'Beaufort County Schools' found
+10:26:47,114 DEBUG NC:135 - 
+************************************************************
+
+10:26:47,117 DEBUG NC:137 - Edit District: Editing distict with name 'Beaufort County Schools'
+10:26:56,178 DEBUG NC:483 - Edit Icon has been clicked
+10:27:06,557 DEBUG NC:145 - Edit District: Edit district page is loaded successfully
+10:27:06,678 DEBUG NC:483 - Accordion Account Information has been clicked
+10:27:16,754 DEBUG NC:1288 - CheckBox NC Integrated is already selected
+10:27:26,886 DEBUG NC:483 - Radio Btn HRIntegrated has been clicked
+10:27:34,979 DEBUG NC:483 - Btn Save District has been clicked
+10:27:45,085 DEBUG NC:483 - Btn Close has been clicked
+10:27:55,088 DEBUG NC:135 - 
+************************************************************
+
+10:27:55,094 DEBUG NC:137 - Logout: Logging out
+10:28:15,277 DEBUG NC:483 - User Name Dropdown has been clicked
+10:28:22,996 DEBUG NC:483 - Sign Out Option has been clicked
+10:28:23,071 DEBUG NC:113 - Sign Out Link is visible
+10:28:26,256 DEBUG NC:483 - Sign Out Link has been clicked
+10:28:26,329 DEBUG NC:113 - User Name Text box is visible
+10:28:26,674 DEBUG NC:145 - Logout: User Logged out successfully
+10:28:34,835 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+10:28:34,835 DEBUG NC:135 - 
+************************************************************
+
+10:28:34,842 DEBUG NC:137 - Login with DA: Login with DA
+10:28:45,050 DEBUG NC:874 - iqa.beaufort.da@yopmail.com is entered in UserName TxtBx
+10:28:45,155 DEBUG NC:874 - password123# is entered in Password TxtBx
+10:29:41,135 DEBUG NC:483 - Login Button has been clicked
+10:29:51,517 DEBUG NC:145 - Login with DA: User logged In successfully
+10:29:51,609 DEBUG NC:483 - Job Order Menu has been clicked
+10:29:56,517 DEBUG NC:483 - District Job Order has been clicked
+10:30:06,518 DEBUG NC:135 - 
+************************************************************
+
+10:30:06,524 DEBUG NC:137 - NC HR Integarted: Verifying that when 'HR Integrated' is checked, user is not allowed to create District Job Orders
+10:30:21,901 DEBUG NC:145 - NC HR Integarted: Job Order Link is not visible, user is not allowed to create District Job Orders
+10:30:21,901 DEBUG NC:135 - 
+************************************************************
+
+10:30:21,905 DEBUG NC:137 - Logout: Logging out
+10:30:42,119 DEBUG NC:483 - User Name Dropdown has been clicked
+10:30:46,885 DEBUG NC:483 - Sign Out Option has been clicked
+10:30:46,955 DEBUG NC:113 - Sign Out Link is visible
+10:30:49,409 DEBUG NC:483 - Sign Out Link has been clicked
+10:30:49,479 DEBUG NC:113 - User Name Text box is visible
+10:30:49,810 DEBUG NC:145 - Logout: User Logged out successfully
+10:30:53,128 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+10:30:53,128 DEBUG NC:135 - 
+************************************************************
+
+10:30:53,134 DEBUG NC:137 - Login with TM: Login with TM
+10:31:03,331 DEBUG NC:874 - mike.anderson@yopmail.com is entered in UserName TxtBx
+10:31:03,435 DEBUG NC:874 - password123# is entered in Password TxtBx
+10:31:10,285 DEBUG NC:483 - Login Button has been clicked
+10:31:20,729 DEBUG NC:145 - Login with TM: User logged In successfully
+10:31:20,823 DEBUG NC:483 - Manage Menu has been clicked
+10:31:36,670 DEBUG NC:483 - District Sub Menu has been clicked
+10:31:46,673 DEBUG NC:135 - 
+************************************************************
+
+10:31:46,680 DEBUG NC:137 - Search District: Searching distict with name 'Beaufort County Schools'
+10:32:01,299 DEBUG NC:874 - Beaufort County Schools is entered in District TxtBox
+10:32:02,479 DEBUG NC:483 - Search Btn has been clicked
+10:32:27,829 DEBUG NC:145 - Search District: District with name 'Beaufort County Schools' found
+10:32:27,830 DEBUG NC:135 - 
+************************************************************
+
+10:32:27,833 DEBUG NC:137 - Edit District: Editing distict with name 'Beaufort County Schools'
+10:32:35,885 DEBUG NC:483 - Edit Icon has been clicked
+10:32:46,278 DEBUG NC:145 - Edit District: Edit district page is loaded successfully
+10:32:46,394 DEBUG NC:483 - Accordion Account Information has been clicked
+10:32:56,469 DEBUG NC:1288 - CheckBox NC Integrated is already selected
+10:33:06,598 DEBUG NC:483 - Radio Btn linqIntegrated has been clicked
+10:33:15,303 DEBUG NC:483 - Btn Save District has been clicked
+10:33:25,403 DEBUG NC:483 - Btn Close has been clicked
+10:33:35,404 DEBUG NC:135 - 
+************************************************************
+
+10:33:35,411 DEBUG NC:137 - Logout: Logging out
+10:33:55,616 DEBUG NC:483 - User Name Dropdown has been clicked
+10:34:00,343 DEBUG NC:483 - Sign Out Option has been clicked
+10:34:00,436 DEBUG NC:113 - Sign Out Link is visible
+10:34:02,284 DEBUG NC:483 - Sign Out Link has been clicked
+10:34:02,356 DEBUG NC:113 - User Name Text box is visible
+10:34:02,695 DEBUG NC:145 - Logout: User Logged out successfully
+10:34:07,165 DEBUG NC:222 - https://nc.teachermatch.org/ has been entered into browser
+10:34:07,165 DEBUG NC:135 - 
+************************************************************
+
+10:34:07,174 DEBUG NC:137 - Login with DA: Login with DA
+10:34:17,413 DEBUG NC:874 - iqa.beaufort.da@yopmail.com is entered in UserName TxtBx
+10:34:17,533 DEBUG NC:874 - password123# is entered in Password TxtBx
+10:34:23,821 DEBUG NC:483 - Login Button has been clicked
+10:34:34,217 DEBUG NC:145 - Login with DA: User logged In successfully
+10:34:34,309 DEBUG NC:483 - Job Order Menu has been clicked
+10:34:36,921 DEBUG NC:483 - District Job Order has been clicked
+10:34:46,921 DEBUG NC:135 - 
+************************************************************
+
+10:34:46,930 DEBUG NC:137 - NC HR Integarted: Verifying that when 'HR Integrated' is Unchecked, user is allowed to create District Job Orders
+10:34:47,303 DEBUG NC:145 - NC HR Integarted: Job Order Link is visible, user is allowed to create District Job Orders
+10:34:47,304 DEBUG NC:135 - 
+************************************************************
+
+10:34:47,308 DEBUG NC:137 - Logout: Logging out
+10:35:07,495 DEBUG NC:483 - User Name Dropdown has been clicked
+10:35:11,978 DEBUG NC:483 - Sign Out Option has been clicked
+10:35:12,044 DEBUG NC:113 - Sign Out Link is visible
+10:35:13,865 DEBUG NC:483 - Sign Out Link has been clicked
+10:35:13,947 DEBUG NC:113 - User Name Text box is visible
+10:35:14,277 DEBUG NC:145 - Logout: User Logged out successfully

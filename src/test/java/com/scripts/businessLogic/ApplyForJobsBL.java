@@ -134,7 +134,9 @@ public class ApplyForJobsBL extends Driver {
 		commonLib.waitForPageToLoadWithCond(applyForJobsPage.getBtnSaveDSPQ());
 		commonLib.click(applyForJobsPage.getBtnSaveDSPQ(), "Btn Save DSPQ");
 		commonLib.waitForPageToLoadWithCond(applyForJobsPage.getBtnSaveQQ());
-		
+		if(commonLib.isDisplayed(applyForJobsPage.getBtnDynamicSaveDSPQ(),"Button Dynamic Save DSPQ")) {
+			commonLib.click(applyForJobsPage.getBtnDynamicSaveDSPQ(),"Dynamic Save DSPQ");
+		}
 		if (commonLib.isDisplayed(applyForJobsPage.getBtnSaveQQ(),
 				"Save QQ Btn")) {
 			commonLib.logOnSuccess("Filling DSPQ",

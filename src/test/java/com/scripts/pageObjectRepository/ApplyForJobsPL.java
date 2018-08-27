@@ -176,7 +176,7 @@ public class ApplyForJobsPL {
 		}
 	}
 
-	@FindAll(@FindBy(xpath = "//table[@id='tblGrid']//tr[td[text()='No ']]//input[@type='radio']"))
+	@FindAll(@FindBy(xpath = "//table[@id='tblGrid']//tr/td//input[@type='radio']"))
 	private List<WebElement> radioBtnQQ;
 
 	@FindBy(id = "Q1opt")
@@ -552,6 +552,17 @@ public class ApplyForJobsPL {
 		} else {
 			return null;
 		}
+	}
+	@FindBy(xpath="//button[@id='dynamicSaveDspq']/strong")
+	private WebElement btnDynamiqSaveDSPQ;
+	
+	public WebElement getBtnDynamicSaveDSPQ() {
+		if(commonLib.isDisplayed(btnDynamiqSaveDSPQ)) {
+			return btnDynamiqSaveDSPQ;
+		} else {
+			return null;
+		}
+		
 	}
 
 }

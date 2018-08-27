@@ -3,32 +3,6 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [NC Smoke Suite]">
   <test name="NC Smoke Suite(failed)">
     <classes>
-      <class name="com.scripts.regTestCases.CandidatePortfolio">
-        <methods>
-          <include name="logout"/>
-          <include name="configBeforeClass"/>
-          <include name="personalInfo"/>
-        </methods>
-      </class> <!-- com.scripts.regTestCases.CandidatePortfolio -->
-      <class name="com.scripts.regTestCases.ManageUsersDA">
-        <methods>
-          <include name="logout"/>
-          <include name="configBeforeClass"/>
-        </methods>
-      </class> <!-- com.scripts.regTestCases.ManageUsersDA -->
-      <class name="com.scripts.regTestCases.Login">
-        <methods>
-          <include name="logout"/>
-          <include name="configBeforeClass"/>
-        </methods>
-      </class> <!-- com.scripts.regTestCases.Login -->
-      <class name="com.scripts.regTestCases.TMImportJobs">
-        <methods>
-          <include name="importJobs"/>
-          <include name="logout"/>
-          <include name="configClass"/>
-        </methods>
-      </class> <!-- com.scripts.regTestCases.TMImportJobs -->
       <class name="com.scripts.regTestCases.DACandidateGrid">
         <methods>
           <include name="logout"/>
@@ -36,25 +10,20 @@
           <include name="candidateProfileThroughCG"/>
         </methods>
       </class> <!-- com.scripts.regTestCases.DACandidateGrid -->
-      <class name="com.scripts.regTestCases.JobApplication">
+      <class name="com.scripts.regTestCases.TMImportCandidates">
         <methods>
-          <include name="configBeforeClass"/>
+          <include name="configClass"/>
           <include name="logout"/>
-          <include name="applyForJobOpps"/>
+          <include name="importCandidates"/>
         </methods>
-      </class> <!-- com.scripts.regTestCases.JobApplication -->
-      <class name="com.scripts.regTestCases.DAManageDistrictAccountInformation">
+      </class> <!-- com.scripts.regTestCases.TMImportCandidates -->
+      <class name="com.scripts.regTestCases.TMImportJobs">
         <methods>
-          <include name="configBeforeClass"/>
+          <include name="importJobs"/>
           <include name="logout"/>
+          <include name="configClass"/>
         </methods>
-      </class> <!-- com.scripts.regTestCases.DAManageDistrictAccountInformation -->
-      <class name="com.scripts.regTestCases.DADistJobOrder">
-        <methods>
-          <include name="logout"/>
-          <include name="configBeforeClass"/>
-        </methods>
-      </class> <!-- com.scripts.regTestCases.DADistJobOrder -->
+      </class> <!-- com.scripts.regTestCases.TMImportJobs -->
       <class name="com.scripts.regTestCases.TMImportUsers">
         <methods>
           <include name="logout"/>
@@ -62,11 +31,13 @@
           <include name="configClass"/>
         </methods>
       </class> <!-- com.scripts.regTestCases.TMImportUsers -->
-      <class name="com.scripts.regTestCases.HomePage">
+      <class name="com.scripts.regTestCases.CandidatePortfolio">
         <methods>
-          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="configBeforeClass"/>
+          <include name="personalInfo"/>
         </methods>
-      </class> <!-- com.scripts.regTestCases.HomePage -->
+      </class> <!-- com.scripts.regTestCases.CandidatePortfolio -->
       <class name="com.scripts.regTestCases.CandidateDashboard">
         <methods>
           <include name="verifyPersonalPlanningRedirections"/>
@@ -74,30 +45,13 @@
           <include name="logout"/>
         </methods>
       </class> <!-- com.scripts.regTestCases.CandidateDashboard -->
-      <class name="com.scripts.regTestCases.JobPreferences">
-        <methods>
-          <include name="logout"/>
-          <include name="configBeforeClass"/>
-        </methods>
-      </class> <!-- com.scripts.regTestCases.JobPreferences -->
-      <class name="com.scripts.regTestCases.TMDistJobOrder">
+      <class name="com.scripts.regTestCases.JobApplication">
         <methods>
           <include name="configBeforeClass"/>
           <include name="logout"/>
+          <include name="applyForJobOpps"/>
         </methods>
-      </class> <!-- com.scripts.regTestCases.TMDistJobOrder -->
-      <class name="com.scripts.regTestCases.TMImportCandidates">
-        <methods>
-          <include name="configClass"/>
-          <include name="logout"/>
-        </methods>
-      </class> <!-- com.scripts.regTestCases.TMImportCandidates -->
-      <class name="com.scripts.regTestCases.TMManageDistrictAccountInformation">
-        <methods>
-          <include name="configBeforeClass"/>
-          <include name="logout"/>
-        </methods>
-      </class> <!-- com.scripts.regTestCases.TMManageDistrictAccountInformation -->
+      </class> <!-- com.scripts.regTestCases.JobApplication -->
     </classes>
   </test> <!-- NC Smoke Suite(failed) -->
 </suite> <!-- Failed suite [NC Smoke Suite] -->
