@@ -13,7 +13,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelLib {
-	String excelPath = "src/test/resources/NCTestDataSheet.xls";
+	String excelPath = "src/test/resources/SATestDataSheet.xls";
 
 	public String getExcelData(String sheetName, int rowNum, int colNum)
 			throws InvalidFormatException, IOException {

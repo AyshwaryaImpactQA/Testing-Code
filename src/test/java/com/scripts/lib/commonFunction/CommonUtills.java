@@ -455,6 +455,7 @@ driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	 */
 	public boolean click(WebElement Element) {
 		try {
+			
 			if (Element != null) {
 				// System.out.println(element);
 				Element.click();
@@ -1239,7 +1240,10 @@ driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	public boolean pageName(String text) {
 		try {
 			// Thread.sleep(Constants.DeltaConstants.time);
+			
+			
 			if (text != null) {
+				//System.out.println("page title is:"+driver.getTitle());
 				if (driver.getTitle().equalsIgnoreCase(text)) {
 					flag = true;
 					APP_LOGS.debug("User is navigated to " + text + " page");

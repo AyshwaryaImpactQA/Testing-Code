@@ -1,57 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [NC Smoke Suite]">
-  <test name="NC Smoke Suite(failed)">
+  <test thread-count="5" name="NC Smoke Suite(failed)">
     <classes>
-      <class name="com.scripts.regTestCases.DACandidateGrid">
+      <class name="com.scripts.testCases.Manage_Org_Page_TC">
         <methods>
-          <include name="logout"/>
-          <include name="configBeforeClass"/>
-          <include name="candidateProfileThroughCG"/>
+          <include name="Testcasedata"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.scripts.regTestCases.DACandidateGrid -->
-      <class name="com.scripts.regTestCases.TMImportCandidates">
-        <methods>
-          <include name="configClass"/>
-          <include name="logout"/>
-          <include name="importCandidates"/>
-        </methods>
-      </class> <!-- com.scripts.regTestCases.TMImportCandidates -->
-      <class name="com.scripts.regTestCases.TMImportJobs">
-        <methods>
-          <include name="importJobs"/>
-          <include name="logout"/>
-          <include name="configClass"/>
-        </methods>
-      </class> <!-- com.scripts.regTestCases.TMImportJobs -->
-      <class name="com.scripts.regTestCases.TMImportUsers">
-        <methods>
-          <include name="logout"/>
-          <include name="importUsers"/>
-          <include name="configClass"/>
-        </methods>
-      </class> <!-- com.scripts.regTestCases.TMImportUsers -->
-      <class name="com.scripts.regTestCases.CandidatePortfolio">
-        <methods>
-          <include name="logout"/>
-          <include name="configBeforeClass"/>
-          <include name="personalInfo"/>
-        </methods>
-      </class> <!-- com.scripts.regTestCases.CandidatePortfolio -->
-      <class name="com.scripts.regTestCases.CandidateDashboard">
-        <methods>
-          <include name="verifyPersonalPlanningRedirections"/>
-          <include name="configBeforeClass"/>
-          <include name="logout"/>
-        </methods>
-      </class> <!-- com.scripts.regTestCases.CandidateDashboard -->
-      <class name="com.scripts.regTestCases.JobApplication">
-        <methods>
-          <include name="configBeforeClass"/>
-          <include name="logout"/>
-          <include name="applyForJobOpps"/>
-        </methods>
-      </class> <!-- com.scripts.regTestCases.JobApplication -->
+      </class> <!-- com.scripts.testCases.Manage_Org_Page_TC -->
     </classes>
   </test> <!-- NC Smoke Suite(failed) -->
 </suite> <!-- Failed suite [NC Smoke Suite] -->

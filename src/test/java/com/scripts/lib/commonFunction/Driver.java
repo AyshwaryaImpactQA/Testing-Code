@@ -13,6 +13,7 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -64,7 +65,7 @@ public class Driver {
 	public void configureBase() throws Exception {
 		// object initialization
 		System.out.println("Initializing Driver and Report");
-		APP_LOGS = Logger.getLogger("NC");
+		APP_LOGS = Logger.getLogger("SA");
 		invokeDriver(browserName, Url);
 		// For report initialization
 		Driver.reports.init(Driver.reportPath, true);
@@ -95,7 +96,9 @@ public class Driver {
 				} else if (browser.equalsIgnoreCase("Chrome")) {
 					System.setProperty("webdriver.chrome.driver",
 							System.getProperty("user.dir") + "/src/test/resources/Drivers/Windows/chromedriver.exe");
-					driver = new ChromeDriver();
+					ChromeOptions options = new ChromeOptions();
+					options.addArguments("--start-maximized");
+					driver = new ChromeDriver(options);
 					APP_LOGS.info(browser + " Browser launched successfully.");
 
 				} else if (browser.equalsIgnoreCase("IE")) {
@@ -171,53 +174,32 @@ public class Driver {
 	 * @throws InvalidFormatException
 	 */
 	public void openURL() throws InvalidFormatException, IOException {
-		
-		driver.manage().window().maximize();
+//		driver.manage().deleteAllCookies();
+//		driver.manage().window().maximize();
 //		Toolkit toolkit = Toolkit.getDefaultToolkit();
 //		Dimension screenResolution = new Dimension((int) 
 //		                   toolkit.getScreenSize().getWidth(), (int) 
 //		                   toolkit.getScreenSize().getHeight());
 //
 //		driver.manage().window().setSize(screenResolution);
-		driver.manage().deleteAllCookies();
-		if (environment.equalsIgnoreCase("NC QA")) {
+		
+		if (environment.equalsIgnoreCase("SA Platform")) {
+			System.out.println("SA Enviroment");
 			url = urlQA;
-			tmAdmin = excelData.getExcelData("Controller", 1, 2);
-			 daAdmin = excelData.getExcelData("Controller", 1, 3);
-			// saAdmin = excelData.getExcelData("Controller", 1, 4);
-			// candidateFname = excelData.getExcelData("Controller", 1, 5);
-			// candidateLname = excelData.getExcelData("Controller", 1, 6);
-			// candidateEmail = excelData.getExcelData("Controller", 1, 7);
+			
 		}
 		 if (environment.equalsIgnoreCase("NC Cloud")) {
 			 
 			url = urlCloud;
 		
-			tmAdmin = excelData.getExcelData("Controller", 2, 2);
-			daAdmin = excelData.getExcelData("Controller", 2, 3);
-//			saAdmin = excelData.getExcelData("Controller", 2, 4);
-//			candidateFname = excelData.getExcelData("Controller", 2, 5);
-//			candidateLname = excelData.getExcelData("Controller", 2, 6);
-			candidateEmail = excelData.getExcelData("Controller", 2, 7);
+			
 		}
 		if (environment.equalsIgnoreCase("NC Platform")) {
 			url = urlPlatform;
-  tmAdmin = excelData.getExcelData("Controller", 3, 2);
-			daAdmin = excelData.getExcelData("Controller", 3, 3);
-	/*		saAdmin = excelData.getExcelData("Controller", 3, 4);
-		candidateFname = excelData.getExcelData("Controller", 3, 5);
-		candidateLname = excelData.getExcelData("Controller", 3, 6);*/
+ 
 			candidateEmail = excelData.getExcelData("Controller", 3, 7);
 		}
-		excelData.setExcelData("Login", 1, 1, splitCredentials(tmAdmin)[0]);
-		 excelData.setExcelData("Login", 3, 1, splitCredentials(daAdmin)[0]);
-		// excelData.setExcelData("Login", 4, 1, splitCredentials(saAdmin)[0]);
-		excelData.setExcelData("Login", 1, 4, splitCredentials(tmAdmin)[1]);
-		 excelData.setExcelData("Login", 3, 2, splitCredentials(daAdmin)[1]);
-		// excelData.setExcelData("Login", 4, 2, splitCredentials(saAdmin)[1]);
-		/* excelData.setExcelData("AddUser", 4, 1, candidateFname);
-		 excelData.setExcelData("AddUser", 4, 2, candidateLname);
-		 excelData.setExcelData("AddUser", 4, 3, candidateEmail);*/
+		
 		driver.get(url);
 		APP_LOGS.debug(url + " has been entered into browser");
 		System.out.println(url + " has been entered into browser");
